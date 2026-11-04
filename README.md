@@ -1,95 +1,155 @@
-# Villa Celeste OS '98
+<div align="center">
 
-**[▶ Play it in your browser](https://nowhereman-in-galaxy.github.io/villa-celeste-os/)** · [English](#english) · [中文说明](#中文说明)
+# 🏘️ Villa Celeste OS '98
+
+### Learn Spanish inside a 1998 computer full of neighbourhood gossip.
+
+**60 lessons · A1 → B1+ · free · no install · works on your phone**
+
+<a href="https://nowhereman-in-galaxy.github.io/villa-celeste-os/"><img src="https://img.shields.io/badge/▶_PLAY_IN_YOUR_BROWSER-000080?style=for-the-badge" alt="Play in your browser" /></a>
+
+![Lessons](https://img.shields.io/badge/lessons-60-008080?style=flat-square)
+![Words](https://img.shields.io/badge/vocabulary-2%2C300%2B_words-008080?style=flat-square)
+![Level](https://img.shields.io/badge/level-A1_→_B1%2B-008080?style=flat-square)
+![Account](https://img.shields.io/badge/account-not_needed-808080?style=flat-square)
+
+[English](#english) · [中文说明](#中文说明)
+
+<br />
+
+<img src="docs/screenshots/desktop.png" alt="The Villa Celeste desktop with today's study plan open" width="900" />
+
+</div>
 
 ---
 
 ## English
 
-A free Spanish course, from your first *hola* to the subjunctive, dressed up as a 1998 desktop computer. There is nothing to install and no account to create. Your progress is saved in your browser.
+You switch on an old computer and find yourself on the intranet of **Villa Celeste**, a Latin American neighbourhood. Five families live there. A dentist is house-hunting and allergic to carpets, a teenager got caught texting during an exam, and two neighbours never miss their telenovela. Everything they write is in Spanish, so the more you learn, the more you understand.
 
-The material follows the 60 lessons of *Learning Spanish I* and *II* by Bill Worden and Laura Rojas-Arce. Both books tell one long soap-opera story about the neighbours of Villa Celeste, a Latin American neighbourhood. In this app you meet them on the old computer instead: you read their emails, chat with them, watch their favourite telenovela and help them out of trouble.
+Under the soap opera is a complete course. It follows the 60 lessons of *Learning Spanish I & II* (Bill Worden and Laura Rojas-Arce), from *hola* all the way to the subjunctive.
 
-### What you'll learn
+### ☀️ Every day starts with a plan
 
-| | Lessons | Topics |
-|---|---|---|
-| **Book 1** | 1–10 | *ser* and *estar*, articles, regular present tense, numbers, telling time, *tener* expressions |
-| | 11–20 | irregular and stem-changing verbs, *saber* vs *conocer*, present progressive, direct, indirect and double object pronouns |
-| | 21–30 | reflexive verbs, formal and informal commands, comparisons, the preterite |
-| **Book 2** | 1–10 | *gustar*-type verbs, preterite vs imperfect, more work with pronouns |
-| | 11–20 | *se* for accidents, present perfect, future, conditional, relative pronouns, *ser* vs *estar* in depth |
-| | 21–30 | *por* vs *para*, advanced commands, the subjunctive (doubt, influence, emotion) |
+Open the site and **Hoy** ("today") tells you what to do. It lists three short steps: review the cards that are due, play the next vocabulary level, then continue your lesson. A streak counter and a daily goal help you come back tomorrow.
 
-### A good way to study
+<div align="center"><img src="docs/screenshots/phone-hoy.png" alt="Today's plan on a phone" width="260" />&nbsp;&nbsp;&nbsp;<img src="docs/screenshots/phone-game.png" alt="Vocabulary game on a phone" width="260" /></div>
 
-1. Open **Academia** and pick a lesson. Listen to the vocabulary first; right-click the 🔊 button for a slow version. Star the words you want to keep.
-2. Read the grammar tab, then do the activities. They are the exercises from the book, checked against the book's answer key. A yellow box means the answer is right except for an accent.
-3. Read the cultural text and try the speaking task in **Fonética**, which listens to you and scores your pronunciation.
-4. Every day, open **Glosario** and review your starred words. It uses spaced repetition, so you'll only see a word again when you're about to forget it.
-5. When you want a break that still counts, play the story apps. **ChismeNet** (chat), **Correo** (email), **La Oveja Negra** (telenovela) and **Cupido** (dating and house hunting) all ask you to choose the grammatically correct line. **Conjugator** is a timed verb game.
+### 🎮 Learn every word by playing
 
-Wherever you are in the app, double-click a Spanish word to hear it and see its translation.
+**Palabras** turns each lesson's vocabulary into short levels of eight words.
 
-The next lesson unlocks when you've done 30% of the current one. If you'd rather jump around, switch on *Desbloquear todo* in **Control**.
+1. **Study:** flip through the cards and tap one to hear it.
+2. **Play:** answer a mix of rounds. You pick the meaning, pick the Spanish, choose by ear, match pairs, and spell words with letter tiles.
+3. **Score:** you have five lives. Every word you miss comes back later in the level and goes into your review deck. Finish with up to three stars.
+
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/palabras-map.png" alt="Level map" /></td>
+<td width="50%"><img src="docs/screenshots/palabras-game.png" alt="A vocabulary question" /></td>
+</tr>
+<tr>
+<td align="center"><sub>Each lesson has its own row of levels.</sub></td>
+<td align="center"><sub>Wrong answers show the right one straight away.</sub></td>
+</tr>
+</table>
+
+### 📖 The whole textbook, made interactive
+
+**Academia** holds all 60 lessons, open from day one, and each lesson has four steps:
+
+1. **Words:** listen to each word, normal or slow.
+2. **Grammar:** the explanation as readable text, with the conjugation tables kept intact.
+3. **Practice:** the book's exercises with the blanks turned into answer boxes. They are checked against the book's answer key. If you get one wrong, the correct answer appears next to it. A yellow box means you only missed an accent.
+4. **Read & speak:** cultural readings with quizzes, plus speaking practice.
+
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/academia.png" alt="Practice exercise with instant feedback" /></td>
+<td width="50%"><img src="docs/screenshots/grammar.png" alt="Grammar explanation" /></td>
+</tr>
+</table>
+
+### 🗂️ Remember it next week
+
+Star any word anywhere and it goes into your deck in **Glosario**. A spaced-repetition scheduler shows each card again just before you'd forget it. Glosario is also a full dictionary of about 5,900 entries: you can search by topic, cognate, Spanish→English or English→Spanish, and read a grammar reference for both books.
+
+> 💡 **Double-click any Spanish word, in any window**, to hear it, see its meaning and save it.
+
+<div align="center"><img src="docs/screenshots/srs.png" alt="Flashcard review" width="700" /></div>
+
+### 🏘️ Then go and meet the neighbours
+
+These story apps practise the same grammar, but in context:
+
+| | |
+|---|---|
+| 💬 **ChismeNet** | Instant-messenger chats with the neighbours. Pick the grammatically correct reply to keep the gossip flowing. |
+| 📧 **Correo** | 22 emails, including doctor's orders, travel tickets and school notices, each with comprehension questions. |
+| 📺 **La Oveja Negra** | A melodramatic telenovela with Spanish and English subtitles. In *Director mode* the scene freezes until you choose the right line. |
+| 💘 **Cupido** | Find Andrés a date who isn't a disaster, and find Alberto a house without carpets. |
+| ⚡ **Conjugator** | An arcade game where verbs fall from the sky and you conjugate them before they land, across 11 tenses. Includes *por/para* and *ser/estar* duels. |
+| 🕵️ **Detective** | A neighbourhood map and a corkboard of 29 characters. Their secrets unlock as your level grows. |
+| 🎙️ **Fonética** | Pronunciation drills and tongue twisters. Your browser listens to you and scores your pronunciation. |
+
+<table>
+<tr>
+<td width="33%"><img src="docs/screenshots/telenovela.png" alt="Telenovela player" /></td>
+<td width="33%"><img src="docs/screenshots/detective.png" alt="Detective corkboard" /></td>
+<td width="33%"><img src="docs/screenshots/conjugator.png" alt="Conjugator arcade" /></td>
+</tr>
+</table>
 
 ### Good to know
 
-- Listening and speaking use your browser's built-in voices. They work best in Chrome or Edge. If you hear no Spanish, install a Spanish voice in your system settings.
-- Progress lives in one browser. To move it to another browser or device, use **Control → Datos** to export and import a save file.
-- It works on a phone, but a keyboard makes the typing exercises much easier.
+- **Comfortable or fully retro:** the desktop is pixel art, and inside the apps the text stays easy to read. For full immersion, switch on *Modo píxel* from Hoy or Control.
+- **Audio:** listening and speaking use your browser's built-in voices, so Chrome or Edge works best. If you hear no Spanish, install a Spanish voice in your system settings.
+- **Your progress** stays in this browser. To move it to another device, export it from **Control → Datos** and import it there.
 
-### Running it yourself
+### Run it yourself
 
 ```bash
 npm install
-npm run dev
+npm run dev      # local dev server
+npm run build    # static site in dist/, host it anywhere
 ```
 
-`npm run build` writes a static site to `dist/`, which you can host anywhere.
+Built with React, TypeScript and Vite. The sound effects are generated live with the Web Audio API, so there are no audio files and no backend.
 
 ---
 
 ## 中文说明
 
-一套免费的西班牙语课程，从第一句 *hola* 一直学到虚拟式，界面是一台 1998 年的老电脑。不用安装，不用注册，学习进度保存在你的浏览器里。
+<div align="center">
 
-内容对应 Bill Worden 与 Laura Rojas-Arce 的教材 *Learning Spanish I* 和 *II*，共 60 课。两本书讲的是同一个拉美社区 Villa Celeste 里几户邻居的连续剧式故事。在这里，你会在电脑里遇到他们：读他们的邮件，和他们聊天，看他们追的肥皂剧，帮他们解决麻烦。
+**在一台 1998 年的电脑里学西班牙语。60 课，从 A1 到 B1+，免费、不用安装、手机也能用。**
 
-### 学什么
+<a href="https://nowhereman-in-galaxy.github.io/villa-celeste-os/"><img src="https://img.shields.io/badge/▶_在浏览器里开玩-000080?style=for-the-badge" alt="在浏览器里开玩" /></a>
 
-| | 课 | 内容 |
-|---|---|---|
-| **第一册** | 1–10 | *ser* 和 *estar*、冠词、规则动词现在时、数字、时间表达、*tener* 短语 |
-| | 11–20 | 不规则动词与词根变化动词、*saber* 和 *conocer*、现在进行时、直接/间接/双宾语代词 |
-| | 21–30 | 自反动词、正式与非正式命令式、比较级、简单过去时 |
-| **第二册** | 1–10 | *gustar* 类动词、简单过去时与过去未完成时的区别、代词进阶 |
-| | 11–20 | 表示意外的 *se*、现在完成时、将来时、条件式、关系代词、*ser* 和 *estar* 深入 |
-| | 21–30 | *por* 和 *para*、命令式进阶、虚拟式（怀疑、影响、情感） |
+</div>
 
-### 推荐学法
+打开一台老电脑，你接入了拉美小区 **Villa Celeste** 的社区内网。这里住着五户人家：对地毯过敏、一直在找房子的牙医，考试时偷偷发短信被抓的高中生，每天准时追肥皂剧的两位邻居……他们写的一切都是西班牙语，你学得越多，就看懂得越多。
 
-1. 打开 **Academia** 选一课。先听词汇，在 🔊 上点右键可以慢速播放；想记住的词点 ★ 收藏。
-2. 看语法页，然后做练习。题目就是课本上的练习，按课本答案批改；输入框变黄表示只错了重音符号。
-3. 读文化短文，再去 **Fonética** 做口语练习，它会听你说话并给发音打分。
-4. 每天打开 **Glosario** 复习收藏的单词。它用间隔重复算法，只在你快忘的时候再让你看到这个词。
-5. 想换换脑子时去玩故事类程序：**ChismeNet**（聊天）、**Correo**（邮件）、**La Oveja Negra**（肥皂剧）、**Cupido**（相亲和看房），都要你选出语法正确的那句话。**Conjugator** 是限时的动词变位小游戏。
+故事背后是一整套课程，对应教材 *Learning Spanish I & II*（Bill Worden、Laura Rojas-Arce）的 60 课，从 *hola* 一直学到虚拟式。
 
-在任何窗口里双击一个西语单词，都能听发音、看释义。
+**☀️ 每天打开就知道做什么。** 首页「Hoy」会给你三步：先复习到期的单词卡，再玩下一关单词，最后接着学课本。还有连续打卡天数和每日目标。
 
-当前这课完成 30% 就会解锁下一课。想跳着学，可以在 **Control** 里打开 *Desbloquear todo*。
+**🎮 单词闯关。** 「Palabras」把每课单词分成 8 个一关。先看一遍、听一遍，然后进入混合题型：选意思、选西语、听音辨词、连线配对、字母拼写。一共 5 条命，最多 3 颗星，答错的词会在本关再出现，并自动加进复习卡。
 
-### 注意事项
+**📖 整本课本，可以互动。** 「Academia」的 60 课全部开放，每课按「单词 → 语法 → 练习 → 阅读和口语」四步走。练习题按课本答案批改：答错会直接显示标准答案，输入框变黄表示只错了重音符号。
 
-- 朗读和语音识别用的是浏览器自带的语音，Chrome 或 Edge 效果最好。如果听不到西语发音，请在系统设置里安装西班牙语语音包。
-- 进度只保存在当前浏览器里。换浏览器或设备时，用 **Control → Datos** 导出、再导入存档文件。
-- 手机上也能用，但练习题要打字，用键盘会方便很多。
+**🗂️ 学过的不忘掉。** 在任何地方点 ★ 收藏的单词，都会进入「Glosario」的间隔重复复习。它同时也是一本约 5,900 词条的词典，附两本书的语法速查。在任何窗口**双击西语单词**，就能听发音、看释义、一键收藏。
 
-### 自己运行
+**🏘️ 去认识邻居。** 这些故事程序练的是同样的语法，只是放进了故事里：
+- **ChismeNet**：聊天八卦，选出语法正确的回复。
+- **Correo**：22 封邮件，每封都有阅读理解题。
+- **La Oveja Negra**：带双语字幕的肥皂剧。
+- **Cupido**：帮 Andrés 相亲，帮 Alberto 找没有地毯的房子。
+- **Conjugator**：动词变位街机游戏。
+- **Detective**：小区地图和人物关系墙。
+- **Fonética**：发音练习，浏览器会听你说话并打分。
 
-```bash
-npm install
-npm run dev
-```
-
-`npm run build` 会把静态网站生成到 `dist/`，可以放到任何静态托管上。
+**小贴士：**
+- **界面：** 桌面是像素风，程序里默认用好读的字体；想要全像素的沉浸感，在 Hoy 或 Control 里打开 *Modo píxel*。
+- **语音：** 朗读和语音识别用浏览器自带的语音，推荐 Chrome 或 Edge。
+- **进度：** 只保存在当前浏览器里；换设备时，在「Control → Datos」导出、再导入存档。
