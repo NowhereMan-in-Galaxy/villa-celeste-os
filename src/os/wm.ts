@@ -28,7 +28,7 @@ export const useWM = create<WM>((set, get) => ({
     const n = get().wins.length;
     const win: Win = {
       id: `w${++seq}`, app, args, title: title ?? def.title, w, h, min: false, max: mobile, z: get().top + 1,
-      x: mobile ? 0 : Math.max(0, Math.min(80 + n * 28, window.innerWidth - w)), y: mobile ? 0 : Math.max(0, Math.min(30 + n * 24, window.innerHeight - h - 40)),
+      x: mobile ? 0 : Math.max(0, Math.min(100 + n * 28, window.innerWidth - w)), y: mobile ? 0 : Math.max(0, Math.min(30 + n * 24, window.innerHeight - h - 40)),
     };
     set((s) => ({ wins: [...s.wins, win], top: s.top + 1, active: win.id }));
   },

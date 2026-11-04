@@ -63,7 +63,7 @@ export function Desktop() {
     <div className={`desktop theme-${settings.theme} ${settings.crt ? 'crt' : ''} h-full w-full relative select-none`} onPointerDown={() => { setStart(false); setSel(null); }}>
       <div className="absolute inset-0 bottom-[30px] p-2 flex flex-col flex-wrap content-start gap-1">
         {APP_IDS.map((id) => (
-          <button key={id} className="w-[76px] h-[70px] flex flex-col items-center gap-1 text-white text-[11px] bg-transparent border-none cursor-pointer"
+          <button key={id} className="w-[76px] h-[64px] flex flex-col items-center gap-1 text-white text-[11px] bg-transparent border-none cursor-pointer"
             onPointerDown={(e) => { e.stopPropagation(); setSel(id); }} onDoubleClick={() => open(id)} onKeyDown={(e) => e.key === 'Enter' && open(id)}
             onClick={(e) => { if (window.matchMedia('(pointer: coarse)').matches) open(id); e.stopPropagation(); }}>
             <span className="text-[30px] leading-none drop-shadow-[1px_1px_0_#000]">{APPS[id].icon}</span>
