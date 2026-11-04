@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --face: #c0c0c0; --hi: #ffffff; --lite: #dfdfdf; --shadow: #808080; --dark: #000000;
+  --title-a: #000080; --title-b: #1084d0; --desk: #008080; --text: #000; --win: #fff; --sel: #000080;
+  --font: 'Tahoma', 'MS Sans Serif', 'Segoe UI', sans-serif;
+}
+.theme-sunset { --desk: linear-gradient(180deg, #2b1055 0%, #d53369 55%, #ffb347 100%); --title-a: #6a0572; --title-b: #e94e77; --sel: #6a0572; }
+.theme-vapor { --desk: linear-gradient(160deg, #0f0c29, #302b63 50%, #ff00cc 140%); --title-a: #ff00cc; --title-b: #00e5ff; --face: #d7c6e8; --lite: #eadff5; --sel: #8a2be2; }
+.theme-paper { --desk: #f4efe1; --title-a: #222; --title-b: #555; --face: #eeeeea; --sel: #333; --font: Georgia, serif; }
+
+html, body, #root { height: 100%; margin: 0; overflow: hidden; }
+body { font-family: var(--font); font-size: 13px; color: var(--text); -webkit-font-smoothing: none; }
+.desktop { background: var(--desk); background-size: cover; }
+
+.bevel { background: var(--face); box-shadow: inset -1px -1px var(--dark), inset 1px 1px var(--lite), inset -2px -2px var(--shadow), inset 2px 2px var(--hi); }
+.inset { background: var(--win); box-shadow: inset -1px -1px var(--hi), inset 1px 1px var(--shadow), inset -2px -2px var(--lite), inset 2px 2px var(--dark); }
+.sunken { box-shadow: inset -1px -1px var(--hi), inset 1px 1px var(--shadow); }
+.btn { background: var(--face); box-shadow: inset -1px -1px var(--dark), inset 1px 1px var(--hi), inset -2px -2px var(--shadow), inset 2px 2px var(--lite); padding: 3px 10px; min-height: 23px; border: none; cursor: pointer; font: inherit; color: inherit; }
+.btn:active, .btn.on { box-shadow: inset -1px -1px var(--hi), inset 1px 1px var(--dark), inset -2px -2px var(--lite), inset 2px 2px var(--shadow); }
+.btn:disabled { color: var(--shadow); text-shadow: 1px 1px var(--hi); cursor: default; }
+.btn:focus-visible { outline: 1px dotted #000; outline-offset: -4px; }
+.field { background: #fff; color: #000; box-shadow: inset -1px -1px var(--hi), inset 1px 1px var(--shadow), inset -2px -2px var(--lite), inset 2px 2px var(--dark); border: none; padding: 3px 5px; font: inherit; outline: none; }
+.field.right { background: #d8ffd8; } .field.wrong { background: #ffd8d8; } .field.accent { background: #fff6c0; }
+.titlebar { background: linear-gradient(90deg, var(--title-a), var(--title-b)); color: #fff; font-weight: bold; }
+.titlebar.inactive { background: linear-gradient(90deg, #808080, #b5b5b5); color: #d4d0c8; }
+.tbtn { width: 18px; height: 16px; padding: 0; min-height: 0; font-size: 10px; line-height: 1; font-weight: bold; display: grid; place-items: center; }
+.tabs { display: flex; gap: 0; padding: 0 4px; position: relative; top: 2px; }
+.tab { background: var(--face); padding: 3px 10px; border: none; cursor: pointer; font: inherit; color: inherit; box-shadow: inset -1px 0 var(--dark), inset 1px 1px var(--hi), inset -2px 0 var(--shadow); margin-top: 2px; border-radius: 3px 3px 0 0; }
+.tab.on { margin-top: 0; padding-bottom: 5px; z-index: 1; font-weight: bold; }
+.panel { background: var(--face); box-shadow: inset -1px -1px var(--dark), inset 1px 1px var(--hi), inset -2px -2px var(--shadow), inset 2px 2px var(--lite); }
+.list-item { padding: 2px 6px; cursor: pointer; user-select: none; }
+.list-item:hover { background: #e8e8f8; }
+.list-item.sel { background: var(--sel); color: #fff; }
+.pixel { font-family: 'Press Start 2P', monospace; }
+.vt { font-family: 'VT323', monospace; }
+.mono { font-family: 'Courier New', monospace; white-space: pre-wrap; }
+fieldset.group { border: 1px solid var(--shadow); box-shadow: 1px 1px var(--hi), inset 1px 1px var(--hi); padding: 8px; margin: 6px 0; }
+fieldset.group > legend { padding: 0 4px; }
+::-webkit-scrollbar { width: 16px; height: 16px; }
+::-webkit-scrollbar-track { background: repeating-conic-gradient(var(--face) 0 25%, #fff 0 50%) 0 0 / 2px 2px; }
+::-webkit-scrollbar-thumb { background: var(--face); box-shadow: inset -1px -1px var(--dark), inset 1px 1px var(--lite), inset -2px -2px var(--shadow), inset 2px 2px var(--hi); }
+::-webkit-scrollbar-button:single-button { background: var(--face); height: 16px; width: 16px; box-shadow: inset -1px -1px var(--dark), inset 1px 1px var(--lite), inset -2px -2px var(--shadow), inset 2px 2px var(--hi); }
+
+.crt::after { content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 99999;
+  background: repeating-linear-gradient(0deg, rgba(0,0,0,.12) 0 1px, transparent 1px 3px), radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,.35) 100%);
+  animation: flicker 6s infinite; }
+@keyframes flicker { 0%, 100% { opacity: .9 } 50% { opacity: 1 } }
+@keyframes blink { 50% { opacity: 0 } }
+.blink { animation: blink 1s steps(1) infinite; }
+@keyframes pop { from { transform: scale(.9); opacity: 0 } to { transform: none; opacity: 1 } }
+.pop { animation: pop .15s ease-out; }
