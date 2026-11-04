@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { APPS, APP_IDS, AppId } from '../config/apps';
 import { useWM } from './wm';
 import { WindowFrame } from './WindowFrame';
@@ -52,6 +52,12 @@ export function Desktop() {
   const [start, setStart] = useState(false);
   const [sel, setSel] = useState<AppId | null>(null);
   useEffect(() => { if (!useWM.getState().wins.length) open('bienvenido'); }, []);
+  const lvl = levelOf(xp);
+  const prevLvl = useRef(lvl);
+  useEffect(() => {
+    if (prevLvl.current !== lvl) { sfx('levelup'); useStore.getState().toast(`⭐ ¡Subiste de nivel! Ahora eres ${lvl}`); if (lvl !== 'A1+') useStore.getState().unlock('nivel'); }
+    prevLvl.current = lvl;
+  }, [lvl]);
 
   return (
     <div className={`desktop theme-${settings.theme} ${settings.crt ? 'crt' : ''} h-full w-full relative select-none`} onPointerDown={() => { setStart(false); setSel(null); }}>
