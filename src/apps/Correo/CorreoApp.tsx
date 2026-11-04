@@ -65,7 +65,7 @@ export default function CorreoApp() {
       {FOLDERS.map(([id, ic, name]) => {
         const u = unread(id);
         return (
-          <div key={id} className={`list-item ml-3 flex gap-1 items-center cursor-pointer ${folder === id ? 'sel' : ''} ${u ? 'font-bold' : ''}`} onClick={() => pickFolder(id)}>
+          <div key={id} className={`row-item ml-3 flex gap-1 items-center cursor-pointer ${folder === id ? 'sel' : ''} ${u ? 'font-bold' : ''}`} onClick={() => pickFolder(id)}>
             <span>{ic}</span><span className="truncate">{name}</span>{u > 0 && <span>({u})</span>}
           </div>
         );
@@ -77,7 +77,7 @@ export default function CorreoApp() {
     <div className="inset overflow-auto h-full text-sm">
       {!list.length && <div className="p-3 opacity-60">No hay mensajes en esta carpeta.</div>}
       {list.map((m) => (
-        <div key={m.id} className={`list-item cursor-pointer flex gap-2 items-baseline ${openId === m.id ? 'sel' : ''} ${isRead(m) ? '' : 'font-bold'}`} onClick={() => open(m)}>
+        <div key={m.id} className={`row-item cursor-pointer flex gap-2 items-baseline ${openId === m.id ? 'sel' : ''} ${isRead(m) ? '' : 'font-bold'}`} onClick={() => open(m)}>
           <span className="w-4 shrink-0">{isRead(m) ? '✉' : '📩'}</span>
           <span className="w-4 shrink-0">{m.clip ? '📎' : ''}</span>
           <span className="w-32 shrink-0 truncate">{folder === 'enviados' ? 'Para: ' + m.from : m.from}</span>

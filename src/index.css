@@ -32,9 +32,9 @@ body { font-family: var(--font); font-size: 14px; line-height: 1.45; color: var(
 .tab { background: var(--face); padding: 3px 10px; border: none; cursor: pointer; font: inherit; color: inherit; box-shadow: inset -1px 0 var(--dark), inset 1px 1px var(--hi), inset -2px 0 var(--shadow); margin-top: 2px; border-radius: 3px 3px 0 0; }
 .tab.on { margin-top: 0; padding-bottom: 5px; z-index: 1; font-weight: bold; }
 .panel { background: var(--face); box-shadow: inset -1px -1px var(--dark), inset 1px 1px var(--hi), inset -2px -2px var(--shadow), inset 2px 2px var(--lite); }
-.list-item { padding: 2px 6px; cursor: pointer; user-select: none; }
-.list-item:hover { background: #e8e8f8; }
-.list-item.sel { background: var(--sel); color: #fff; }
+.row-item { padding: 2px 6px; cursor: pointer; user-select: none; }
+.row-item:hover { background: #e8e8f8; }
+.row-item.sel { background: var(--sel); color: #fff; }
 .pixel { font-family: 'Press Start 2P', monospace; }
 .vt { font-family: 'VT323', monospace; }
 .mono { font-family: 'Courier New', monospace; white-space: pre-wrap; }
@@ -61,5 +61,5 @@ fieldset.group > legend { padding: 0 4px; }
   .field, select.field, textarea.field { font-size: 16px; padding: 6px 8px; }
   .tab { padding: 8px 12px; white-space: nowrap; }
   .tabs { overflow-x: auto; scrollbar-width: none; }
-  .list-item { padding: 8px 10px; }
+  .row-item { padding: 8px 10px; }
 }

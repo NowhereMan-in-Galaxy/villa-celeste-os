@@ -57,7 +57,7 @@ export default function AcademiaApp({ args }: AppProps) {
           {list.map((l) => {
             const p = lessons[l.id] ?? 0;
             return (
-              <div key={l.id} className={`list-item text-[12px] flex gap-1 items-center ${l.id === id ? 'sel' : ''} `}
+              <div key={l.id} className={`row-item text-[12px] flex gap-1 items-center ${l.id === id ? 'sel' : ''} `}
                 onClick={() => { sfx('click'); setId(l.id); }}>
                 <span className="w-5 text-center">{p >= 80 ? '✅' : p > 0 ? '📗' : '📘'}</span>
                 <span className="flex-1 leading-tight"><b>{l.lessonNumber}.</b> {l.title}</span>

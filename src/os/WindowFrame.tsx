@@ -1,6 +1,7 @@
 import { Suspense, useRef } from 'react';
 import { APPS } from '../config/apps';
 import { useWM, Win } from './wm';
+import { AppIcon } from '../ui/icons';
 
 export function WindowFrame({ win }: { win: Win }) {
   const { focus, close, patch, active } = useWM();
@@ -28,7 +29,7 @@ export function WindowFrame({ win }: { win: Win }) {
       <div className={`titlebar ${active === win.id ? '' : 'inactive'} flex items-center gap-1 px-1 h-[22px] max-sm:h-[34px] select-none touch-none`}
         onPointerDown={(e) => start(e, 'move')} onPointerMove={move} onPointerUp={end}
         onDoubleClick={() => patch(win.id, { max: !win.max })}>
-        <span className="text-[13px] leading-none">{def.icon}</span>
+        <AppIcon id={win.app} size={16} />
         <span className="flex-1 truncate text-[12px] max-sm:text-[14px]">{win.title}</span>
         <button className="btn tbtn" aria-label="Minimizar" onClick={() => patch(win.id, { min: true })}>_</button>
         <button className="btn tbtn" aria-label="Maximizar" onClick={() => patch(win.id, { max: !win.max })}>{win.max ? '❐' : '□'}</button>

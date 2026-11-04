@@ -6,6 +6,8 @@ import { useStore, levelOf, dueCount } from '../store';
 import { sfx } from '../utils/sound';
 import { LESSONS } from '../data/curriculum';
 import { WordLookup } from './WordLookup';
+import { AppIcon, FolderIcon } from '../ui/icons';
+import { Layers, Volume2, VolumeX, Monitor, Star } from 'lucide-react';
 
 function Clock() {
   const [d, setD] = useState(new Date());
@@ -24,20 +26,20 @@ function StartMenu({ onClose }: { onClose: () => void }) {
       </div>
       <div className="w-56 relative">
         {APP_IDS.map((id) => (
-          <div key={id} className="list-item flex items-center gap-2 py-1" onClick={() => go(id)}>
-            <span className="text-lg w-6 text-center">{APPS[id].icon}</span>{APPS[id].label}
+          <div key={id} className="row-item flex items-center gap-2 py-1" onClick={() => go(id)}>
+            <AppIcon id={id} size={24} />{APPS[id].label}
           </div>
         ))}
         <hr className="my-1 border-[var(--shadow)]" />
         {([1, 2] as const).map((b) => (
-          <div key={b} className={`list-item flex items-center gap-2 py-1 ${sub === b ? 'sel' : ''}`} onMouseEnter={() => setSub(b)} onClick={() => setSub(b)}>
-            <span className="text-lg w-6 text-center">📁</span>Libro {b}: Lecciones ▸
+          <div key={b} className={`row-item flex items-center gap-2 py-1 ${sub === b ? 'sel' : ''}`} onMouseEnter={() => setSub(b)} onClick={() => setSub(b)}>
+            <FolderIcon />Libro {b}: Lecciones ▸
           </div>
         ))}
         {sub > 0 && (
           <div className="absolute left-full bottom-0 max-sm:left-0 max-sm:bottom-auto max-sm:top-0 max-sm:-translate-y-full max-sm:w-[90vw] bevel p-[3px] w-72 max-h-[70vh] overflow-auto">
             {LESSONS.filter((l) => l.book === sub).map((l) => (
-              <div key={l.id} className="list-item text-[12px]" onClick={() => go('academia', { lesson: l.id })}>{l.id.slice(3)} · {l.title}</div>
+              <div key={l.id} className="row-item text-[12px]" onClick={() => go('academia', { lesson: l.id })}>{l.id.slice(3)} · {l.title}</div>
             ))}
           </div>
         )}
@@ -66,7 +68,7 @@ export function Desktop() {
           <button key={id} className="w-[76px] h-[64px] flex flex-col items-center gap-1 text-white text-[11px] bg-transparent border-none cursor-pointer"
             onPointerDown={(e) => { e.stopPropagation(); setSel(id); }} onDoubleClick={() => open(id)} onKeyDown={(e) => e.key === 'Enter' && open(id)}
             onClick={(e) => { if (window.matchMedia('(pointer: coarse)').matches) open(id); e.stopPropagation(); }}>
-            <span className="text-[30px] leading-none drop-shadow-[1px_1px_0_#000]">{APPS[id].icon}</span>
+            <AppIcon id={id} size={32} />
             <span className={`px-[2px] ${sel === id ? 'bg-[var(--sel)] outline-dotted outline-1' : ''}`} style={{ textShadow: sel === id ? 'none' : '1px 1px #000' }}>{APPS[id].label}</span>
           </button>
         ))}
@@ -80,15 +82,15 @@ export function Desktop() {
           {wins.map((w) => (
             <button key={w.id} className={`btn truncate max-w-[160px] max-sm:max-w-[48px] min-w-0 text-left text-[12px] ${active === w.id && !w.min ? 'on font-bold' : ''}`}
               onClick={() => (active === w.id && !w.min ? patch(w.id, { min: true }) : (patch(w.id, { min: false }), focus(w.id)))}>
-              {APPS[w.app].icon}<span className="max-sm:hidden"> {APPS[w.app].label}</span>
+              <span className="inline-flex items-center gap-1"><AppIcon id={w.app} size={16} /><span className="max-sm:hidden">{APPS[w.app].label}</span></span>
             </button>
           ))}
         </div>
         <div className="sunken h-[24px] flex items-center gap-2 px-2 text-[12px] whitespace-nowrap">
-          <button className="bg-transparent border-none cursor-pointer p-0" title="Tarjetas SRS pendientes" onClick={() => open('glosario', { tab: 'srs' })}>🃏 {dueCount(cards)}</button>
-          <button className="bg-transparent border-none cursor-pointer p-0" title="Sonido" onClick={() => useStore.getState().set({ sound: !settings.sound })}>{settings.sound ? '🔊' : '🔇'}</button>
-          <button className="bg-transparent border-none cursor-pointer p-0 hidden sm:inline" title="CRT" onClick={() => useStore.getState().set({ crt: !settings.crt })}>{settings.crt ? '📺' : '🖥️'}</button>
-          <span className="font-bold hidden sm:inline" title={`${xp} XP`}>⭐ {levelOf(xp)} · {xp}</span>
+          <button className="bg-transparent border-none cursor-pointer p-0" title="Tarjetas SRS pendientes" onClick={() => open('glosario', { tab: 'srs' })}><span className="inline-flex items-center gap-1"><Layers size={14} />{dueCount(cards)}</span></button>
+          <button className="bg-transparent border-none cursor-pointer p-0" title="Sonido" onClick={() => useStore.getState().set({ sound: !settings.sound })}>{settings.sound ? <Volume2 size={15} /> : <VolumeX size={15} />}</button>
+          <button className="bg-transparent border-none cursor-pointer p-0 hidden sm:inline" title="CRT" onClick={() => useStore.getState().set({ crt: !settings.crt })}><Monitor size={15} strokeWidth={settings.crt ? 2.5 : 1.5} /></button>
+          <span className="font-bold hidden sm:inline" title={`${xp} XP`}><span className="inline-flex items-center gap-1"><Star size={13} fill="#e6b800" />{levelOf(xp)} · {xp}</span></span>
           <Clock />
         </div>
       </div>

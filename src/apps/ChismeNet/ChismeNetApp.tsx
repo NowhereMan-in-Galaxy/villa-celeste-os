@@ -165,7 +165,7 @@ export default function ChismeNetApp() {
               <div key={f}>
                 <div className="bg-[#c0c0ff] text-[11px] font-bold px-1">▼ {f}</div>
                 {BUDDIES.filter((b) => b.family === f).map((b) => (
-                  <div key={b.id} className={`list-item ${b.id === buddyId ? 'sel' : ''} !items-start`} onClick={() => { sfx('click'); if (!ep) setBuddyId(b.id); }}>
+                  <div key={b.id} className={`row-item ${b.id === buddyId ? 'sel' : ''} !items-start`} onClick={() => { sfx('click'); if (!ep) setBuddyId(b.id); }}>
                     <span className="inline-block w-2 h-2 rounded-full mr-1 mt-1.5 shrink-0" style={{ background: DOT[b.status] }} />
                     <span className="min-w-0">
                       <b>{b.name}</b> <span className="text-[10px] text-[#c00]">{'♥'.repeat(Math.min(nHearts(flags, b.id), 5))}</span>

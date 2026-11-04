@@ -228,7 +228,7 @@ export default function FoneticaApp({ args }: AppProps) {
 
         <div className="flex flex-col gap-0.5">
           {items.map((it, i) => (
-            <button key={it.id} className={`list-item text-left ${i === idx ? 'sel' : ''}`} onClick={() => { stopAll(); setIdx(i); }}>
+            <button key={it.id} className={`row-item text-left ${i === idx ? 'sel' : ''}`} onClick={() => { stopAll(); setIdx(i); }}>
               {useStore.getState().solved[`fonetica:${it.id}`] ? '✅ ' : '○ '}{clean(it.es)}
             </button>
           ))}
