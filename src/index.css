@@ -6,6 +6,7 @@
   --face: #c0c0c0; --hi: #ffffff; --lite: #dfdfdf; --shadow: #808080; --dark: #000000;
   --title-a: #000080; --title-b: #1084d0; --desk: #008080; --text: #000; --win: #fff; --sel: #000080;
   --taskbar: 30px;
+  --pixel-font: 'Pixelify Sans', 'VT323', monospace;
   --font: 'Tahoma', 'MS Sans Serif', 'Segoe UI', sans-serif;
 }
 .theme-sunset { --desk: linear-gradient(180deg, #2b1055 0%, #d53369 55%, #ffb347 100%); --title-a: #6a0572; --title-b: #e94e77; --sel: #6a0572; }
@@ -14,7 +15,11 @@
 
 html, body, #root { height: 100%; height: 100dvh; margin: 0; overflow: hidden; }
 body { font-family: var(--font); font-size: 14px; line-height: 1.45; color: var(--text); }
-.desktop { background: var(--desk); background-size: cover; }
+.desktop { background: var(--desk); background-size: cover; font-family: var(--font); }
+.shell-font { font-family: var(--pixel-font); letter-spacing: .02em; }
+.pixel-all { --font: var(--pixel-font); }
+.pixel-all .mono { font-family: 'VT323', monospace; font-size: 1.12em; }
+.pixelated { image-rendering: pixelated; }
 
 .bevel { background: var(--face); box-shadow: inset -1px -1px var(--dark), inset 1px 1px var(--lite), inset -2px -2px var(--shadow), inset 2px 2px var(--hi); }
 .inset { background: var(--win); box-shadow: inset -1px -1px var(--hi), inset 1px 1px var(--shadow), inset -2px -2px var(--lite), inset 2px 2px var(--dark); }

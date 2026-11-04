@@ -103,6 +103,7 @@ export default function HoyApp() {
       <div className="text-[12px] opacity-70 flex gap-3 flex-wrap">
         <a href="#" className="underline" onClick={(e) => { e.preventDefault(); openApp('bienvenido'); }}>Guía de inicio</a>
         <a href="#" className="underline" onClick={(e) => { e.preventDefault(); openApp('control'); }}>Ajustes</a>
+        <a href="#" className="underline" onClick={(e) => { e.preventDefault(); useStore.getState().set({ pixelApps: !settings.pixelApps }); }}>{settings.pixelApps ? 'Letra cómoda' : 'Modo píxel'}</a>
         {!settings.sound && <span>🔇 sonido apagado</span>}
       </div>
     </div>

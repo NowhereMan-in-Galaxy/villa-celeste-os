@@ -3,7 +3,7 @@ import { persist } from 'zustand/middleware';
 import { Card, newCard, review, Rating } from './utils/srs';
 
 export type Theme = 'teal' | 'sunset' | 'vapor' | 'paper';
-export interface Settings { theme: Theme; crt: boolean; sound: boolean; volume: number; ttsRate: number; unlockAll: boolean; skipBoot: boolean; lookup: boolean; }
+export interface Settings { theme: Theme; crt: boolean; sound: boolean; volume: number; ttsRate: number; unlockAll: boolean; skipBoot: boolean; lookup: boolean; pixelApps?: boolean; }
 
 export const LEVELS = [['A1', 0], ['A1+', 500], ['A2', 1200], ['A2+', 2200], ['B1', 3500], ['B1+', 5000], ['B2', 7000]] as const;
 export const levelOf = (xp: number) => [...LEVELS].reverse().find(([, n]) => xp >= n)![0];

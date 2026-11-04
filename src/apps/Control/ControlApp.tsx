@@ -59,6 +59,7 @@ export default function ControlApp() {
             </fieldset>
             <fieldset className="group"><legend>Efectos</legend>
               <Check label="Filtro CRT (líneas de escaneo)" v={st.crt} on={(crt) => s.set({ crt })} />
+              <Check label="Modo píxel total: letra pixelada también dentro de las apps (inmersivo)" v={!!st.pixelApps} on={(pixelApps) => s.set({ pixelApps })} />
               <Check label="Traducción con doble clic en cualquier palabra" v={st.lookup} on={(lookup) => s.set({ lookup })} />
               <Check label="Saltar la pantalla de arranque (BIOS)" v={st.skipBoot} on={(skipBoot) => s.set({ skipBoot })} />
             </fieldset>

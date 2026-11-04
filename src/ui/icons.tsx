@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import { ReactNode, useEffect, useRef, useState } from 'react';
 import type { AppId } from '../config/apps';
 
 const K = '#000';
@@ -122,19 +122,47 @@ const ICONS: Record<AppId, ReactNode> = {
   ),
 };
 
+const cache = new Map<string, string>();
+
+/** Rasterize an SVG element to a tiny bitmap with hard alpha edges, for a true pixel-art look. */
+function rasterize(svg: SVGSVGElement, res: number) {
+  return new Promise<string>((done) => {
+    const img = new Image();
+    img.onload = () => {
+      const c = document.createElement('canvas');
+      c.width = c.height = res;
+      const ctx = c.getContext('2d')!;
+      ctx.drawImage(img, 0, 0, res, res);
+      const d = ctx.getImageData(0, 0, res, res);
+      for (let i = 3; i < d.data.length; i += 4) d.data[i] = d.data[i] > 110 ? 255 : 0;
+      ctx.putImageData(d, 0, 0);
+      done(c.toDataURL());
+    };
+    img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(new XMLSerializer().serializeToString(svg));
+  });
+}
+
+function Pixel({ k, size, res, children }: { k: string; size: number; res: number; children: ReactNode }) {
+  const ck = `${k}@${res}`;
+  const [url, setUrl] = useState(cache.get(ck));
+  const ref = useRef<SVGSVGElement>(null);
+  useEffect(() => {
+    if (url || !ref.current) return;
+    rasterize(ref.current, res).then((u) => { cache.set(ck, u); setUrl(u); });
+  }, [ck]);
+  if (url) return <img src={url} width={size} height={size} className="pixelated shrink-0 inline-block align-middle" alt="" draggable={false} />;
+  return <svg ref={ref} xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 32 32" className="shrink-0 inline-block align-middle" aria-hidden>{children}</svg>;
+}
+
 export function AppIcon({ id, size = 32 }: { id: AppId; size?: number }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 32 32" className="shrink-0 inline-block align-middle" aria-hidden>
-      {ICONS[id]}
-    </svg>
-  );
+  return <Pixel k={id} size={size} res={size <= 16 ? 16 : 24}>{ICONS[id]}</Pixel>;
 }
 
 export function FolderIcon({ size = 24 }: { size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 32 32" className="shrink-0" aria-hidden>
+    <Pixel k="folder" size={size} res={16}>
       <path d="M2.5 7.5h10l2 3h15v17h-27z" fill="#f5d060" stroke="#000" />
       <path d="M2.5 12.5h27" stroke="#c9a030" />
-    </svg>
+    </Pixel>
   );
 }

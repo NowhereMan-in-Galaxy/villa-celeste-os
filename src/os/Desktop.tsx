@@ -20,7 +20,7 @@ function StartMenu({ onClose }: { onClose: () => void }) {
   const [sub, setSub] = useState<0 | 1 | 2>(0);
   const go = (a: AppId, args?: any) => { open(a, args); onClose(); };
   return (
-    <div className="absolute bottom-[var(--taskbar)] left-0 bevel p-[3px] flex z-[100000] pop" onPointerDown={(e) => e.stopPropagation()}>
+    <div className="absolute bottom-[var(--taskbar)] left-0 bevel p-[3px] flex z-[100000] pop shell-font text-[15px]" onPointerDown={(e) => e.stopPropagation()}>
       <div className="w-7 flex items-end justify-center pb-2" style={{ background: 'linear-gradient(0deg, var(--title-a), var(--title-b))' }}>
         <span className="text-white font-bold [writing-mode:vertical-rl] rotate-180 tracking-wider">Villa Celeste <span className="font-normal">OS '98</span></span>
       </div>
@@ -62,20 +62,20 @@ export function Desktop() {
   }, [lvl]);
 
   return (
-    <div className={`desktop theme-${settings.theme} ${settings.crt ? 'crt' : ''} h-full w-full relative select-none`} onPointerDown={() => { setStart(false); setSel(null); }}>
+    <div className={`desktop theme-${settings.theme} ${settings.crt ? 'crt' : ''} ${settings.pixelApps ? 'pixel-all' : ''} h-full w-full relative select-none`} onPointerDown={() => { setStart(false); setSel(null); }}>
       <div className="absolute inset-0 bottom-[var(--taskbar)] p-2 flex flex-col flex-wrap content-start gap-1">
         {APP_IDS.map((id) => (
-          <button key={id} className="w-[76px] h-[64px] flex flex-col items-center gap-1 text-white text-[11px] bg-transparent border-none cursor-pointer"
+          <button key={id} className="w-[88px] h-[66px] flex flex-col items-center gap-1 text-white text-[12px] leading-tight text-center [overflow-wrap:anywhere] shell-font bg-transparent border-none cursor-pointer"
             onPointerDown={(e) => { e.stopPropagation(); setSel(id); }} onDoubleClick={() => open(id)} onKeyDown={(e) => e.key === 'Enter' && open(id)}
             onClick={(e) => { if (window.matchMedia('(pointer: coarse)').matches) open(id); e.stopPropagation(); }}>
             <AppIcon id={id} size={32} />
-            <span className={`px-[2px] ${sel === id ? 'bg-[var(--sel)] outline-dotted outline-1' : ''}`} style={{ textShadow: sel === id ? 'none' : '1px 1px #000' }}>{APPS[id].label}</span>
+            <span className={`px-[2px] ${sel === id ? 'bg-[var(--sel)] outline-dotted outline-1' : ''}`} style={{ textShadow: sel === id ? 'none' : '1px 1px #000' }}>{APPS[id].label.replace(/\.(exe|txt|hlp)$/, '')}</span>
           </button>
         ))}
       </div>
       {wins.map((w) => <WindowFrame key={w.id} win={w} />)}
       {start && <StartMenu onClose={() => setStart(false)} />}
-      <div className="absolute bottom-0 left-0 right-0 h-[var(--taskbar)] bevel flex items-center gap-1 px-[2px] z-[99999]" onPointerDown={(e) => e.stopPropagation()}>
+      <div className="absolute bottom-0 left-0 right-0 h-[var(--taskbar)] bevel flex items-center gap-1 px-[2px] z-[99999] shell-font text-[14px]" onPointerDown={(e) => e.stopPropagation()}>
         <button className={`btn font-bold flex items-center gap-1 ${start ? 'on' : ''}`} onClick={() => { sfx('click'); setStart(!start); }}>❖ Inicio</button>
         <div className="w-[2px] h-5 sunken mx-1" />
         <div className="flex-1 flex gap-1 overflow-hidden">
