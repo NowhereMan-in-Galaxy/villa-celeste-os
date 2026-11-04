@@ -1,0 +1,231 @@
+const e="B1-L10",_=1,l=10,d=10,n="Expressions Using the Verb Tener",a="A1",o=["Luis","Cecilia","Alberto","Diego","Javier","Erica","Felipe","Elena","Pablo","Marisol"],i=[{es:"el número",en:"number",id:"B1-L10-v0"},{es:"el estudio",en:"study",id:"B1-L10-v1"},{es:"la característica",en:"characteristic",id:"B1-L10-v2"},{es:"la capital",en:"capital city",id:"B1-L10-v3"},{es:"la expresión",en:"expression",id:"B1-L10-v4"},{es:"el periódico",en:"newspaper",id:"B1-L10-v5"},{es:"tener",en:"to have",id:"B1-L10-v6"},{es:"tener razón",en:"to be right",id:"B1-L10-v7"},{es:"tener frío",en:"to be cold",id:"B1-L10-v8"},{es:"tener miedo",en:"to be afraid",id:"B1-L10-v9"},{es:"tener calor",en:"to be hot",id:"B1-L10-v10"},{es:"tener cuidado",en:"to be careful",id:"B1-L10-v11"},{es:"tener hambre",en:"to be hungry",id:"B1-L10-v12"},{es:"tener suerte",en:"to be lucky",id:"B1-L10-v13"},{es:"tener sed",en:"to be thirsty",id:"B1-L10-v14"},{es:"tener treinta años",en:"to be thirty years old",id:"B1-L10-v15"},{es:"tener sueño",en:"to be tired",id:"B1-L10-v16"},{es:"tener que",en:"to have to do something",id:"B1-L10-v17"},{es:"tener prisa",en:"to be in a hurry",id:"B1-L10-v18"},{es:"tener ganas de",en:"to feel like doing something",id:"B1-L10-v19"},{es:"tener éxito",en:"to be successful",id:"B1-L10-v20"},{es:"muerto",en:"dead",id:"B1-L10-v21"},{es:"difícil",en:"difficult",id:"B1-L10-v22"},{es:"único",en:"only, unique",id:"B1-L10-v23"},{es:"finalmente",en:"finally",id:"B1-L10-v24"},{es:"fácil",en:"easy",id:"B1-L10-v25"},{es:"otro",en:"other, another",id:"B1-L10-v26"},{es:"la suegra",en:"mother-in-law",id:"B1-L10-v27"},{es:"la hijastra",en:"stepdaughter",id:"B1-L10-v28"},{es:"el suegro",en:"father-in-law",id:"B1-L10-v29"},{es:"el hijastro",en:"stepson",id:"B1-L10-v30"},{es:"la cuñada",en:"sister-in-law",id:"B1-L10-v31"},{es:"la hermanastra",en:"stepsister",id:"B1-L10-v32"},{es:"el cuñado",en:"brother-in-law",id:"B1-L10-v33"},{es:"el hermanastro",en:"stepbrother",id:"B1-L10-v34"},{es:"la nuera",en:"daughter-in-law",id:"B1-L10-v35"},{es:"el medio hermano",en:"half brother",id:"B1-L10-v36"},{es:"el yerno",en:"son-in-law",id:"B1-L10-v37"},{es:"el bisabuelo",en:"great-grandfather",id:"B1-L10-v38"},{es:"la madrastra",en:"stepmother",id:"B1-L10-v39"},{es:"la bisnieta",en:"great-granddaughter",id:"B1-L10-v40"},{es:"el padrastro",en:"stepfather",id:"B1-L10-v41"},{es:"el gemelo",en:"twin",id:"B1-L10-v42"}],s=[{id:"B1-L10-gA",title:"A. The Verb tener",content:`One of the most commonly used verbs in Spanish is tener, which means “to have.” In many cases, tener is used as
+it is in English (e.g., Tenemos muchas sobrinas is “We have many nieces”). The present tense endings for tener
+are regular ‑er endings, but there is a g in the yo form and an ie in the stem of the tú, usted, and ustedes forms. The
+conjugation of tener is as follows.
+
+                                                           tener [to have]
+
+                                                          tengo     tenemos
+                                                         tienes     tenéis
+                                                           tiene    tienen`},{id:"B1-L10-gB",title:"B. Expressions with tener",content:`The verb tener is used with a number of different expressions in Spanish. Some of these expressions describe
+physical conditions (e.g., tener frío is “to be cold”; tener hambre is “to be hungry”), while others describe emotional
+conditions or situations (e.g., tener miedo is “to be afraid”; tener razón is “to be right”). Among the most commonly
+used tener expressions are tener que + infinitive [to have to do something] and tener ganas de + infinitive [to feel like
+doing something] (e.g., Tengo que hablar con mi suegro is “I have to speak with my father-in-law”; ¿Tienes ganas
+de ir al teatro? is “Do you feel like going to the theater?”).`},{id:"B1-L10-gC",title:"C. Estar: Showing the Result of an Action",content:`One way estar is used is to show the result of a previous action. This use of estar can be seen, for example, with the
+verbs morir [to die] and abrir [to open] (e.g., Mi abuelo está muerto is “My grandfather is dead”; Las puertas están
+abiertas is “The doors are open”).`},{id:"B1-L10-gD",title:"D. Characteristics of Successful Language Learners",content:`Improving skills in a second language results form staying motivated and developing good learning habits. Language
+learners make the most progress when studying the language becomes important to them—important enough to
+practice consistently, important enough to be comfortable making mistakes, and important enough to accept that
+achieving proficiency takes considerable time and effort. In fact, studying a second language shares much in common
+with playing a sport or a musical instrument. Some of it’s about knowing what to do, but much more of it is practicing so
+that what you do becomes natural, even automatic.
+
+Successful language learners most often have some real-world connection to the language, such as a desire to travel,
+a job situation, or a relationship that gives them a personal stake in being able to communicate in another language.
+There are so many Spanish speakers in the United States right now that, if you look for them, you should be able to
+find opportunities to communicate in the language. It also helps to be interested not only in the language, but also
+in the culture and history of the Spanish-speaking world. Practice often, make mistakes, and have some fun. Your
+Spanish proficiency is sure to improve as long as learning Spanish is important to you.`},{id:"B1-L10-gE",title:"E. When to Use the Dictionary",content:`As a beginning language learner, you will certainly encounter words in Spanish you don’t understand, so you should
+consult a dictionary from time to time. Be careful, however, not to use the dictionary too much. Because there are many
+words you won’t recognize when you read them, you might be tempted to look up any words you don’t understand.
+But using the dictionary too much results in reduced reading comprehension, because going back and forth to the
+dictionary so often means that you lose the point of the text you’re reading.
+
+One way to think about when to use the dictionary is the following: You should only use the dictionary when you’re
+angry. This means that you should use the dictionary when you come across a word that you have seen so much—and
+you still don’t know what it means—that it makes you angry. Using the dictionary only when you’re angry means that
+you’ll be looking up the most important words—the ones you come across often in your reading.`},{id:"B1-L10-gF",title:"F. Improving Your Reading Skills",content:`     If you make it a habit to begin each day by reading the news in Spanish on the Internet, you will improve your reading
+     skills while you find out what’s happening in the world. Accept that you’re not going to understand everything you read,
+     and that’s okay. Your purpose with this reading is not to understand every word but, rather, to read in Spanish to get a
+     general sense of what’s going on in the world of politics, sports, entertainment, or whatever specific topic interests you.
+     Accepting less-than-perfect reading comprehension is like being willing to make mistakes in conversation. Dive in and
+     do your best; with time and practice, improved reading proficiency will follow.
+
+                                                                                Lesson 10—Expressions Using the Verb Tener
+
+Two popular websites with news from the United States are CNN en Español and Fox News Latino (as long as you
+look at the version in Spanish). For news from Mexico, you might consult the website for the newspaper El Universal.
+One good place to get news from Spain is the website for the newspaper El País. If you’re more interested in what’s
+happening in some other country, do a Google search using the word periódico [newspaper] and the name of the
+country that interests you.`}],t=[{id:"B1-L10-aa",key:"a",instructionsEs:"Contesta las siguientes preguntas usando el verbo tener. Nota: Necesitas consultar la información de las familias del vecindario al inicio del cuaderno.",instructionsEn:"Answer the following questions using the verb tener. / Note: You need to consult the information about the neighborhood families at the beginning of the workbook.",rawText:`1. ¿Cuántos hermanos tiene Elena? ������������������������������������������������������������ .
+
+2. ¿Cuántas hermanos tiene Pablo? ������������������������������������������������������������ .
+
+3. ¿Cuántos hijos tienen Luis y Cecilia? ���������������������������������������������������������� .
+
+4. ¿Cuántos tíos tienen Mariana y Diana? �������������������������������������������������������� .
+
+5. ¿Cuántos hermanos tiene una hija única? ������������������������������������������������������ .
+
+6. ¿Cuántos años tiene en 2020 una persona que nació [who was born] en 1995? ������������������������ .`,answers:{1:"Elena tiene dos hermanos: Felipe y Érica.",2:"Pablo tiene una hermana: Marisol.",3:"Luis y Cecilia tienen tres hijos: Alberto, Diego y Javier.",4:"Mariana y Diana tienen tres tíos—Alberto, Diego y Felipe—y una tía: Elena.",5:"Una hija única no tiene hermanos.",6:"La persona tiene veinticinco años."},rawAnswerKey:`1. Elena tiene dos hermanos: Felipe y Érica.
+             2. Pablo tiene una hermana: Marisol.
+             3. Luis y Cecilia tienen tres hijos: Alberto, Diego y Javier.
+             4. Mariana y Diana tienen tres tíos—Alberto, Diego y Felipe—y una tía: Elena.
+             5. Una hija única no tiene hermanos.
+             6. La persona tiene veinticinco años.`},{id:"B1-L10-ab",key:"b",instructionsEs:"Javier y Erica tienen dos hijas: Diana de cuatro años y Mariana de un año. Erica está embarazada otra vez, y todos están muy felices. Erica y Javier están hablando sobre sus hijas y los planes para hoy.",instructionsEn:"Javier and Erica have two daughters: Diana, who is four years old, and Mariana, who is one. Erica is pregnant again, and everyone is very happy. Erica and Javier are talking about their daughters and the plans for today.",rawText:`Completa el siguiente diálogo utilizando tener que y/o tener ganas de. Tienes que conjugar tener de manera correcta.
+/ Complete the following dialogue using tener que and/or tener ganas de. You have to conjugate tener correctly.
+
+   Erica:     Hoy (yo) 1. ____________________ llevar a las niñas [girls] al
+
+           parque. Ellas necesitan estar con [with] otros niños [children].
+
+  Javier: Sí, es una buena idea.
+
+   Erica:     También, 2. _________________ ir al supermercado porque no
+
+           tenemos pañales [diapers] para Mariana. 3. ___________________
+
+           comprar suficientes [enough] para el fin de semana.
+
+  Javier:    4. ____________________ invitar [to invite] a cenar [to have dinner]
+
+           a mis padres el viernes. ¿Está bien?
+
+        Erica:    ¡Sí, por supuesto [of course]! Pero el viernes Diana 5. _________________ ir al dentista a las 4:00.
+
+                Nosotras vamos a regresar a casa [go home] a las 5:30.
+
+       Javier:     6. ___________________ hablar con mis padres para pedirles que lleguen [ask them to arrive] a las 7:00.
+
+        Erica:     7. _______________________ comer dos postres [dessert] diferentes. ¿Cuáles?
+
+        Erica:     Diana solo 8. ______________________ comer helado [ice cream], pero yo quiero un pastel [cake].
+
+       Javier:    Podemos [We can] comer un pastel y helado.
+
+        Erica:     ¡OK! 9. (Yo) ____________________ hablar con tu madre. En la noche, ella puede cantarle una canción
+
+                [song] a Diana porque ella tiene miedo de la oscuridad [dark].`,answers:{1:"tengo ganas de",2:"tengo que",3:"Tengo que",4:"Tengo ganas de",5:"tiene que",6:"Tengo que / Tenemos que",7:"Tengo ganas de",8:"tiene ganas de",9:"Tengo que / Tengo ganas de"},rawAnswerKey:`1. tengo ganas de                                        6. Tengo que / Tenemos que
+             2. tengo que                                             7. Tengo ganas de
+             3. Tengo que                                             8. tiene ganas de
+             4. Tengo ganas de                                        9. Tengo que / Tengo ganas de
+             5. tiene que`},{id:"B1-L10-ac",key:"c",instructionsEs:"Completa las siguientes frases utilizando expresiones con tener.",instructionsEn:"Complete the following sentences using expressions with tener.",rawText:`tener sueño                     tener hambre                  tener miedo                    tener éxito
+
+tener suerte                    tener ___ años                tener frío                     tener prisa
+
+ 1. Son las 2:45 de la tarde y Alberto no ha comido nada [hasn’t eaten anything] hoy.
+    Alberto ______________.
+
+ 2. Alberto tiene muchos pacientes (patients) todos los días. Él ___________________ como [as] dentista.
+
+ 3. Son las 7:50 de la mañana, pero Diego tiene clase a las 8:00. El _____________________ para llegar a la
+    universidad.
+
+ 4. Donde [Where] yo vivo, hay posibilidad de huracanes [hurricanes] de junio a noviembre.
+
+    Nosotros siempre ___________________ en esos [those] meses.
+
+ 5. Generalmente [Generally], Diego no estudia para sus exámenes, pero sus notas [grades] son muy buenas.
+
+    Él ______________________.
+
+ 6. Luis trabaja mucho por la noche y solo duerme [sleeps] cinco horas. Él _______________.
+
+ 7. Diana, la nieta de Luis y Cecilia, ____________________ cuatro ________________.
+
+ 8. Pablo y Marisol están en un bar con aire acondicionado [air conditioning] muy fuerte.
+
+    Ellos ____________________.`,answers:{1:"tiene hambre",2:"tiene éxito",3:"tiene prisa",4:"tenemos miedo",5:"tiene suerte",6:"tiene sueño",7:"tiene cuatro años",8:"tienen frío"},rawAnswerKey:`1. tiene hambre                                          5. tiene suerte
+             2. tiene éxito                                           6. tiene sueño
+             3. tiene prisa                                           7. tiene cuatro años
+             4. tenemos miedo                                         8. tienen frío`},{id:"B1-L10-ad",key:"d",instructionsEs:"Luis y Cecilia van a cenar en la casa de su hijo.",instructionsEn:"Luis and Cecilia are going to have dinner at their son’s house.",rawText:`   Lee el siguiente diálogo y contesta las preguntas. / Read the following dialogue and answer the questions.
+
+                                                                                 Lesson 10—Expressions Using the Verb Tener
+
+   Luis:     Vamos a ir a la casa de Javier y Erica a las siete porque Diana
+          tiene una cita [appointment] con el dentista. ¿Quieres llevar algo
+          [something] para la cena?
+Cecilia:    Si, quiero preparar un postre [dessert]. Voy a preparar tres leches,
+          pero tengo que ir al supermercado por los ingredientes [ingredients].
+   Luis:    Tengo que llamar a un cliente [client] antes de ir al supermercado.
+Cecilia: OK. Vamos a las cinco menos cuarto.
+   Luis:     ¡Está bien! Tengo que leer mi correo electrónico [e-mail] y llamar a la
+          oficina.
+Cecilia:    Yo también tengo que leer mi correo electrónico, pero no tengo que
+          llamar a la oficina.
+   Luis:    Tengo ganas de llevar mi guitarra [guitar] para cantarles a las niñas.
+Cecilia: ¡Qué bien! Yo también [also] quiero [I want] cantar.
+
+1. ¿Qué prepara Cecilia para la cena? ____________________________________________.
+
+2. ¿Por qué Cecilia tiene que ir al supermercado? ___________________________________.
+
+3. ¿Qué va a llevar Luis a la casa de su hijo? ______________________________________.
+
+4. ¿Tiene Cecilia que llamar a la oficina? _________________________________________.`,answers:{1:"Cecilia prepara un postre: tres leches [a sponge cake soaked in three kinds of milk].",2:"Cecilia tiene que comprar ingredientes para el postre.",3:"Luis va a llevar una guitarra a la casa de su hijo.",4:"No, Cecilia no tiene que llamar a la oficina."},rawAnswerKey:`1. Cecilia prepara un postre: tres leches [a sponge cake soaked in three kinds of milk].
+             2. Cecilia tiene que comprar ingredientes para el postre.
+             3. Luis va a llevar una guitarra a la casa de su hijo.
+             4. No, Cecilia no tiene que llamar a la oficina.`}],r={instructions:"Lee el texto siguiente y contesta las preguntas de forma cierto (“C”) o falso (“F”). / Read the following text and answer the questions as either true (“C”) or false (“F”).",text:`Aunque la lengua española es uno de los aspectos que une al mundo hispano, también existen muchas diferencias
+entre regiones y países. Ahora sabes que hay países, áreas y regiones que pronuncian consonantes y/o palabras de
+manera diferente. También, hay palabras que en un país tienen un significado diferente que en otro. Hay palabras que
+solo tienen un uso o significado particular en una región específica, pero no existen en otras. Por ejemplo, “cake” en
+Argentina se dice torta, en Puerto Rico bizcocho, en España tarta y en México pastel. Otra palabra interesante es
+“popcorn,” que en Colombia se dice crispetas, en Argentina pochoclo y en España palomitas. Además, “bus” en
+Argentina se dice colectivo, en Cuba y Puerto Rico guagua, en Costa Rica bus y en México camión.
+
+Otra de las diferencias importantes es la correspondiente a la localización del país dependiendo del hemisferio. Los
+países que están al norte del ecuador tienen diferentes estaciones que los países al sur del ecuador. Cuando es el
+verano para los países en el hemisferio norte, es el invierno para los países del hemisferio sur. Otros países solo tienen
+una temporada seca y una temporada de lluvia, pero no tienen cuatro estaciones como los Estados Unidos, por ejemplo.
+
+Otro de los contrastes entre los países hispanos son los días feriados. Aunque muchos países tienen los mismos
+días feriados, no todos hacen las mismas celebraciones. Estas celebraciones van a ser diferentes dependiendo del
+país y las regiones dentro de cada país. Esto se debe a que cada país tiene su propia cultura y costumbres. Los días
+feriados pueden ser nacionales o regionales, y muchas veces las celebraciones regionales dependen de creencias
+religiosas y de los personajes santos asociados a una región.
+
+En cuanto al Día de la Independencia, Guatemala, El Salvador, Costa Rica, Honduras y Nicaragua lo celebran cada
+año el 15 de septiembre, mientras que México lo celebra el 16 de septiembre y Chile el 18 de ese mes. En agosto
+esta celebración la tienen Ecuador, Bolivia y Uruguay. En el mes de julio, se celebra el Día de la Independencia para
+
+     Venezuela, Argentina, Colombia y Perú. Por supuesto, este día es una celebración muy importante en cada país y
+     tiene sus orígenes en la historia independentista de España.
+
+     No se puede negar la influencia de España en Hispanoamérica, y en cuanto a uno de los feriados importantes para
+     las familias se encuentra el Día de los Reyes Magos, que se celebra el seis de enero o la medianoche del cinco de
+     enero. La idea general y tradicional es que los Reyes Magos—Melchor, Gaspar y Baltasar—les llevan regalos a los
+     niños. Esta celebración es común en muchos de los países hispanohablantes.
+
+          1. “Cake” en México es bizcocho. _______________________________
+
+          2. “Bus” se dice [is said] igual [the same] en todos los países de Hispanoamérica. �������������������������
+
+          3. Todos los países en Hispanoamérica tienen cuatro estaciones como en los Estados Unidos. ���������������
+
+          4. Algunos países tienen una temporada seca y una temporada lluviosa. __________________________
+
+          5. Cada país en Hispanoamérica tiene su propia cultura y costumbres. _________________________
+
+          6. Todos los días feriados en Hispanoamérica son feriados nacionales. __________________________`,answers:{1:"F",2:"F",3:"F",4:"C",5:"C",6:"F"},rawAnswerKey:`             1. F                2. F                3. F                 4. C                5. C          6. F
+
+                                                                                Lesson 10—Expressions Using the Verb Tener
+
+Although the Spanish language is one of the aspects that unites the Hispanic world, there are also many differences
+between regions and countries. You now know that there are countries, areas, and regions that pronounce consonants
+and/or words in different ways. There are also words that have a different meaning in one country than in another. There
+are words that only have one use or particular meaning in a specific region but that don’t exist in others. For example,
+“cake” in Argentina is torta, in Puerto Rico bizcocho, in Spain tarta, and in Mexico pastel. Another interesting word
+is “popcorn,” which in Colombia is crispetas, in Argentina pochoclo, and in Spain palomitas. Moreover, “bus” is
+colectivo in Argentina, guagua in Cuba and Puerto Rico, bus in Costa Rica, and camión in Mexico.
+
+Another of the important differences relates to the location of the country, depending on its hemisphere. The countries
+that are north of the equator have different seasons than the countries to the south of the equator. When it’s summer
+for the countries in the northern hemisphere, it’s winter for the countries of the southern hemisphere. Other countries
+only have a dry season and a rainy season, but don’t have four seasons, as in, for example, the United States.
+
+Holidays are another of the contrasts among Hispanic countries. Although many countries have the same holidays, not
+all celebrate them the same way. These celebrations will be different depending on the country and the regions within
+each country. This is due to each country having its own culture and customs. Holidays can be national or regional,
+and often the regional celebrations depend on the religious beliefs and the saints associated with a region.
+
+As for Independence Day, Guatemala, El Salvador, Costa Rica, Honduras, and Nicaragua celebrate it each year
+on September 15th, while Mexico celebrates it on September 16th, and Chile celebrates it on September 18th. It’s
+celebrated in August in Ecuador, Bolivia, and Uruguay. Independence Day is celebrated in July in Venezuela,
+Argentina, Colombia, and Perú. This day is, of course, a very important celebration in each country and has its origins
+in the history of independence from Spain.
+
+The influence of Spain on Spanish America cannot be denied, and among the more important holidays for families is
+Epiphany [The Day of the Wise Men], which is celebrated on January 6th or at midnight on January 5th. The general
+and traditional idea is that the Wise Men—Melchior, Gaspar, and Balthasar—bring gifts to children. This celebration is
+common in many of the Spanish-speaking countries.`},c={id:e,book:1,lessonNumber:10,globalIndex:10,title:n,cefrLevel:a,neighborhoodFocus:o,vocabulary:i,grammar:s,activities:t,culturalReading:r};export{t as activities,_ as book,a as cefrLevel,r as culturalReading,c as default,d as globalIndex,s as grammar,e as id,l as lessonNumber,o as neighborhoodFocus,n as title,i as vocabulary};
