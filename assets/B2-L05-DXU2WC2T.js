@@ -1,0 +1,348 @@
+const e="B2-L05",l=2,c=5,d=35,a="Advanced Work with the Preterite Tense",n="A2+",s=["Alberto","Carlos","Alejandro","Marcela","Jimena","Álvaro","Andrés"],r=[{es:"el acto",en:"act, action",id:"B2-L05-v0"},{es:"incierto",en:"uncertain",id:"B2-L05-v1"},{es:"inútil",en:"useless",id:"B2-L05-v2"},{es:"inconveniente",en:"inconvenient",id:"B2-L05-v3"},{es:"innecesario",en:"unnecessary",id:"B2-L05-v4"},{es:"incapaz",en:"incapable",id:"B2-L05-v5"},{es:"invisible",en:"invisible",id:"B2-L05-v6"},{es:"la jarra",en:"pitcher",id:"B2-L05-v7"},{es:"eléctrico",en:"electric",id:"B2-L05-v8"},{es:"la olla",en:"pot",id:"B2-L05-v9"},{es:"el cocinero",en:"cook",id:"B2-L05-v10"},{es:"la sartén",en:"frying pan",id:"B2-L05-v11"},{es:"mezclar",en:"to mix, to blend",id:"B2-L05-v12"},{es:"la cacerola",en:"sauce pan",id:"B2-L05-v13"},{es:"batir",en:"to beat",id:"B2-L05-v14"},{es:"el electrodoméstico",en:"electrical appliance",id:"B2-L05-v15"},{es:"cortar",en:"to cut",id:"B2-L05-v16"},{es:"la batidora",en:"mixer, blender",id:"B2-L05-v17"},{es:"calentar",en:"to heat",id:"B2-L05-v18"},{es:"el batidor",en:"whisk",id:"B2-L05-v19"},{es:"freír",en:"to fry",id:"B2-L05-v20"},{es:"el lavaplatos",en:"dishwasher",id:"B2-L05-v21"},{es:"frito",en:"fried",id:"B2-L05-v22"},{es:"la máquina",en:"machine",id:"B2-L05-v23"},{es:"consistir en",en:"to consist of",id:"B2-L05-v24"},{es:"la acción",en:"action",id:"B2-L05-v25"},{es:"la guitarra",en:"guitar",id:"B2-L05-v26"},{es:"distribuir",en:"to distribute",id:"B2-L05-v27"}],o=[{id:"B2-L05-gA",title:"A. Constructions That Use the Present Tense to Talk about the Past",content:`There are several constructions that use the present tense to talk about actions that began in the past and continue to
+the present:
+
+1.    Hace + time period + que + verb in the present tense (e.g., Hace quince minutos que caliento la comida is
+      “I’ve been heating the food for fifteen minutes”).
+
+2.    (Optional verb in present tense) + desde + specific point in time (e.g., Trabajamos aquí desde agosto is “We’ve
+      been working here since August”; desde agosto is “since August”).
+
+3.    (Optional verb in present tense) + desde hace + time period (e.g., Estudio español desde hace seis meses is
+      “I’ve been studying Spanish for six months”; desde hace seis meses is “for six months”).
+
+4.    (Optional verb in present tense) + desde que + verb in present tense (e.g., Comemos en este restaurante
+      desde que vivimos en la ciudad is “We’ve been eating in this restaurant since we’ve lived in the city”; desde
+      que vivimos en la ciudad is “since we’ve lived in the city”).
+
+`},{id:"B2-L05-gB",title:"B. Conjugating Regular Verbs in the Preterite",content:`The preterite tense is used to talk about one or more past actions that are viewed as completed or ended. To conjugate
+regular verbs in the preterite, you drop the -ar, -er or -ir ending of the infinitive (just as we did with the present) and
+then add the appropriate ending for the given subject. To conjugate -ar verbs in the preterite, you drop the -ar and add
+-é, -aste, -ó, -amos, -asteis, -aron. For verbs ending in -er or -ir, you drop the -er or -ir and add -í, -iste, -ió, -imos,
+-isteis, -ieron. For all regular verbs in the preterite, the only forms with accents are the yo and usted forms.
+
+Examples of regular verbs conjugated in the preterite are as follows:
+
+               cortar [to cut]                    prometer [to promise]                           batir [to beat]
+
+       corté               cortamos            prometí           prometimos                batí                batimos
+
+     cortaste              cortasteis        prometiste          prometisteis            batiste               batisteis
+
+       cortó                cortaron          prometió           prometieron              batió                batieron`},{id:"B2-L05-gC",title:"C. Conjugating Verbs like Tener in the Preterite",content:`The verb tener has an irregular stem in the preterite (tuv-) and a set of endings that is different from that used with
+regular verbs. The preterite endings for tener are -e, -iste, -o, -imos, -isteis, -ieron. To make these endings easy to
+remember, you might think of them as a combination of the regular -ar endings and the regular -er and -ir endings. The
+yo and usted endings are the regular -ar endings, just without the accents: -e, -o. The other four endings, meaning the
+endings for the tú form and all the plural forms, are exactly the same as the endings for regular -er or -ir verbs: -iste,
+-imos, -isteis, -ieron.
+
+Verbs like tener (e.g., hacer, decir, poder, etc.) all have irregular stems in the preterite but use the same endings as
+tener when conjugated in the preterite. Examples of verbs like tener conjugated in the preterite are as follows:
+
+               tener [to have]                         poner [to put]                             venir [to come]
+
+        tuve                tuvimos             puse               pusimos                 vine                vinimos
+
+      tuviste               tuvisteis          pusiste             pusisteis             viniste               vinisteis
+
+       tuvo                 tuvieron            puso               pusieron                vino                vinieron
+
+If you need to refresh your memory regarding the stems for other verbs like tener or practice more with conjugating
+these verbs in the preterite, you might want to rewatch lesson 28 of the first Learning Spanish course. You can also
+see the irregular preterite stems of all the verbs like tener in the Grammar Reference section of this workbook.`},{id:"B2-L05-gD",title:"D. Conjugating Irregular Verbs in the Preterite",content:`There are several kinds of verbs that have spelling changes in the preterite. Verbs that end in -car, -gar and -zar use
+the regular ending of -é but have a spelling change before the ending in the yo form of the preterite (e.g., yo saqué;
+yo pagué; yo comencé). Verbs ending in -uir have a y in the third-person singular and plural forms in the preterite
+(e.g., usted construyó; ustedes construyeron). Verbs ending in -er or -ir that have a stem ending in a vowel have
+two spelling changes: Their third-person singular and plural forms have a y, and there are accents over the i in all
+forms except the third-person plural (e.g., creí, creíste, creyó, creímos, creísteis, creyeron).
+
+Stem-changing verbs ending in -ar and -er are regular in the preterite. There is, however, a required stem change in
+the third-person singular and plural forms of the preterite for stem-changing verbs ending in -ir. Verbs with a stem-
+
+     changing e in the present change the e to i in the preterite; verbs with a stem-changing o in the present change the o
+     to u in the preterite. Examples of -ir stem-changing verbs conjugated in the preterite are as follows:
+
+                                      medir [to measure]                              dormir [to sleep]
+
+                                medí                 medimos                    dormí              dormimos
+
+                              mediste               medisteis               dormiste               dormisteis
+
+                               midió                 midieron                   durmió             durmieron
+
+     Other verbs that are irregular in the preterite include ver, dar, ser, and ir. Their conjugations in the preterite are as follows:
+
+                     ver [to see]                               dar [to give]                             ser/ir [to be/to go]
+
+              vi                    vimos                  di                   dimos                fui                   fuimos
+
+             viste                  visteis             diste                   disteis             fuiste                fuisteis
+
+              vio                   vieron               dio                    dieron               fue                   fueron`}],i=[{id:"B2-L05-aa",key:"a",instructionsEs:"Lee las oraciones, escoge el verbo apropiado y conjúgalo en el pretérito.",instructionsEn:"Read the sentences, choose the appropriate verb, and conjugate it in the preterite.",rawText:`1.   Ayer yo ______________ (llegar / despegar) al aeropuerto a las cinco y media, pero el avión no ______________
+     (salir / caminar) hasta las diez.
+
+2.   Anoche mi familia y yo ______________ (mirar / esperar) tres episodios [episodes] de nuestro programa de
+     televisión favorito. ______________ (acostarse / levantarse) a medianoche.
+
+3.   Esta mañana yo ______________ (despertarse / dormirse) a las seis de la mañana. ______________ (tener /
+     volver) tiempo de prepararme el desayuno, pero, por error, ______________ (ir / ser) a la oficina sin calcetines.
+
+4.   La semana pasada, Carlos ______________ (comer / estudiar) mariscos [seafood], pero en la noche
+     ______________ (parecer / sentirse) muy mal y ______________ (volver / estar) enfermo por tres días.
+
+5.   ¿Ustedes ______________ (explicar / comprar) las verduras para la sopa? Las necesito para esta tarde.`,answers:{1:"llegué, salió",2:"miramos, Nos acostamos",3:"me desperté, Tuve, fui",4:"comió, se sintió, estuvo",5:"compraron"},rawAnswerKey:`1. llegué, salió                4. comió, se sintió, estuvo
+          2. miramos, Nos acostamos       5. compraron
+          3. me desperté, Tuve, fui`},{id:"B2-L05-ab",key:"b",instructionsEs:"Asocia la columna izquierda con la columna derecha de la manera más lógica.",instructionsEn:"Match the left column to the right column in the most logical manner.",rawText:`_____ 1. Andrés y yo comimos la misma comida                (a) el primer semestre de la universidad.
+
+_____ 2. El perro de Andrés murió el mes pasado,            (b) y siempre tuvo su propio restaurante.
+
+_____ 3. Marcela empezó a trabajar                                (c) después de estar enfermo tres semanas.
+
+_____ 4. Mi padre fue cocinero profesional,                 (d) por tres años antes de ser novios.
+
+_____ 5. Marcela fue amiga de Alejandro                           (e) en la misma que compañía que yo.
+
+`,answers:{1:"a",2:"c",3:"e",4:"b",5:"d"},rawAnswerKey:`1. a                            4. b
+          2. c                            5. d
+          3. e`},{id:"B2-L05-ac",key:"c",instructionsEs:"Completa el siguiente diálogo entre Marcela y su hijo Álvaro con los verbos apropiados en el pretérito.",instructionsEn:"Complete the following dialogue between Marcela and her son Álvaro with the appropriate verbs in the preterite.",rawText:`           limpiar      estudiar      enviar        hacer       ayudar        pedir       revisar      escribir
+
+Álvaro:          Mamá, adiós. Me voy a la fiesta.
+
+Marcela:         ¡Espera un momento! 1. ¿______________ todo lo que [that] te 2. ______________?.
+
+Álvaro:          Sí, señora.
+
+Marcela:         ¿3. ______________ para tu examen de mañana?
+
+Álvaro:          Sí, señora. Miguel y yo 4. ______________ todas las preguntas del capítulo diez.
+
+Marcela:         ¿5. ______________ tu habitación?
+
+Álvaro:          Sí, señora. Miguel me 6. ______________.
+
+Marcela:         Fantástico. ¿Le 7. ______________ el mensaje a tu profesor de historia?
+
+Álvaro:          Si, señora. Anoche yo le 8. ______________ el mensaje por correo electrónico.
+
+Marcela:         ¡Muy bien, gracias! Hmmnn, Álvaro: ¿el examen no es sobre los capítulos diez, once y doce?
+
+Álvaro:          Hmmnn, sí, señora. Pero Miguel y yo vamos a estudiar los capítulos once y doce después de la
+                 fiesta.
+
+Marcela:         Álvaro, van a estudiar AHORA y después pueden ir a la fiesta.
+
+Álvaro:          ¡MAMÁ!`,answers:{1:"El año pasado en el aniversario de sus padres. / El año pasado.",2:"Porque ella tiene que salir. / Porque Marcela tiene que salir.",3:"El padre de Jimena recibió primero el empleo.",4:"Marcela tuvo una experiencia positiva.",5:"Dos meses después llamaron a Marcela para otra entrevista.",6:"ayudó",7:"escribiste / enviaste",8:"envié / escribí"},rawAnswerKey:`1. Hiciste                      4. estudiamos / revisamos     7. escribiste / enviaste
+          2. pedí                         5. Limpiaste                  8. envié / escribí
+          3. Estudiaste                   6. ayudó
+
+d.
+1.   El año pasado en el aniversario de sus padres. / El año pasado.
+2.   Porque ella tiene que salir. / Porque Marcela tiene que salir.
+3.   El padre de Jimena recibió primero el empleo.
+4.   Marcela tuvo una experiencia positiva.
+5.   Dos meses después llamaron a Marcela para otra entrevista.`},{id:"B2-L05-ad",key:"d",instructionsEs:"Lee el siguiente diálogo entre Jimena y su madre Marcela y contesta las preguntas.",instructionsEn:"Read the following dialogue between Jimena and her mother Marcela and answer the questions.",rawText:`Jimena:          Mamá, ¿cómo se conocieron tú y papá?
+
+Marcela:         Jimena, ¿quieres escuchar otra vez la misma historia?
+
+Jimena:          Sí, me gusta mucho escucharla. La última vez que la escuché fue el año pasado en tu aniversario.
+
+Marcela:         Bueno, yo terminé la universidad y busqué trabajo en muchos lugares. Escuché que una nueva
+                 compañía [company] necesitaba gente para recursos [resources] humanos. Tuve una buena
+                 entrevista. Hubo veintinueve candidatos en total, y entre los candidatos, vi a tu padre. Al final, él
+                 recibió el empleo [job], pero dos meses después, me llamaron de la misma compañía para otra
+                 entrevista y obtuve el puesto [position].
+
+Jimena:          Mamá, quiero más detalles.
+
+Marcela:         Conoces la historia mejor que yo, pero ahora tengo que salir.
+
+     1.   ¿Cuándo fue la última vez que Jimena escuchó la misma historia? _____________________________________
+
+     2.   ¿Por qué Marcela no puede darle más detalles a Jimena? ___________________________________________
+
+     3.   ¿Quién recibió primero el empleo en la nueva compañía? ____________________________________________
+
+     4.   En la entrevista, ¿Marcela tuvo una experiencia positiva o negativa? ___________________________________
+
+     5.   ¿Cuándo tiempo después llamaron a Marcela para otra entrevista? ____________________________________`,answers:{},rawAnswerKey:""},{id:"B2-L05-ae",key:"e",instructionsEs:"Contesta de forma personal las siguientes preguntas.",instructionsEn:"Answer the following questions in a personal manner.",rawText:`1.   ¿Desde cuándo vives en tu casa? ______________________________________________________________
+
+2.   ¿Hace cuánto tiempo trabajas en tu compañía? ___________________________________________________
+
+3.   ¿Hace cuánto terminaste tus estudios? __________________________________________________________
+
+4.   ¿Desde cuándo no ves a tus padres? ___________________________________________________________
+
+5.   ¿Tú pareja [partner] y tu cocinaron la cena anoche? ________________________________________________
+
+6.   ¿Miraste una película interesante la semana pasada?_______________________________________________
+
+7.   ¿Aprendiste a cocinar tú mismo(a) o alguien te enseñó? _____________________________________________
+
+8.   ¿Qué comiste ayer en el almuerzo? _____________________________________________________________`,answers:{1:"Vivo aquí desde hace 20 años. / Desde hace 20 años. / Vivo en esta casa hace 20 años.",2:"Trabajo en mi compañía hace 14 años. / Hace 14 años. / Estoy jubilado(a) así que no trabajo.",3:"Terminé mis estudios hace 22 anos. / Hace 22 años. / Terminé mis estudios desde hace 22 años.",4:"No veo a mis padres desde hace tres meses. / Desde hace tres meses.",5:"Sí, los dos cocinamos la cena. / No, él/ella cocinó la cena.",6:"Sí, miré una película interesante la semana pasada. / No, no miré una película interesante la semana pasada.",7:"Aprendí a cocinar yo mismo(a). / Mi hermano me enseñó a cocinar.",8:"Ayer comí pollo y ensalada en el almuerzo."},rawAnswerKey:`Answers will vary.
+     1.   Vivo aquí desde hace 20 años. / Desde hace 20 años. / Vivo en esta casa hace 20 años.
+     2.   Trabajo en mi compañía hace 14 años. / Hace 14 años. / Estoy jubilado(a) así que no trabajo.
+     3.   Terminé mis estudios hace 22 anos. / Hace 22 años. / Terminé mis estudios desde hace 22 años.
+     4.   No veo a mis padres desde hace tres meses. / Desde hace tres meses.
+     5.   Sí, los dos cocinamos la cena. / No, él/ella cocinó la cena.
+     6.   Sí, miré una película interesante la semana pasada. / No, no miré una película interesante la semana pasada.
+     7.   Aprendí a cocinar yo mismo(a). / Mi hermano me enseñó a cocinar.
+     8.   Ayer comí pollo y ensalada en el almuerzo.`}],_={instructions:"     Lee el texto siguiente y contesta las preguntas de forma cierto o falso. / Read the following text and answer the      questions as either true or false.",text:`     Obeliscos
+
+     Los primeros obeliscos datan desde la época egipcia. Aunque fueron formados en un único bloque de piedra, no se ha
+     logrado identificar exactamente cómo se construyeron. En la actualidad hay varios lugares donde pueden observarse
+     obeliscos, como por ejemplo en Turquía, Italia o Estados Unidos. En América Latina, también pueden encontrarse
+     este tipo de monumentos, por ejemplo en Venezuela, Perú, Guatemala, Colombia, México, Uruguay, la República
+     Dominicana o Argentina. La orientación de estas edificaciones en siglos más recientes es sobre todo conmemorativa
+     y además han dejado de ser construcciones monolíticas.
+
+     Uno de los obeliscos más famosos en Latinoamérica es el que se encuentra en Buenos Aires, Argentina. Construido
+     en 1936, en el 2006 cumplió 80 años desde su edificación. La construcción estuvo a cargo del arquitecto Alberto
+     Prebish y tardó 31 días. Esta obra fue construida con la idea de crear una representación de progreso y futuro que
+     emprendía el gobierno del presidente Agustín Justo en ese momento. Este obelisco pesa 170 toneladas y mide 67,5
+     metros. Se encuentra dentro de los 10 obeliscos más grandes del mundo.
+
+     Más recientemente, en el año 2010, se celebró en México el bicentenario de su independencia. Como parte de esta
+     conmemoración, así como la celebración de los 100 años de la Revolución mexicana, en Actopan, México, se empezó
+     a construir un obelisco en el 2008 y fue terminado en el 2009. Este obelisco mide 57 metros de altura y está ubicado
+     en el Parque Reforma de Hidalgo.
+
+
+       Buenos Aires, Argentina                                                           Actopan, México
+
+1.   Los científicos saben exactamente cómo se construyeron los obeliscos egipcios.       ________
+
+2.   En América Latina, también hay obeliscos.                                            ________
+
+3.   Hace 80 años desde que construyeron el obelisco en Actopan, México                         ________
+
+4.   El obelisco en Argentina se construyó en 31 días.                                    ________
+
+5.   El obelisco argentino es uno de los obeliscos más grandes del mundo.                 ________
+
+6.   En el año 2010, celebraron en México los cien años de la Revolución mexicana.        ________`,answers:{1:"falso",2:"cierto",3:"falso",4:"cierto",5:"cierto",6:"cierto"},rawAnswerKey:`1. falso
+2. cierto
+3. falso
+4. cierto
+5. cierto
+6. cierto`},t=`      Conjugate the following verbs in the preterite tense. For example: beber - él, bebió:
+
+      esperar - yo                 esperé
+
+      imaginar - ellos             imaginaron
+
+      invitar - vosotros           invitasteis
+
+      estar - tú                   estuviste
+
+      vivir - tú                   viviste
+
+      hacer - usted                hizo
+
+                                                                                                      Speaking Activities
+
+dormir - ella              durmió
+
+buscar - ustedes           buscaron
+
+buscar - yo                busqué
+
+decir - nosotros           dijimos
+
+llegar - yo                llegué
+
+construir - él             construyó
+
+ir - ustedes               fueron
+
+cocinar - vosotros         cocinasteis
+
+ver - yo                   vi
+
+dar - ella                 dio
+
+querer - tú                quisiste
+
+venir - yo                 vine
+
+entregar - ella            entregó
+
+poner - ellos              pusieron
+
+tener - tú                 tuviste
+
+conducir - nosotros        condujimos
+
+traer - él                 trajo
+
+creer - ustedes            creyeron
+
+Give the Spanish for the following English words. For example: blender - la batidora, la licuadora:
+
+dishwasher                 el lavaplatos
+
+to heat                    calentar
+
+electrical appliance       el electrodoméstico
+
+to fry                     freír
+
+machine                    la máquina
+
+to cut                     cortar
+
+pot                                 la olla
+
+      invisible                    invisible
+
+      frying pan                   la sartén
+
+      to mix                       mezclar
+
+      to beat                            batir
+
+      Listen to the following sentences and decide if the verb conjugated in the nosotros form is being used in the present
+      or in the preterite. For example: Nosotros hablamos con María Eugenia la semana pasada. - preterite:
+
+      Esta mañana empezamos la clase a las ocho de la mañana.                                         present or preterite
+
+      Siempre tomamos el mismo autobús para regresar a casa.                                          present
+
+      Usualmente cocinamos en familia.                                                                present
+
+      El año pasado viajamos a Honduras.                                                              preterite
+
+      Anoche llegamos a la casa a medianoche.                                                         preterite
+
+      Generalmente manejamos cuarenta y cinco minutos para llegar al trabajo.                         present
+
+      Ayer mis primos y yo caminamos en el parque por dos horas.                                      preterite
+
+      Me gusta cuando mis hermanos y yo miramos películas en el cine.                                 present
+
+      Vamos a la discoteca y bailamos salsa y merengue todas las semanas.                             present
+
+      Lavamos nuestra ropa en el edificio de apartamentos la semana pasada.                           preterite
+
+      Listen to the following sentences and decide if the verb being used is ser or ir in the preterite. For example: Fuimos
+      compañeros de residencia estudiantil por un semestre. - ser:
+
+      Tú y yo fuimos a la misma entrevista de trabajo.                                                         ir
+
+      Tu primo fue a la agencia de viajes esta tarde.                                           ir
+
+      Marcela y Alejandro fueron novios por varios meses.                                       ser
+
+      Leonor fue a la tienda de artículos para bebés.                                                 ir
+
+      Álvaro y Miguel fueron anoche a la fiesta.                                                ir
+
+      Marcela fue la mejor amiga de María Eugenia desde pequeñas.                                     ser
+
+      Fui estudiante de biología en esa universidad.                                            ser
+
+      ¿Tú fuiste al concierto de la semana pasada?                                              ir
+
+      Fui cantante de una banda pequeña de amigos.                                              ser
+
+      Fui a la librería para comprarle un libro a mi hijo.                                      ir
+
+                                                                                           Speaking Activities`,u={id:e,book:2,lessonNumber:5,globalIndex:35,title:a,cefrLevel:n,neighborhoodFocus:s,vocabulary:r,grammar:o,activities:i,culturalReading:_,speaking:t};export{i as activities,l as book,n as cefrLevel,_ as culturalReading,u as default,d as globalIndex,o as grammar,e as id,c as lessonNumber,s as neighborhoodFocus,t as speaking,a as title,r as vocabulary};

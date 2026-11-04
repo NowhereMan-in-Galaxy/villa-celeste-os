@@ -1,0 +1,153 @@
+const e="B1-L19",i=1,l=19,d=19,a="Indirect Object Pronouns",o="A1+",n=["Cecilia","Carlos","Alejandra","Pablo","Marisol"],s=[{es:"me",en:"to me",id:"B1-L19-v0"},{es:"nos",en:"to us",id:"B1-L19-v1"},{es:"te",en:"to you",notes:"informal, singular",id:"B1-L19-v2"},{es:"os",en:"to you",notes:"informal, plural",id:"B1-L19-v3"},{es:"le",en:"to him, to her, to usted",id:"B1-L19-v4"},{es:"les",en:"to them, to ustedes",id:"B1-L19-v5"},{es:"la prenda",en:"item of clothing",id:"B1-L19-v6"},{es:"el impermeable",en:"raincoat",id:"B1-L19-v7"},{es:"los pantalones cortos",en:"shorts",id:"B1-L19-v8"},{es:"la bufanda",en:"scarf",id:"B1-L19-v9"},{es:"el traje de baño",en:"bathing suit",id:"B1-L19-v10"},{es:"los guantes",en:"gloves",id:"B1-L19-v11"},{es:"el pijama",en:"pajamas",id:"B1-L19-v12"},{es:"el pañuelo",en:"handkerchief",id:"B1-L19-v13"},{es:"los jeans",en:"jeans",id:"B1-L19-v14"},{es:"los zapatos de tacón alto",en:"high-heel shoes",id:"B1-L19-v15"},{es:"la cartera",en:"wallet",id:"B1-L19-v16"},{es:"la pulsera",en:"bracelet",id:"B1-L19-v17"},{es:"la bolsa",en:"purse",id:"B1-L19-v18"},{es:"los aretes",en:"earrings",id:"B1-L19-v19"},{es:"los lentes",en:"glasses",id:"B1-L19-v20"},{es:"el collar",en:"necklace",id:"B1-L19-v21"},{es:"los lentes de sol",en:"sunglasses",id:"B1-L19-v22"},{es:"la joyería",en:"jewelry",id:"B1-L19-v23"},{es:"el anillo",en:"ring",id:"B1-L19-v24"},{es:"el asiento",en:"seat",id:"B1-L19-v25"},{es:"el algodón",en:"cotton",id:"B1-L19-v26"},{es:"el oro",en:"gold",id:"B1-L19-v27"},{es:"la seda",en:"silk",id:"B1-L19-v28"},{es:"la plata",en:"silver",id:"B1-L19-v29"},{es:"la lana",en:"wool",id:"B1-L19-v30"},{es:"la tela",en:"fabric",id:"B1-L19-v31"},{es:"el cuero",en:"leather",id:"B1-L19-v32"},{es:"el material",en:"material",id:"B1-L19-v33"},{es:"la talla",en:"size",id:"B1-L19-v34"},{es:"chico",en:"small",id:"B1-L19-v35"},{es:"ir de compras",en:"to go shopping",id:"B1-L19-v36"},{es:"mediano",en:"medium",id:"B1-L19-v37"},{es:"caro",en:"expensive",id:"B1-L19-v38"},{es:"grande",en:"large",id:"B1-L19-v39"},{es:"barato",en:"inexpensive",id:"B1-L19-v40"},{es:"expandir",en:"to expand",id:"B1-L19-v41"},{es:"expresar",en:"to express",id:"B1-L19-v42"},{es:"gustar",en:"to be pleasing",id:"B1-L19-v43"},{es:"interesar",en:"to interest",id:"B1-L19-v44"},{es:"encantar",en:"to be very pleasing",id:"B1-L19-v45"},{es:"molestar",en:"to bother",id:"B1-L19-v46"}],_=[{id:"B1-L19-gA",title:"A. Indirect Object Pronouns",content:`With relation to the verb, the indirect object answers the questions “to whom?” or “for whom?”. Consider the sentence
+“She gives him the wallet.” In that sentence, the direct object, answering the question “What does she give?,” is “the
+
+      wallet.” The indirect object, answering the question “to whom?” or “for whom?,” is “to him,” which is the indirect object.
+      English also permits dropping the preposition “to,” resulting in the sentence “She gives him the wallet.” And in this
+      sentence, “him” is still the indirect object.
+
+      Like direct object pronouns, indirect object pronouns always go before a conjugated verb (e.g., Ella le da la cartera
+      is “She gives him the wallet”; Nos hacen muchas preguntas is “They ask us many questions”). If there’s a no in the
+      sentence, the no goes before the indirect object pronoun (e.g., No les decimos la verdad is “We don’t tell them the
+      truth”). The six indirect object pronouns are as follows.
+
+                                                         me                            nos
+                                                         te                            os
+                                                         le                            les
+
+      When the indirect object is a specific person or people in the third person, the le or les must still be included in the
+      sentence (e.g., Le doy los platos al mesero is “I give the plates to the waiter”). The pronoun os (meaning a vosotros
+      or a vosotras) is only used in Spain.`},{id:"B1-L19-gB",title:"B. Indirect Object Pronouns Used with Nonconjugated Verbs",content:`In the case of a nonconjugated verb (e.g., an infinitive or a present participle), indirect object pronouns, like direct
+object pronouns, can go either before the conjugated verb or after and attached to the infinitive or the present participle
+(e.g., Te vamos a dar el impermeable and Vamos a darte el impermeable both mean “We’re going to give you the
+raincoat”; Nos están enseñado los verbos and Están eneñándonos los verbos both mean “They are teaching us
+the verbs”). When adding indirect object pronouns to either infinitives or present participles, you might need to add an
+accent to maintain the original stress (as in enseñándonos, which maintains the stress on the syllable ñan, which is
+where the word is stressed in Nos están enseñando los verbos).`},{id:"B1-L19-gC",title:"C. Verbs like gustar",content:`Verbs that use indirect object pronouns include gustar [to be pleasing], encantar [to be very pleasing], interesar [to
+interest], and molestar [to bother]. Me gusta el libro means “The book is pleasing to me” and can also be translated
+as “I like the book.” The subject of that sentence is el libro. With verbs like gustar, the singular form of the verb is
+used when it is followed by a singular subject or by a verb (e.g., Nos encanta la música is “We love the music”;
+¿Os interesa estudiar? is “Are you interested in studying?”). The plural form of a verb like gustar is used when it is
+followed by a plural subject (e.g., No me molestan los exámenes is “The exams don’t bother me”).`},{id:"B1-L19-gD",title:"D. Ways to Learn New Vocabulary",content:`The single best way to learn new words is to use them, because once you use them, they start becoming yours. One
+way to use the vocabulary you’re being exposed to is to interact with the audio glossary, speaking activities, and
+workbook that are part of this course. If you’re using flashcards, you might start to define new words using Spanish
+words you already know (e.g., you might define caro [expensive] as cuesta mucho [it costs a lot]). Reading a lot is the
+best way to come into contact with new words. As has been discussed previously, you don’t need to understand every
+word you read to benefit from the activity of reading.
+
+Three other ideas that will help you learn new words are as follows: Don’t overuse words you’ve already acquired;
+establish a personal connection to words; and involve your senses when learning vocabulary. If you’re always using
+the same words (it’s common for beginning language learners to overuse, for example, bueno and malo), you’ll be
+communicating in a limited way and preventing yourself from using new vocabulary. So, approach each Vocabulario
+nuevo [New Vocabulary] section of the workbook with the intent of finding ways to use those new words when
+speaking or writing. If you describe yourself with certain words, you’ll probably be using vocabulary that you’ll retain.
+Work to make personal connections to words so that they’ll be easier for you to remember. Finally, involve your senses
+in the learning experience. If you’re reading Spanish, don’t just read silently. Read aloud at times, to get your hearing
+in play and to feel what your mouth does as it’s pronouncing new words. All of this will help you more easily remember
+and use new vocabulary.
+
+`}],t=[{id:"B1-L19-aa",key:"a",instructionsEs:"Alejandra está llamando a Cecilia. Hoy no pueden mirar la telenovela juntas porque Alejandra tiene muchas cosas que hacer.",instructionsEn:"Alejandra is calling Cecilia. Today they won’t be able to watch the soap opera together because Alejandra has a lot of things to do.",rawText:`Completa las frases con el pronombre de objeto indirecto correcto. / Complete the sentences with the correct indirect
+object pronoun.
+
+ me                  te                  le                 nos                 os                   les
+
+  Alejandra: ¡Hola, Cecilia! ¡Qué lástima [What a shame]!, pero hoy no voy a ver la telenovela contigo porque
+
+               tengo muchas cosas que hacer. Vamos a ir a una boda [wedding] de un primo de Carlos y necesito
+
+               comprar muchas cosas. Tengo que comprar______________ (1) a Marisol un vestido elegante.
+
+               ______________ (2) voy a comprar a Pablo un traje negro, y voy a comprar______________ (3)
+
+               a Pablo y Marisol zapatos nuevos. A los novios [couple] _____________ (4) vamos a regalar una
+
+               máquina [machine] de hacer café. Yo voy a comprar_______________ (5) un saco azul para mí, y
+
+               sé que tengo una falda perfecta para la boda. También para mí, ______________ (6) voy a comprar
+
+               unos jeans. No son para la boda, pero son muy bonitos. A Carlos no ____________________ (7)
+
+               gustan las corbatas ni los trajes. Cuando hablamos, él siempre _________________(8) dice que no
+
+               le gusta la ropa formal. No sé que comprar_______________ (9) a él.
+
+      Cecilia: Quizás [Maybe] puedes llevar__________________ (10) una camisa de su tienda de ropa favorita.
+
+               ¿Tienes joyería para la boda?
+
+  Alejandra: Más o menos, mis joyas son muy viejas.
+
+      Cecilia: No te preocupes [Don’t worry]. Yo voy a prestar [lend]_____________ (11) mis joyas. Y no te
+
+               preocupes por la telenovela; ______________ (12) la voy a contar [tell] mañana.`,answers:{1:"comprarle",2:"Le",3:"comprarles",4:"les",5:"comprarme",6:"me",7:"le",8:"me",9:"comprarle",10:"llevarle",11:"prestarte",12:"te"},rawAnswerKey:`1. comprarle                                            7. le
+     2. Le                                                   8. me
+     3. comprarles                                           9. comprarle
+     4. les                                                  10. llevarle
+     5. comprarme                                            11. prestarte
+     6. me                                                   12. te`},{id:"B1-L19-ab",key:"b",instructionsEs:"Usando el contexto del diálogo previo, completa las frases siguientes utilizando el verbo gustar o molestar.",instructionsEn:"Using the context of the previous dialogue, complete the following sentences using the verb gustar or molestar.",rawText:`1. Carlos: No me ____________________ las corbatas.
+
+2. Carlos: Me _______________________ la ropa formal.
+
+3. Marisol: No me ____________________ estos zapatos porque el color me parece feo.
+
+4. Alejandra: Me ______________________ este saco porque es muy chico, y necesito una talla mediana.
+
+5. Marisol: No me __________________ este suéter para nada [at all], porque me ___________________ la lana.
+
+6. Alejandra: A Marisol y a mí nos _____________________ mucho estas joyas porque son preciosas [beautiful].
+
+7. Pablo: A mí sí me _________________________ mis zapatos.
+
+8. Pablo: Me ____________________ mis cosas. ¡Gracias, mami!`,answers:{1:"gustan",2:"molesta",3:"gustan",4:"molesta",5:"gusta…molesta",6:"gustan",7:"gustan",8:"gustan"},rawAnswerKey:`1. gustan                                               5. gusta…molesta
+     2. molesta                                              6. gustan
+     3. gustan                                               7. gustan
+     4. molesta                                              8. gustan`},{id:"B1-L19-ac",key:"c",instructionsEs:"Pablo le está pidiendo dinero a su padre.",instructionsEn:"Pablo is asking his father for money.",rawText:`Completa las frases usando pronombres de objeto indirecto. / Complete the sentences using indirect object pronouns.
+
+       Pablo: Papi, ¿puedes dar__________________ (1) dinero?
+
+      Carlos: ¿Para qué, Pablo?
+
+       Pablo: Quiero comprar______________ (2) un regalo [gift] a mami.
+
+      Carlos: ¿Por qué, Pablo? No es su cumpleaños, ¿verdad?
+
+       Pablo: No, no es su cumpleaños. Pero __________________ (3) quiero dar una sorpresa [surprise]. Ella
+
+                siempre (4) ________________ compra cosas a nosotros.
+
+      Carlos: ¿Qué _________________ (5) quieres comprar?
+
+       Pablo: ¡No sé! Creo que tú ________________ (6) puedes ayudar con algunas ideas.
+
+      Carlos: Yo nunca sé qué dar_________________ (7) a tu madre.
+
+       Pablo: Pero, ¿__________________ (8) vas a dar dinero?
+
+      Carlos: Sí, Pablo. Estoy escribíendo____________________ (9) un cheque [check].`,answers:{1:"darme",2:"comprarle",3:"le",4:"nos",5:"le",6:"me",7:"darle",8:"me",9:"escribiéndote"},rawAnswerKey:`1. darme                                                6. me
+     2. comprarle                                            7. darle
+     3. le                                                   8. me
+     4. nos                                                  9. escribiéndote
+     5. le`},{id:"B1-L19-ad",key:"d",instructionsEs:"Completa las siguientes respuestas.",instructionsEn:"Complete the following answers.",rawText:`1. ¿Te gusta más la ropa de algodón o la ropa de lana? ____________________la ropa de algodón.
+
+2. ¿A tu amigo le molestan las conversaciones sobre política [politics]? No, a ���������������������������� .
+
+3. ¿Te interesan los deportes? Sí, �������������������������������������������������������������� .
+
+4. ¿A tus padres les encanta la primavera? Sí, a ��������������������������������������������������� .
+
+5. ¿Te gusta más la ropa formal o la ropa informal? __________________________ ropa informal.
+
+6. ¿Te molestan las personas que siempre llegan tarde? Sí, ___________________________________ .
+
+7. ¿Te interesa hacer amigos de otros países? Si, �������������������������������������������������� .
+
+8. ¿A tí te gusta ir de compras? Sí, __________________________________________________.
+
+`,answers:{1:"Me gusta más la ropa de algodón.",2:"No, a mi amigo no le molestan las conversaciones sobre política. / No, a mi amigo le gustan las",3:"Sí, me interesan los deportes.",4:"Sí, a mis padres les encanta la primavera.",5:"Me gusta más la ropa informal.",6:"Sí, me molestan las personas que siempre llegan tarde.",7:"Sí, me interesa hacer amigos de otros países.",8:"Sí, a mí me gusta ir de compras."},rawAnswerKey:`1. Me gusta más la ropa de algodón.
+     2. No, a mi amigo no le molestan las conversaciones sobre política. / No, a mi amigo le gustan las
+         conversaciones sobre política.
+     3. Sí, me interesan los deportes.
+     4. Sí, a mis padres les encanta la primavera.
+     5. Me gusta más la ropa informal.
+     6. Sí, me molestan las personas que siempre llegan tarde.
+     7. Sí, me interesa hacer amigos de otros países.
+     8. Sí, a mí me gusta ir de compras.`}],r=null,c={id:e,book:1,lessonNumber:19,globalIndex:19,title:a,cefrLevel:o,neighborhoodFocus:n,vocabulary:s,grammar:_,activities:t,culturalReading:r};export{t as activities,i as book,o as cefrLevel,r as culturalReading,c as default,d as globalIndex,_ as grammar,e as id,l as lessonNumber,n as neighborhoodFocus,a as title,s as vocabulary};

@@ -1,0 +1,198 @@
+const e="B1-L09",l=1,d=9,r=9,a="Expressing Time in Spanish",n="A1",_=["Luis","Cecilia","Diego","Javier","Elena","Pablo","Marisol"],s=[{es:"el presente",en:"present",id:"B1-L09-v0"},{es:"la semana",en:"week",id:"B1-L09-v1"},{es:"el tiempo",en:"time, weather",id:"B1-L09-v2"},{es:"el fin de semana",en:"weekend",id:"B1-L09-v3"},{es:"el segundo",en:"second",id:"B1-L09-v4"},{es:"el mes",en:"month",id:"B1-L09-v5"},{es:"el minuto",en:"minute",id:"B1-L09-v6"},{es:"el año",en:"year",id:"B1-L09-v7"},{es:"la hora",en:"hour, time",id:"B1-L09-v8"},{es:"antes de",en:"before",id:"B1-L09-v9"},{es:"hoy",en:"today",id:"B1-L09-v10"},{es:"después de",en:"after",id:"B1-L09-v11"},{es:"¿Qué hora es?",en:"What time is it?",id:"B1-L09-v12"},{es:"la tarde",en:"afternoon",id:"B1-L09-v13"},{es:"el cuarto",en:"quarter",id:"B1-L09-v14"},{es:"por la tarde",en:"in the afternoon",id:"B1-L09-v15"},{es:"la media (hora)",en:"half an hour",id:"B1-L09-v16"},{es:"la noche",en:"night",id:"B1-L09-v17"},{es:"en punto",en:"on the dot, exactly",id:"B1-L09-v18"},{es:"por la noche",en:"at night",id:"B1-L09-v19"},{es:"Son las tres.",en:"It’s three o’clock.",id:"B1-L09-v20"},{es:"la fecha",en:"date",id:"B1-L09-v21"},{es:"a las cinco",en:"at five o’clock",id:"B1-L09-v22"},{es:"¿Cuál es la fecha de hoy?",en:"What is today’s date?",id:"B1-L09-v23"},{es:"el mediodía",en:"noon",id:"B1-L09-v24"},{es:"la celebración",en:"celebration",id:"B1-L09-v25"},{es:"la medianoche",en:"midnight",id:"B1-L09-v26"},{es:"el cumpleaños",en:"birthday",id:"B1-L09-v27"},{es:"la mañana",en:"morning",id:"B1-L09-v28"},{es:"el Año Nuevo",en:"New Year’s Day",id:"B1-L09-v29"},{es:"por la mañana",en:"in the morning",id:"B1-L09-v30"},{es:"la Navidad",en:"Christmas",id:"B1-L09-v31"},{es:"No entiendo.",en:"I don’t understand.",id:"B1-L09-v32"},{es:"¿Qué quiere decir?",en:"What does it mean?",id:"B1-L09-v33"},{es:"¿Entiendes?",en:"Do you understand?",notes:"informal, singular",id:"B1-L09-v34"},{es:"lunes",en:"Monday",id:"B1-L09-v35"},{es:"viernes",en:"Friday",id:"B1-L09-v36"},{es:"martes",en:"Tuesday",id:"B1-L09-v37"},{es:"sábado",en:"Saturday",id:"B1-L09-v38"},{es:"miércoles",en:"Wednesday",id:"B1-L09-v39"},{es:"domingo",en:"Sunday",id:"B1-L09-v40"},{es:"jueves",en:"Thursday",id:"B1-L09-v41"},{es:"enero",en:"January",id:"B1-L09-v42"},{es:"julio",en:"July",id:"B1-L09-v43"},{es:"febrero",en:"February",id:"B1-L09-v44"},{es:"agosto",en:"August",id:"B1-L09-v45"},{es:"marzo",en:"March",id:"B1-L09-v46"},{es:"septiembre",en:"September",id:"B1-L09-v47"},{es:"abril",en:"April",id:"B1-L09-v48"},{es:"octubre",en:"October",id:"B1-L09-v49"},{es:"mayo",en:"May",id:"B1-L09-v50"},{es:"noviembre",en:"November",id:"B1-L09-v51"},{es:"junio",en:"June",id:"B1-L09-v52"},{es:"diciembre",en:"December",id:"B1-L09-v53"},{es:"la estación",en:"season",id:"B1-L09-v54"},{es:"el otoño",en:"autumn",id:"B1-L09-v55"},{es:"la primavera",en:"spring",id:"B1-L09-v56"},{es:"el invierno",en:"winter",id:"B1-L09-v57"},{es:"el verano",en:"summer",id:"B1-L09-v58"}],i=[{id:"B1-L09-gA",title:"A. Telling Time",content:`The verb ser is always used to talk about time. “What time is it?” is ¿Qué hora es?, and the answer to this question
+almost always begins with son las (e.g., Son las dos is “It’s two o’clock”). To express minutes after an hour, y is used;
+to express minutes before an hour, menos is used (e.g., Son las tres y diez is “It’s ten minutes after three”; Son las
+ocho menos veinte is “It’s twenty minutes before eight”). Cuarto means “quarter” and media means “half,” so “It’s
+quarter to eleven” is Son las once menos cuarto, and “It’s five thirty” is Son las cinco y media. Es is used instead
+of son when it’s one o’clock, noon, or midnight (e.g., Es la una; Es mediodía; Es medianoche). To say “at” a certain
+time, use a las or a la (e.g., La clase termina a las cuatro is “The class ends at four o’clock”).
+
+When talking about time of day in general, por is used, but when talking about a specific time, de is used (e.g., “We
+study in the afternoon” is Estudiamos por la tarde; “They eat at eight thirty in the morning” is Comen a las ocho y
+media de la mañana).`},{id:"B1-L09-gB",title:"B. Days, Months, and the Date",content:`Monday, which is lunes, is the first day of the week in the Spanish-speaking world. The definite article is used to
+express the idea of “on a certain day or days” (e.g., El viernes hay clase is “There is class on Friday”; Los domingos
+no trabajo is “On Sundays I don’t work”). “January” in Spanish is enero; the other 11 months in Spanish are cognates
+with the months in English. Although names of people and places are capitalized in Spanish (e.g., Carmen González,
+Paraguay), days of the week, months of the year, nationalities, names of languages, and names of religions are not
+capitalized in Spanish (e.g., lunes, febrero, cubano, inglés, católicas).
+
+“What is today’s date?” is ¿Cuál es la fecha de hoy?. The answer to this question is, for example, Es el veintidós
+de marzo, which is “It’s March twenty-second.” Spanish typically uses cardinal numbers for the date (e.g., Es el tres
+de noviembre; Es el once de agosto), except when it’s the first, for which Spanish speakers often use primero
+(e.g., “It’s the first of June” is Es el primero de junio). When saying today’s date, the definite article el is not needed
+(e.g., “Today is the seventeenth of May” is Hoy es diecisiete de mayo).`},{id:"B1-L09-gC",title:"C. Improving Your Spoken Spanish",content:`One way to improve your ability to speak Spanish is to listen and repeat what is being said by a newscaster either
+on the radio or on television. Newscasters tend to speak slowly and clearly, offering beginning language learners the
+chance to repeat what they hear. This exercise is really about getting used to saying things in Spanish and much less
+about understanding it, because beginning language learners will understand only some of what is said in the news.
+Still, this repetition of Spanish is a valuable exercise to help you get used to making the sounds of spoken Spanish.
+And this activity will be helpful in improving your ability to pronounce words in Spanish, because if you limit yourself to
+saying only things you understand perfectly well, you won’t actually be speaking much Spanish.`},{id:"B1-L09-gD",title:"D. Understanding Spoken Spanish Better",content:`If you don’t understand what someone is saying, you might say No entiendo, which is “I don’t understand.” To say
+“Do you understand?,” you would say ¿Entiendes? (which is the informal, singular form) or ¿Entiende? (which is the
+formal, singular form). ¿Qué quiere decir…? means “What does…mean? (e.g., ¿Qué quiere decir fecha? is “What
+does fecha mean?”). Using these expressions when speaking Spanish will help you understand more of what is being
+said to you.`}],o=[{id:"B1-L09-aa",key:"a",instructionsEs:"Contesta las siguientes preguntas.",instructionsEn:"Answer the following questions.",rawText:`1. ¿Cuál es la fecha del día de San Valentín? ________________________________________.
+
+2. ¿Cuál es la fecha del día de San Patricio? _________________________________________.
+
+3. ¿Cuál es la fecha del día de la independencia [independence] de los Estados Unidos?
+   _____________________.
+
+4. ¿Cuál es la fecha del día después del Año Nuevo?____________________________________.
+
+5. La Noche Buena es la noche antes de la Navidad. ¿Cuál es la fecha de la Noche Buena?
+   _________________________________.
+
+6. ¿Cuándo es el Día de Acción de Gracias [Thanksgiving]? _________________________.`,answers:{1:"Es el catorce de febrero.",2:"Es el diecisiete de marzo.",3:"Es el cuatro de julio.",4:"Es el dos de enero.",5:"Es el veinticuatro de diciembre.",6:"Es el cuarto [the fourth] jueves de noviembre."},rawAnswerKey:`1. Es el catorce de febrero.                           4. Es el dos de enero.
+             2. Es el diecisiete de marzo.                          5. Es el veinticuatro de diciembre.
+             3. Es el cuatro de julio.                              6. Es el cuarto [the fourth] jueves de noviembre.`},{id:"B1-L09-ab",key:"b",instructionsEs:"Javier le está explicando a su nieta Diana los meses del año. ¿Puedes ayudarle a Javier?",instructionsEn:"Javier is explaining to his granddaughter Diana the months of the year. Can you help Javier?",rawText:`Los meses del año son: / The months of the year are:
+
+  1. e___________________         7. j _________________
+
+  2. f__________________         8. a _________________
+
+  3. m _________________         9. s _________________
+
+  4. a __________________         10. o _________________
+
+  5. m __________________        11. n _________________
+
+  6. j ___________________         12. d _________________`,answers:{1:"enero",2:"febrero",3:"marzo",4:"abril",5:"mayo",6:"junio",7:"julio",8:"agosto",9:"septiembre",10:"octubre",11:"noviembre",12:"diciembre"},rawAnswerKey:`1. enero                                               7. julio
+             2. febrero                                             8. agosto
+             3. marzo                                               9. septiembre
+             4. abril                                               10. octubre
+             5. mayo                                                11. noviembre
+             6. junio                                               12. diciembre`},{id:"B1-L09-ac",key:"c",instructionsEs:"Diego es estudiante de maestría en negocios y les está explicando a sus padres Luis y Cecilia su horario para este semestre en la universidad.",instructionsEn:"Diego is a master’s degree student in business, and he is explaining to his parents Luis and Cecilia his schedule for this semester at the university.",rawText:`Completa el diálogo con la información necesaria. / Complete the dialogue with the necessary information.
+
+          Diego:    Este semestre tengo [I have] clases los lunes [on Mondays] de (5:30 pm)
+
+                  1. ____________________ a (7:45 pm) 2. _______________________. Los martes tengo
+
+                  clases al (12:00 pm) 3. ________________ y después a (4:15 pm) 4. ____________________.
+
+                  Los miércoles no tengo clases, pero siempre [always] hay una reunión a (6:25 pm)
+
+                  5. ___________________ en la cafetería [cafeteria]. Los jueves voy a clases a (8:00
+
+                  am) 6. ______________________ y a (9:55 am) 7. __________________. A (1:00 pm)
+
+
+            8. ___________________ voy a la biblioteca. Estoy muy contento porque los viernes no voy a la
+
+            universidad. Bueno [Well], ¿qué hora es?
+
+   Cecilia: Son 9. (7:50) ________________________.
+
+    Diego: ¡Oh no, necesito ir a la universidad! ¡Adiós!`,answers:{1:"las cinco y media de la tarde / las cinco y treinta de la tarde",2:"las ocho menos cuarto / las siete y cuarenta y cinco",3:"mediodía",4:"las cuatro y cuarto de la tarde / las cuatro y quince de la tarde",5:"las seis y veinticinco de la tarde",6:"las ocho de la mañana",7:"las diez menos cinco de la mañana / las nueve y cincuenta y cinco de la mañana",8:"la una de la tarde",9:"las ocho menos diez / las siete y cincuenta"},rawAnswerKey:`1. las cinco y media de la tarde / las cinco y treinta de la tarde
+             2. las ocho menos cuarto / las siete y cuarenta y cinco
+             3. mediodía
+             4. las cuatro y cuarto de la tarde / las cuatro y quince de la tarde
+             5. las seis y veinticinco de la tarde
+             6. las ocho de la mañana
+             7. las diez menos cinco de la mañana / las nueve y cincuenta y cinco de la mañana
+             8. la una de la tarde
+             9. las ocho menos diez / las siete y cincuenta`},{id:"B1-L09-ad",key:"d",instructionsEs:"La abuela de Diana le compró un reloj muy bonito. Diana está aprendiendo a usar el reloj.",instructionsEn:"Diana’s grandmother bought her a very nice watch. Diana is learning how to use it.",rawText:`¿Puedes ayudarle a Diana? / Can you help Diana?
+
+   1. Cecilia: Diana, ¿qué hora es?
+      ���������������������������������������������������� .
+
+   2. Cecilia: Diana, ¿qué hora es?
+      ����������������������������������������������������.
+
+   3. Cecilia: Diana, ¿qué hora es?
+      ����������������������������������������������������.
+
+   4. Cecilia: Diana, ¿qué hora es?
+      ����������������������������������������������������.
+
+   5. Cecilia: Diana, ¿qué hora es?
+      ����������������������������������������������������.`,answers:{1:"Son las diez y diez.",2:"Son las cuatro menos trece. / Son las dos y cuarenta y siete.",3:"Es la una y veinticuatro.",4:"Son las doce y treinta y ocho.",5:"Son las once menos dos. / Son las diez y cincuenta y ocho."},rawAnswerKey:`1. Son las diez y diez.
+             2. Son las cuatro menos trece. / Son las dos y cuarenta y siete.
+             3. Es la una y veinticuatro.
+             4. Son las doce y treinta y ocho.
+             5. Son las once menos dos. / Son las diez y cincuenta y ocho.`},{id:"B1-L09-ae",key:"e",instructionsEs:"Pablo es estudiante de la universidad, y Marisol es estudiante de secundaria. Ellos son hermanos, y están hablando sobre sus planes para esta semana.",instructionsEn:"Pablo is a college student, and Marisol is a high school student. They are siblings, and they are talking about their plans for this week.",rawText:`Completa la información con las respuestas más lógicas. / Complete the information with the most logical answers.
+
+  1. Pablo: Los lunes tengo un examen de español �������������������������������������������������� .
+
+     a) a la una de la tarde                   b) a media noche                   c) a las tres de la mañana
+
+  2. Marisol: Los lunes voy al gimnasio [gymnasium] ������������������������������������������������� .
+
+     a) justo [just] antes de las dos de la mañana                      b) al mediodía            c) a media noche
+
+  3. Pablo: Yo también [also] voy al gimnasio, pero �������������������������������������������������� .
+
+     a) a las tres y media de la mañana              b) por la mañana             c) a las once y media de la noche
+
+  4. Marisol: Los jueves tengo mi laboratorio [laboratory] de biología [biology] ����������������������������� .
+
+     a) por la tarde                           b) a la una de la mañana           c) a las once de la noche
+
+  5. Pablo: Los viernes �������������������������������������������� voy con [with] Guillermo al bar [bar].
+
+     a) a las nueve de la noche                b) a las siete de la mañana        c) antes de nuestras clases
+
+  6. Marisol: Los sábados ������������������������������������������� Victoria y yo bailamos y cantamos.
+
+     a) en nuestra clase de biología           b) en un bar popular               c) en el mercado
+
+`,answers:{1:"a) a la una de la tarde",2:"b) al mediodía",3:"b) por la mañana",4:"a) por la tarde",5:"a) a las nueve de la noche",6:"b) en un bar popular"},rawAnswerKey:`1. a) a la una de la tarde                               4. a) por la tarde
+             2. b) al mediodía                                        5. a) a las nueve de la noche
+             3. b) por la mañana                                      6. b) en un bar popular`},{id:"B1-L09-af",key:"f",instructionsEs:"Contesta las preguntas de acuerdo al horario de Marisol para el próximo mes.",instructionsEn:"Answer the questions according to Marisol’s schedule for next month. mayo lunes             martes          miércoles          jueves            viernes           sábado           domingo",rawText:`2                 3                4                 5                 6                 7                 8
+                                   Examen de         Laboratorio de                                        Recital de
+                                   español           biología                                              ballet
+                                                     10:45 am                                              6:00 pm
+
+9                 10               11                12                13                14                15
+                  Examen de                                                              Concierto
+                  cálculo                                                                Shakira
+                                                                                         9:00 pm
+
+16                17               18                19                20                21                22
+Examen de                                            Cita con          Fiesta de         Clase de
+biología                                             Ángela            cumpleaños        música
+                                                                       de Elena
+                                                     6:00 pm                             1:00 pm
+                                                                       5:30 pm
+
+23                24               25                26                27                28                29
+Clase de ballet                    Clase de ballet                     Clase de ballet                     Mirar el partido
+                                                                                                           de fútbol con
+                                                                                                           amigas
+
+30                31
+                  Cita con el
+                  dentista
+                  10:25 am
+
+ 1. ¿Qué fecha y a qué hora es el recital de ballet [ballet recital] de Marisol?
+
+     Es_________________________________________.
+
+ 2. ¿Cuándo es el examen de cálculo [calculus]?
+
+     ________________________________________.
+
+ 3. ¿Qué fecha y a qué hora es la fiesta [party] de cumpleaños de Elena?
+
+     _________________________________.
+
+ 4. ¿Cuándo es el partido [game] de fútbol?
+
+     _____________________________________.
+
+ 5. ¿Cuándo es la cita [appointment] con el dentista y a qué hora?
+
+     __________________________.
+
+         6. ¿A qué hora es el concierto [concert] de Shakira?
+
+           _____________________________________.
+
+         7. ¿A qué hora es la clase de música?
+
+           ________________________________________________.`,answers:{1:"Es el ocho de mayo a las seis de la tarde.",2:"Es el diez de mayo.",3:"Es el veinte de mayo a las cinco y media de la tarde.",4:"Es el veintinueve de mayo.",5:"Es el treinta y uno de mayo a las diez y veinticinco de la mañana.",6:"Es a las nueve de la noche.",7:"Es a la una de la tarde."},rawAnswerKey:`1. Es el ocho de mayo a las seis de la tarde.
+             2. Es el diez de mayo.
+             3. Es el veinte de mayo a las cinco y media de la tarde.
+             4. Es el veintinueve de mayo.
+             5. Es el treinta y uno de mayo a las diez y veinticinco de la mañana.
+             6. Es a las nueve de la noche.
+             7. Es a la una de la tarde.`}],t=null,c={id:e,book:1,lessonNumber:9,globalIndex:9,title:a,cefrLevel:n,neighborhoodFocus:_,vocabulary:s,grammar:i,activities:o,culturalReading:t};export{o as activities,l as book,n as cefrLevel,t as culturalReading,c as default,r as globalIndex,i as grammar,e as id,d as lessonNumber,_ as neighborhoodFocus,a as title,s as vocabulary};
