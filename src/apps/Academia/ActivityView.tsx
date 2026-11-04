@@ -78,12 +78,14 @@ export function ActivityView({ act, lessonId }: { act: Activity; lessonId: strin
     const val = vals[key] ?? '';
     const cls = `field ${verdicts[key] ?? ''} mx-[2px] align-baseline`;
     const set = (x: string) => setVals((p) => ({ ...p, [key]: x }));
+    const fix = verdicts[key] === 'wrong' && exp ? <span className="text-[11px] text-[#006400] font-bold mx-1" title="Respuesta del libro">→ {exp}</span> : null;
     const options = opts ?? (exp && isCF(exp) ? CF : undefined);
     if (options)
-      return <select className={cls} value={val} onChange={(e) => set(e.target.value)}><option value="">—</option>{options.map((o) => <option key={o}>{o}</option>)}</select>;
+      return <><select className={cls} value={val} onChange={(e) => set(e.target.value)}><option value="">—</option>{options.map((o) => <option key={o}>{o}</option>)}</select>{fix}</>;
     const w = Math.max(6, Math.min(22, Math.max(...(exp ?? '').split(' / ').map((a) => a.length)) + 1));
-    return <input className={cls} style={{ width: wide ? '100%' : `${w}ch` }} value={val} title={verdicts[key] === 'accent' ? '¡Casi! Revisa los acentos.' : undefined}
-      onChange={(e) => set(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && check()} />;
+    return <>{inputEl()}{fix}</>;
+    function inputEl() { return <input className={cls} style={{ width: wide ? '100%' : `${w}ch` }} value={val} title={verdicts[key] === 'accent' ? '¡Casi! Revisa los acentos.' : undefined}
+      onChange={(e) => set(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && check()} />; }
   };
 
   const answered = nums.filter((n) => solved[qid(n)]).length;

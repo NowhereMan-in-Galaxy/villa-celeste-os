@@ -6,7 +6,12 @@ export const fold = (s: string) =>
 const soft = (s: string) => s.toLowerCase().replace(/[¿?¡!.,;:"“”'()[\]]/g, '').replace(/\s+/g, ' ').trim();
 
 /** Alternatives in textbook keys are separated by " / ". */
-export const alternatives = (answer: string) => answer.split(/\s+\/\s+/).map((a) => a.trim()).filter(Boolean);
+export const alternatives = (answer: string) =>
+  answer.split(/\s*\/\s*/).flatMap((a) => {
+    const clean = a.replace(/\[[^\]]*\]/g, '').trim();
+    const noParen = clean.replace(/\([^)]*\)/g, '').replace(/\s+/g, ' ').trim();
+    return noParen && noParen !== clean ? [clean, noParen] : [clean];
+  }).filter(Boolean);
 
 export type Verdict = 'right' | 'accent' | 'wrong';
 /** Grade trying the input alone and joined with the words printed around the blank. */

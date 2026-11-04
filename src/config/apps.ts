@@ -10,6 +10,7 @@ const L = (f: () => Promise<{ default: ComponentType<AppProps> }>) => lazy(f);
 
 export const APPS = {
   bienvenido: { title: 'Bienvenido.txt - Bloc de notas', label: 'Bienvenido.txt', icon: '📝', size: [560, 480], component: L(() => import('../apps/Notepad/NotepadApp')) },
+  palabras: { title: 'Palabras en Juego', label: 'Palabras.exe', icon: '🎮', size: [720, 600], component: L(() => import('../apps/Palabras/PalabrasApp')) },
   academia: { title: 'Academia Villa Celeste', label: 'Academia.exe', icon: '📖', size: [980, 680], component: L(() => import('../apps/Academia/AcademiaApp')) },
   glosario: { title: 'Glosario98.hlp', label: 'Glosario98.hlp', icon: '🗂️', size: [820, 600], component: L(() => import('../apps/Glosario/GlosarioApp')) },
   chismenet: { title: 'ChismeNet Messenger \'98', label: 'ChismeNet.exe', icon: '💬', size: [760, 560], component: L(() => import('../apps/ChismeNet/ChismeNetApp')) },

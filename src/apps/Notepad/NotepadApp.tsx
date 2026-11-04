@@ -17,9 +17,13 @@ Aprende español para descubrirlos.
 
 CÓMO JUGAR
 ----------
-1. `}<L a="academia">Academia.exe</L>{`  → 60 lecciones (Libro 1 + Libro 2).
-   Vocabulario con audio, gramática, ejercicios autocorregidos.
-   Cada respuesta correcta = +XP. Sube de nivel A1 → B2.
+1. `}<L a="palabras">Palabras.exe</L>{`  → ¡Empieza aquí! Juego de vocabulario:
+   cada lección tiene niveles de 8 palabras. Gana estrellas ★
+   para abrir la lección siguiente.
+
+   `}<L a="academia">Academia.exe</L>{`  → el libro completo, las 60 lecciones,
+   abiertas desde el principio: vocabulario con audio, gramática
+   y ejercicios con corrección. Cada acierto = +XP (A1 → B2).
 
 2. `}<L a="glosario">Glosario98.hlp</L>{` → Diccionario + tarjetas SRS (SM-2).
    Marca palabras con ★ en cualquier parte y repásalas aquí.

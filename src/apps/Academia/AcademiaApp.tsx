@@ -11,16 +11,6 @@ import { gradable } from '../../utils/text';
 
 type Tab = 'vocab' | 'gram' | 'act' | 'lect';
 
-/** A lesson is open if sandbox is on, it's among the first 3 of a book, or the previous lesson is ≥ 30%. */
-export function useUnlocked() {
-  const { lessons, settings } = useStore();
-  return (id: string) => {
-    if (settings.unlockAll) return true;
-    const i = LESSONS.findIndex((l) => l.id === id), l = LESSONS[i];
-    return l.lessonNumber <= 3 || (lessons[LESSONS[i - 1].id] ?? 0) >= 30;
-  };
-}
-
 function lessonQids(L: LessonData) {
   const ids = L.activities.flatMap((a) => Object.keys(a.answers).map((n) => `${a.id}-${n}`));
   if (L.culturalReading) ids.push(...Object.keys(L.culturalReading.answers).map((n) => `${L.id}-read-${n}`));
@@ -35,7 +25,6 @@ export default function AcademiaApp({ args }: AppProps) {
   const [tab, setTab] = useState<Tab>('vocab');
   const [actIdx, setActIdx] = useState(0);
   const { lessons, solved, setLessonProgress, unlock } = useStore();
-  const unlocked = useUnlocked();
 
   useEffect(() => { if (args?.lesson) { setId(args.lesson); setBook(args.lesson[1] === '2' ? 2 : 1); } }, [args?.lesson]);
   useEffect(() => { let on = true; loadLesson(id).then((d) => on && (setL(d), setActIdx(0))); return () => { on = false; }; }, [id]);
@@ -65,11 +54,11 @@ export default function AcademiaApp({ args }: AppProps) {
         <input className="field" placeholder="🔍 Buscar tema, personaje..." value={q} onChange={(e) => setQ(e.target.value)} />
         <div className="inset flex-1 overflow-auto">
           {list.map((l) => {
-            const open = unlocked(l.id), p = lessons[l.id] ?? 0;
+            const p = lessons[l.id] ?? 0;
             return (
-              <div key={l.id} className={`list-item text-[12px] flex gap-1 items-center ${l.id === id ? 'sel' : ''} ${open ? '' : 'opacity-50'}`}
-                onClick={() => (open ? (sfx('click'), setId(l.id)) : (sfx('error'), useStore.getState().toast('🔒 Completa el 30% de la lección anterior (o activa "Desbloquear todo" en Control)')))}>
-                <span className="w-5 text-center">{!open ? '🔒' : p >= 80 ? '✅' : p > 0 ? '📗' : '📘'}</span>
+              <div key={l.id} className={`list-item text-[12px] flex gap-1 items-center ${l.id === id ? 'sel' : ''} `}
+                onClick={() => { sfx('click'); setId(l.id); }}>
+                <span className="w-5 text-center">{p >= 80 ? '✅' : p > 0 ? '📗' : '📘'}</span>
                 <span className="flex-1 leading-tight"><b>{l.lessonNumber}.</b> {l.title}</span>
                 <span className="text-[10px] opacity-70">{l.cefrLevel}</span>
               </div>
@@ -80,7 +69,7 @@ export default function AcademiaApp({ args }: AppProps) {
       <main className="flex-1 min-w-0 flex flex-col p-1">
         <div className="panel p-2 flex items-center gap-3 flex-wrap">
           <select className="field sm:hidden" value={id} onChange={(e) => setId(e.target.value)}>
-            {LESSONS.filter((l) => unlocked(l.id)).map((l) => <option key={l.id} value={l.id}>{l.id} {l.title}</option>)}
+            {LESSONS.map((l) => <option key={l.id} value={l.id}>{l.id} {l.title}</option>)}
           </select>
           <div className="flex-1 min-w-[200px]">
             <div className="text-[11px] opacity-70">{meta.id} · Nivel {meta.cefrLevel} · {meta.book === 1 ? 'El Vecindario de Villa Celeste' : 'Más Allá de Villa Celeste'}</div>

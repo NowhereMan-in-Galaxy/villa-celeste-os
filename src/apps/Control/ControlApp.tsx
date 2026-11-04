@@ -63,7 +63,7 @@ export default function ControlApp() {
               <Check label="Saltar la pantalla de arranque (BIOS)" v={st.skipBoot} on={(skipBoot) => s.set({ skipBoot })} />
             </fieldset>
             <fieldset className="group"><legend>Modo sandbox</legend>
-              <Check label="🔓 Desbloquear todas las lecciones (para explorar o evaluar)" v={st.unlockAll} on={(unlockAll) => s.set({ unlockAll })} />
+              <Check label="🔓 Desbloquear todos los niveles de Palabras.exe" v={st.unlockAll} on={(unlockAll) => s.set({ unlockAll })} />
             </fieldset>
           </>
         )}
