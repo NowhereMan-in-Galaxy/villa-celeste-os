@@ -1,0 +1,28 @@
+export interface Drill { id: string; title: string; es: string; en: string; items: string[] }
+
+export const DRILLS: Drill[] = [
+  { id: 'rr', title: 'La erre múltiple (rr)', es: 'La rr y la r inicial vibran: la punta de la lengua golpea varias veces el paladar, justo detrás de los dientes.', en: 'Rolled rr (and word-initial r): the tongue tip taps the ridge behind your teeth several times.',
+    items: ['perro', 'carro', 'rápido', 'ferrocarril', 'El perro de Ramón corre rápido.', 'Erre con erre cigarro, erre con erre barril; rápido ruedan los carros del ferrocarril.'] },
+  { id: 'r', title: 'La erre simple (r)', es: 'Entre vocales, la r suena como un solo golpecito de la lengua, parecido a la "tt" de "butter" en inglés americano.', en: 'Single r between vowels is one quick tap, like the "tt" in American "butter".',
+    items: ['pero', 'caro', 'hora', 'cantar', 'Para Carlos es muy raro.', 'Voy a trabajar para ganar dinero.'] },
+  { id: 'ptk', title: 'P, T y K sin aire', es: 'En español, p, t y k no llevan "soplido". Pon la mano frente a la boca: ¡no debes sentir aire!', en: 'Spanish p, t, k are unaspirated: no puff of air. Hold your hand in front of your mouth.',
+    items: ['papa', 'taco', 'queso', 'Pablo toca la guitarra.', 'Tomás compra tres tacos.', 'Pepe pide pan y papas.'] },
+  { id: 'bv', title: 'B y V suenan igual', es: 'La b y la v se pronuncian igual. Al inicio o después de m/n es una b fuerte; entre vocales es suave, con los labios casi abiertos.', en: 'B and v sound the same: hard at the start or after m/n, soft between vowels.',
+    items: ['vaso', 'bueno', 'vivir', 'Voy a Venezuela en barco.', 'El vecino bebe vino.', 'Vamos a ver la boda de Julia.'] },
+  { id: 'cez', title: 'CE, CI y Z', es: 'En Latinoamérica (seseo), ce, ci y z suenan como s. En España suenan como la "th" de "think". Hoy practica la versión latinoamericana.', en: 'In Latin America (seseo) ce/ci/z sound like s; in Spain like English "th". Practice the Latin American version.',
+    items: ['cena', 'cinco', 'zapato', 'Cecilia cocina cinco cenas.', 'La ciudad de Cancún es famosa.', 'Hace mucho calor en el cielo azul.'] },
+  { id: 'lly', title: 'LL e Y', es: 'En la mayoría de Latinoamérica ll e y suenan igual, como la "y" de "yes" (en Argentina, como "sh").', en: 'In most of Latin America ll and y sound alike, like the "y" in "yes".',
+    items: ['calle', 'llamar', 'yo', 'Ella llega a la playa.', 'La lluvia llena la calle.', 'Yo me llamo Marisol y vivo en la calle Real.'] },
+  { id: 'ny', title: 'La eñe (ñ)', es: 'La ñ suena como "ny" en "canyon": la lengua toca el paladar suavemente.', en: 'ñ sounds like "ny" in "canyon".',
+    items: ['año', 'niño', 'España', 'Mañana cumplo un año más.', 'La señora compra piñas.', 'El niño del señor Muñoz sueña con España.'] },
+  { id: 'jg', title: 'J y G (ge, gi)', es: 'La j (y la g antes de e, i) suena como una h fuerte, desde la garganta. La g antes de a, o, u es suave, como en "go".', en: 'j (and g before e/i) is a raspy h. g before a/o/u is like "go".',
+    items: ['jugo', 'gente', 'gigante', 'Jorge y Julia viajan en julio.', 'El joven juega con el juguete.', 'La gente joven escoge jugo de naranja.'] },
+  { id: 'h', title: 'La hache muda (h)', es: 'La h nunca se pronuncia. "Hola" suena como "ola" con una o inicial; "hotel" suena "otel".', en: 'The letter h is always silent.',
+    items: ['hola', 'hotel', 'hermano', 'Hay un hospital en el hotel.', 'La hija de Héctor habla con su hermano.', 'Hoy hace mucho calor, ¿hay helado?'] },
+  { id: 'vow', title: 'Las vocales puras', es: 'Solo hay cinco sonidos: a, e, i, o, u. Son cortos y limpios; no los conviertas en diptongos como en inglés ("no", "say").', en: 'Five pure, short vowels. Do not glide them as English does in "no" or "say".',
+    items: ['ala', 'ese', 'oso', 'uno', 'Ana usa una oficina.', 'Hay una alumna alegre en la escuela.'] },
+  { id: 'dip', title: 'Diptongos', es: 'Dos vocales juntas (una fuerte a/e/o y una débil i/u) se pronuncian en una sola sílaba: bue-no, cie-lo, ciu-dad.', en: 'Strong + weak vowel pairs share one syllable: bue-no, cie-lo.',
+    items: ['bueno', 'ciudad', 'aire', 'cuidado', 'Luis tiene mucho cuidado.', 'Cuando llueve, el viento hace ruido en el patio.'] },
+  { id: 'tw', title: 'Trabalenguas', es: '¡Reto final! Empieza despacio y aumenta la velocidad.', en: 'Tongue twisters! Start slow, then speed up.',
+    items: ['Tres tristes tigres tragaban trigo en un trigal.', 'Pablito clavó un clavito.', 'Erre con erre cigarro, erre con erre barril. Rápido ruedan los carros cargados de azúcar al ferrocarril.', 'Compré pocas copas, pocas copas compré; como compré pocas copas, pocas copas pagué.', 'Si Pancha plancha con cuatro planchas, ¿con cuántas planchas plancha Pancha?', 'El perro de San Roque no tiene rabo porque Ramón Ramírez se lo ha robado.'] },
+];
