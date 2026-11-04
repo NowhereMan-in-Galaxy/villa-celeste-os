@@ -1,5 +1,7 @@
 # 🖥️ Villa Celeste OS '98 — Retro Spanish Immersion Desktop
 
+[中文说明](README.zh-CN.md) · **Play online:** https://nowhereman-in-galaxy.github.io/villa-celeste-os/
+
 > **An interactive Windows 98 / Classic Desktop Operating System & Neighborhood Detective RPG for mastering Spanish (A1 → B2, 60 Lessons).**
 
 Welcome to **Villa Celeste OS '98**. Instead of grinding through static textbook PDFs, boot into a nostalgic late-90s computer terminal connected to the neighborhood intranet of **Villa Celeste**. Explore the emails, chat rooms, clinic files, travel agency bookings, telenovela episodes (*La oveja negra*), and dating profiles of five interconnected Latin American families across **60 complete lessons** (Part I: Lessons 1–30 & Part II: Lessons 1–30).
