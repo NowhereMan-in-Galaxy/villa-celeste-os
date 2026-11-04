@@ -18,7 +18,7 @@ function StartMenu({ onClose }: { onClose: () => void }) {
   const [sub, setSub] = useState<0 | 1 | 2>(0);
   const go = (a: AppId, args?: any) => { open(a, args); onClose(); };
   return (
-    <div className="absolute bottom-[30px] left-0 bevel p-[3px] flex z-[100000] pop" onPointerDown={(e) => e.stopPropagation()}>
+    <div className="absolute bottom-[var(--taskbar)] left-0 bevel p-[3px] flex z-[100000] pop" onPointerDown={(e) => e.stopPropagation()}>
       <div className="w-7 flex items-end justify-center pb-2" style={{ background: 'linear-gradient(0deg, var(--title-a), var(--title-b))' }}>
         <span className="text-white font-bold [writing-mode:vertical-rl] rotate-180 tracking-wider">Villa Celeste <span className="font-normal">OS '98</span></span>
       </div>
@@ -35,7 +35,7 @@ function StartMenu({ onClose }: { onClose: () => void }) {
           </div>
         ))}
         {sub > 0 && (
-          <div className="absolute left-full bottom-0 bevel p-[3px] w-72 max-h-[70vh] overflow-auto">
+          <div className="absolute left-full bottom-0 max-sm:left-0 max-sm:bottom-auto max-sm:top-0 max-sm:-translate-y-full max-sm:w-[90vw] bevel p-[3px] w-72 max-h-[70vh] overflow-auto">
             {LESSONS.filter((l) => l.book === sub).map((l) => (
               <div key={l.id} className="list-item text-[12px]" onClick={() => go('academia', { lesson: l.id })}>{l.id.slice(3)} · {l.title}</div>
             ))}
@@ -51,7 +51,7 @@ export function Desktop() {
   const { xp, cards, settings } = useStore();
   const [start, setStart] = useState(false);
   const [sel, setSel] = useState<AppId | null>(null);
-  useEffect(() => { if (!useWM.getState().wins.length) open('bienvenido'); }, []);
+  useEffect(() => { if (!useWM.getState().wins.length) open('hoy'); }, []);
   const lvl = levelOf(xp);
   const prevLvl = useRef(lvl);
   useEffect(() => {
@@ -61,7 +61,7 @@ export function Desktop() {
 
   return (
     <div className={`desktop theme-${settings.theme} ${settings.crt ? 'crt' : ''} h-full w-full relative select-none`} onPointerDown={() => { setStart(false); setSel(null); }}>
-      <div className="absolute inset-0 bottom-[30px] p-2 flex flex-col flex-wrap content-start gap-1">
+      <div className="absolute inset-0 bottom-[var(--taskbar)] p-2 flex flex-col flex-wrap content-start gap-1">
         {APP_IDS.map((id) => (
           <button key={id} className="w-[76px] h-[64px] flex flex-col items-center gap-1 text-white text-[11px] bg-transparent border-none cursor-pointer"
             onPointerDown={(e) => { e.stopPropagation(); setSel(id); }} onDoubleClick={() => open(id)} onKeyDown={(e) => e.key === 'Enter' && open(id)}
@@ -73,14 +73,14 @@ export function Desktop() {
       </div>
       {wins.map((w) => <WindowFrame key={w.id} win={w} />)}
       {start && <StartMenu onClose={() => setStart(false)} />}
-      <div className="absolute bottom-0 left-0 right-0 h-[30px] bevel flex items-center gap-1 px-[2px] z-[99999]" onPointerDown={(e) => e.stopPropagation()}>
+      <div className="absolute bottom-0 left-0 right-0 h-[var(--taskbar)] bevel flex items-center gap-1 px-[2px] z-[99999]" onPointerDown={(e) => e.stopPropagation()}>
         <button className={`btn font-bold flex items-center gap-1 ${start ? 'on' : ''}`} onClick={() => { sfx('click'); setStart(!start); }}>❖ Inicio</button>
         <div className="w-[2px] h-5 sunken mx-1" />
         <div className="flex-1 flex gap-1 overflow-hidden">
           {wins.map((w) => (
-            <button key={w.id} className={`btn truncate max-w-[160px] min-w-0 text-left text-[12px] ${active === w.id && !w.min ? 'on font-bold' : ''}`}
+            <button key={w.id} className={`btn truncate max-w-[160px] max-sm:max-w-[48px] min-w-0 text-left text-[12px] ${active === w.id && !w.min ? 'on font-bold' : ''}`}
               onClick={() => (active === w.id && !w.min ? patch(w.id, { min: true }) : (patch(w.id, { min: false }), focus(w.id)))}>
-              {APPS[w.app].icon} {APPS[w.app].label}
+              {APPS[w.app].icon}<span className="max-sm:hidden"> {APPS[w.app].label}</span>
             </button>
           ))}
         </div>

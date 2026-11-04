@@ -3,6 +3,7 @@ import { Volume2, Star } from 'lucide-react';
 import { speak } from '../utils/tts';
 import { useStore } from '../store';
 import { sfx } from '../utils/sound';
+import { reflow, isTable } from '../utils/reflow';
 
 /** Speaker button: click = normal, shift/right-click = slow. */
 export function Speak({ text, className = '' }: { text: string; className?: string }) {
@@ -57,6 +58,18 @@ export function Installing({ name }: { name: string }) {
       <div>Instalando módulo <b>{name}</b> desde CD-ROM...</div>
       <div className="w-64"><Progress value={p} /></div>
       <div className="text-xs opacity-70">Inserte el disco 2 de 3 cuando se le indique.</div>
+    </div>
+  );
+}
+
+/** Readable textbook text: prose reflowed in the UI font, tables kept in monospace. */
+export function Rich({ text, className = '' }: { text: string; className?: string }) {
+  const lines = reflow(text).split('\n');
+  return (
+    <div className={`select-text leading-relaxed ${className}`}>
+      {lines.map((l, i) => !l.trim() ? <div key={i} className="h-3" />
+        : isTable(l) ? <div key={i} className="mono text-[12.5px] overflow-x-auto whitespace-pre">{l}</div>
+        : <p key={i} className="my-[2px]">{l}</p>)}
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { gradeCtx, gradable, Verdict } from '../../utils/text';
 import { useStore } from '../../store';
 import { sfx } from '../../utils/sound';
 import { Speak } from '../../ui/kit';
+import { reflow } from '../../utils/reflow';
 
 type Seg = { t: 'text'; s: string } | { t: 'blank'; num: string; part: number; opts?: string[]; before: string; after: string };
 
@@ -43,10 +44,11 @@ export function segment(raw: string, answers: Record<string, string>) {
 
 export function ActivityView({ act, lessonId }: { act: Activity; lessonId: string }) {
   const { solved, solve } = useStore();
-  const { segs, counts, expected } = useMemo(() => segment(act.rawText, act.answers), [act]);
+  const { segs, counts, expected } = useMemo(() => segment(reflow(act.rawText), act.answers), [act]);
   const [vals, setVals] = useState<Record<string, string>>({});
   const [verdicts, setVerdicts] = useState<Record<string, Verdict>>({});
   const [showKey, setShowKey] = useState(false);
+  const [hint, setHint] = useState(false);
   const [reveal, setReveal] = useState<Record<string, boolean>>({});
   const nums = Object.keys(act.answers).sort((a, b) => +a - +b);
   const qid = (n: string) => `${act.id}-${n}`;
@@ -57,6 +59,7 @@ export function ActivityView({ act, lessonId }: { act: Activity; lessonId: strin
     let ok = 0, tot = 0;
     const perItem: Record<string, boolean> = {};
     const judge = (key: string, num: string, input: string, exp: string, before = '', after = '') => {
+      if (!input.trim()) return;
       const r = isCF(exp) ? (input && cfNorm(input) === cfNorm(exp) ? 'right' : 'wrong') : gradeCtx(input, exp, before, after);
       v[key] = r;
       perItem[num] = (perItem[num] ?? true) && r !== 'wrong';
@@ -84,7 +87,7 @@ export function ActivityView({ act, lessonId }: { act: Activity; lessonId: strin
       return <><select className={cls} value={val} onChange={(e) => set(e.target.value)}><option value="">—</option>{options.map((o) => <option key={o}>{o}</option>)}</select>{fix}</>;
     const w = Math.max(6, Math.min(22, Math.max(...(exp ?? '').split(' / ').map((a) => a.length)) + 1));
     return <>{inputEl()}{fix}</>;
-    function inputEl() { return <input className={cls} style={{ width: wide ? '100%' : `${w}ch` }} value={val} title={verdicts[key] === 'accent' ? '¡Casi! Revisa los acentos.' : undefined}
+    function inputEl() { return <input className={cls} placeholder={hint && exp ? exp.replace(/^[¿¡]/, '')[0] + '…' : ''} autoCapitalize="off" autoCorrect="off" spellCheck={false} style={{ width: wide ? '100%' : `${w}ch` }} value={val} title={verdicts[key] === 'accent' ? '¡Casi! Revisa los acentos.' : undefined}
       onChange={(e) => set(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && check()} />; }
   };
 
@@ -93,9 +96,9 @@ export function ActivityView({ act, lessonId }: { act: Activity; lessonId: strin
     <div className="flex flex-col gap-2">
       <div className="panel p-2">
         <div className="font-bold">{act.key}. {act.instructionsEs} <Speak text={act.instructionsEs} /></div>
-        {act.instructionsEn && <div className="text-[12px] opacity-75 italic mt-1">{act.instructionsEn}</div>}
+        {act.instructionsEn && <div className="text-[13px] opacity-75 mt-1">{act.instructionsEn}</div>}
       </div>
-      <div className="inset p-3 mono text-[13px] leading-[2] overflow-x-auto select-text">
+      <div className="inset p-3 text-[15px] leading-[2.1] whitespace-pre-wrap break-words select-text">
         {segs.map((s, i) => {
           if (s.t === 'text') return <Fragment key={i}>{s.s}</Fragment>;
           const exp = expected(s.num, s.part);
@@ -133,11 +136,12 @@ export function ActivityView({ act, lessonId }: { act: Activity; lessonId: strin
       )}
       <div className="flex gap-2 items-center flex-wrap">
         <button className="btn font-bold" onClick={check}>✔ Comprobar</button>
-        <button className="btn" onClick={() => setShowKey(!showKey)}>{showKey ? 'Ocultar' : 'IV. Respuestas correctas'}</button>
+        <button className={`btn ${hint ? 'on' : ''}`} onClick={() => setHint(!hint)}>💡 Pista</button>
+        <button className="btn" onClick={() => setShowKey(!showKey)}>{showKey ? 'Ocultar respuestas' : 'Ver todas las respuestas'}</button>
         <button className="btn" onClick={() => { setVals({}); setVerdicts({}); }}>Borrar</button>
         <span className="text-[12px] ml-auto">Resueltas: {answered}/{nums.length}</span>
       </div>
-      {showKey && <div className="inset p-2 mono text-[12px] select-text" style={{ background: '#ffffe1' }}>{act.rawAnswerKey || nums.map((n) => `${n}. ${act.answers[n]}`).join('\n')}</div>}
+      {showKey && <div className="inset p-3 mono text-[13px] select-text whitespace-pre-wrap" style={{ background: '#ffffe1' }}>{act.rawAnswerKey || nums.map((n) => `${n}. ${act.answers[n]}`).join('\n')}</div>}
     </div>
   );
 }

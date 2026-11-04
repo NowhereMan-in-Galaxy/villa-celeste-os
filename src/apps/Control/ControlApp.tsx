@@ -21,8 +21,8 @@ export default function ControlApp() {
   const file = useRef<HTMLInputElement>(null);
 
   const exportSave = () => {
-    const { xp, solved, lessons, cards, achievements, flags, settings } = useStore.getState();
-    const blob = new Blob([JSON.stringify({ v: 1, xp, solved, lessons, cards, achievements, flags, settings }, null, 1)], { type: 'application/json' });
+    const { xp, days, solved, lessons, cards, achievements, flags, settings } = useStore.getState();
+    const blob = new Blob([JSON.stringify({ v: 1, xp, days, solved, lessons, cards, achievements, flags, settings }, null, 1)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = `villa_celeste_save_${new Date().toISOString().slice(0, 10)}.json`;
@@ -32,7 +32,7 @@ export default function ControlApp() {
     try {
       const d = JSON.parse(await f.text());
       if (typeof d.xp !== 'number') throw new Error();
-      useStore.setState({ xp: d.xp, solved: d.solved ?? {}, lessons: d.lessons ?? {}, cards: d.cards ?? {}, achievements: d.achievements ?? {}, flags: d.flags ?? {}, settings: { ...st, ...d.settings } });
+      useStore.setState({ xp: d.xp, days: d.days ?? {}, solved: d.solved ?? {}, lessons: d.lessons ?? {}, cards: d.cards ?? {}, achievements: d.achievements ?? {}, flags: d.flags ?? {}, settings: { ...st, ...d.settings } });
       sfx('ding'); s.toast('💾 Partida cargada');
     } catch { sfx('error'); s.toast('❌ Archivo no válido'); }
   };

@@ -22,14 +22,14 @@ export function WindowFrame({ win }: { win: Win }) {
   const end = () => (drag.current = null);
 
   if (win.min) return null;
-  const style = win.max ? { left: 0, top: 0, width: '100%', height: 'calc(100% - 30px)', zIndex: win.z } : { left: win.x, top: win.y, width: win.w, height: win.h, zIndex: win.z };
+  const style = win.max ? { left: 0, top: 0, width: '100%', height: 'calc(100% - var(--taskbar))', zIndex: win.z } : { left: win.x, top: win.y, width: win.w, height: win.h, zIndex: win.z };
   return (
     <div className="absolute bevel p-[3px] flex flex-col pop" style={style} onPointerDown={() => active !== win.id && focus(win.id)}>
-      <div className={`titlebar ${active === win.id ? '' : 'inactive'} flex items-center gap-1 px-1 h-[20px] select-none touch-none`}
+      <div className={`titlebar ${active === win.id ? '' : 'inactive'} flex items-center gap-1 px-1 h-[22px] max-sm:h-[34px] select-none touch-none`}
         onPointerDown={(e) => start(e, 'move')} onPointerMove={move} onPointerUp={end}
         onDoubleClick={() => patch(win.id, { max: !win.max })}>
         <span className="text-[13px] leading-none">{def.icon}</span>
-        <span className="flex-1 truncate text-[12px]">{win.title}</span>
+        <span className="flex-1 truncate text-[12px] max-sm:text-[14px]">{win.title}</span>
         <button className="btn tbtn" aria-label="Minimizar" onClick={() => patch(win.id, { min: true })}>_</button>
         <button className="btn tbtn" aria-label="Maximizar" onClick={() => patch(win.id, { max: !win.max })}>{win.max ? '❐' : '□'}</button>
         <button className="btn tbtn ml-[2px]" aria-label="Cerrar" onClick={() => close(win.id)}>✕</button>

@@ -12,7 +12,7 @@ const STAGE = 8;
 const ART = /^(el|la|los|las)\s+/i;
 const shuffle = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
 const sample = <T,>(a: T[], n: number) => shuffle(a).slice(0, n);
-const key = (lesson: string, s: number) => `palabras:${lesson}:${s}`;
+export const key = (lesson: string, s: number) => `palabras:${lesson}:${s}`;
 
 /** Split a lesson's vocabulary into stages of ~8 words (no stage smaller than 4). */
 function stagesOf(v: VocabItem[]) {
@@ -21,7 +21,7 @@ function stagesOf(v: VocabItem[]) {
   if (out.length > 1 && out[out.length - 1].length < 4) out[out.length - 2].push(...out.pop()!);
   return out;
 }
-const stageCount = (n: number) => Math.max(1, Math.floor(n / STAGE) + (n % STAGE >= 4 ? 1 : 0));
+export const stageCount = (n: number) => Math.max(1, Math.floor(n / STAGE) + (n % STAGE >= 4 ? 1 : 0));
 
 type Q =
   | { t: 'es-en' | 'en-es' | 'listen'; w: VocabItem; opts: VocabItem[] }
@@ -38,9 +38,10 @@ function buildQuestions(words: VocabItem[], pool: VocabItem[]): Q[] {
   return [...qs, ...spells];
 }
 
-export default function PalabrasApp(_: AppProps) {
-  const [play, setPlay] = useState<{ lesson: string; stage: number } | null>(null);
-  return play ? <Game {...play} onExit={() => setPlay(null)} /> : <MapView onPlay={(lesson, stage) => setPlay({ lesson, stage })} />;
+export default function PalabrasApp({ args }: AppProps) {
+  const [play, setPlay] = useState<{ lesson: string; stage: number } | null>(args?.lesson ? { lesson: args.lesson, stage: 0 } : null);
+  useEffect(() => { if (args?.lesson) setPlay({ lesson: args.lesson, stage: 0 }); }, [args?.lesson]);
+  return play ? <Game key={play.lesson + play.stage} {...play} onExit={() => setPlay(null)} /> : <MapView onPlay={(lesson, stage) => setPlay({ lesson, stage })} />;
 }
 
 function MapView({ onPlay }: { onPlay: (l: string, s: number) => void }) {
