@@ -12,6 +12,11 @@ const STAGE = 8;
 const ART = /^(el|la|los|las)\s+/i;
 const shuffle = <T,>(a: T[]) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
 const sample = <T,>(a: T[], n: number) => shuffle(a).slice(0, n);
+const ABBR: Record<string, string> = { 'inf.': 'informal', 'form.': 'formal', 'sing.': 'singular', 'pl.': 'plural', 'masc.': 'masculine', 'fem.': 'feminine' };
+/** English shown to the player; usage notes disambiguate e.g. tú vs usted forms. */
+export const label = (w: VocabItem) => (w.notes ? `${w.en} (${w.notes.replace(/\b[a-z]+\./g, (m) => ABBR[m] ?? m)})` : w.en);
+const uniqueByLabel = (ws: VocabItem[]) => ws.filter((w, i) => ws.findIndex((x) => label(x) === label(w)) === i);
+
 export const key = (lesson: string, s: number) => `palabras:${lesson}:${s}`;
 
 /** Split a lesson's vocabulary into stages of ~8 words (no stage smaller than 4). */
@@ -29,12 +34,12 @@ type Q =
   | { t: 'match'; ws: VocabItem[] };
 
 function buildQuestions(words: VocabItem[], pool: VocabItem[]): Q[] {
-  const distract = (w: VocabItem) => shuffle([w, ...sample(pool.filter((p) => p.id !== w.id && p.en !== w.en && p.es !== w.es), 3)]);
+  const distract = (w: VocabItem) => shuffle([w, ...sample(pool.filter((p) => p.id !== w.id && label(p) !== label(w) && p.es !== w.es), 3)]);
   const types = ['es-en', 'en-es', 'listen'] as const;
   const qs: Q[] = shuffle(words).map((w, i) => ({ t: types[i % 3], w, opts: distract(w) }));
   const spellable = words.filter((w) => { const s = w.es.replace(ART, ''); return s.length <= 12 && /^[a-záéíóúüñ]+$/i.test(s); });
   const spells: Q[] = sample(spellable, 3).map((w) => ({ t: 'spell', w }));
-  qs.splice(Math.ceil(qs.length / 2), 0, { t: 'match', ws: sample(words, Math.min(5, words.length)) });
+  qs.splice(Math.ceil(qs.length / 2), 0, { t: 'match', ws: sample(uniqueByLabel(words), Math.min(5, words.length)) });
   return [...qs, ...spells];
 }
 
@@ -217,7 +222,7 @@ function Choice({ q, onAnswer, onNext }: { q: Extract<Q, { opts: VocabItem[] }>;
       <div className="text-[12px] opacity-70 text-center">{q.t === 'listen' ? 'Escucha y elige el significado' : q.t === 'es-en' ? '¿Qué significa?' : '¿Cómo se dice en español?'}</div>
       <div className="inset p-4 text-center min-h-[84px] flex items-center justify-center gap-2">
         {q.t === 'listen' ? <button className="btn text-[28px] px-6 py-2" onClick={() => speak(q.w.es)} onContextMenu={(e) => { e.preventDefault(); speak(q.w.es, 0.7); }}>🔊</button>
-          : <span className="text-[24px] font-bold">{q.t === 'es-en' ? q.w.es : q.w.en}</span>}
+          : <span className="text-[24px] font-bold">{q.t === 'es-en' ? q.w.es : label(q.w)}</span>}
         {q.t === 'es-en' && <Speak text={q.w.es} />}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -225,7 +230,7 @@ function Choice({ q, onAnswer, onNext }: { q: Extract<Q, { opts: VocabItem[] }>;
           const state = picked && (o.id === q.w.id ? 'right' : o.id === picked ? 'wrong' : '');
           return (
             <button key={o.id} className={`btn text-[15px] py-3 text-left ${state === 'right' ? '!bg-[#b8f0b8]' : state === 'wrong' ? '!bg-[#f6b8b8]' : ''}`} onClick={() => pick(o)}>
-              <span className="opacity-50 text-[11px] mr-2">{n + 1}</span>{showEs ? o.es : o.en}
+              <span className="opacity-50 text-[11px] mr-2">{n + 1}</span>{showEs ? o.es : label(o)}
             </button>
           );
         })}
@@ -240,7 +245,7 @@ function Feedback({ ok, w, onNext }: { ok: boolean; w: VocabItem; onNext: () => 
   useEffect(() => btn.current?.focus(), []);
   return (
     <div className={`p-2 flex items-center gap-2 pop ${ok ? 'bg-[#d8ffd8]' : 'bg-[#ffd8d8]'}`}>
-      <div className="flex-1 text-[13px]">{ok ? '¡Correcto! ' : 'Era: '}<b>{w.es}</b> = {w.en} {!ok && <span className="text-[11px] opacity-70">(volverá a salir)</span>}</div>
+      <div className="flex-1 text-[13px]">{ok ? '¡Correcto! ' : 'Era: '}<b>{w.es}</b> = {label(w)} {!ok && <span className="text-[11px] opacity-70">(volverá a salir)</span>}</div>
       <button ref={btn} className="btn font-bold" onClick={onNext}>Seguir ▶</button>
     </div>
   );
@@ -264,7 +269,7 @@ function Spell({ w, onAnswer, onNext }: { w: VocabItem; onAnswer: (ok: boolean) 
   return (
     <div className="w-full max-w-[460px] flex flex-col gap-3">
       <div className="text-[12px] opacity-70 text-center">Escribe en español</div>
-      <div className="inset p-4 text-center text-[22px] font-bold">{w.en}</div>
+      <div className="inset p-4 text-center text-[22px] font-bold">{label(w)}</div>
       <div className="flex items-center gap-2 justify-center">
         {art && <span className="text-[18px] opacity-70">{art}</span>}
         <input className={`field text-[20px] w-[220px] ${result ?? ''}`} value={value} autoFocus disabled={!!result}
@@ -311,7 +316,7 @@ function Match({ ws, onMiss, onDone }: { ws: VocabItem[]; onMiss: () => void; on
         </div>
         <div className="flex flex-col gap-2">
           {right.map((w) => (
-            <button key={w.id} disabled={done.includes(w.id)} className={`btn py-2 text-[13px] ${done.includes(w.id) ? '!bg-[#b8f0b8]' : ''} ${bad === w.id ? '!bg-[#f6b8b8]' : ''}`} onClick={() => tapRight(w)}>{w.en}</button>
+            <button key={w.id} disabled={done.includes(w.id)} className={`btn py-2 text-[13px] ${done.includes(w.id) ? '!bg-[#b8f0b8]' : ''} ${bad === w.id ? '!bg-[#f6b8b8]' : ''}`} onClick={() => tapRight(w)}>{label(w)}</button>
           ))}
         </div>
       </div>
