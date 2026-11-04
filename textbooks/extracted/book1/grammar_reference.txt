@@ -1,0 +1,485 @@
+        Grammar Reference
+
+
+      Articles
+                                    Definite Articles                                Indefinite Articles
+                                 masc.             fem.                              masc.            fem.
+
+                       sing.     el                   la                   sing.     un                una
+                       pl.       los                  las                  pl.       unos              unas
+
+      The two contractions in Spanish are as follows.
+
+               a + el = al       de + el = del
+
+      Feminine nouns beginning with the sound a in a stressed syllable use el rather than la as their definite article and un
+      rather than una as their indefinite article (e.g., el águila rápida, un águila rápida).
+
+      Nouns
+      Words ending in ‑o are usually masculine; words ending in the letters ‑r and ‑l are also usually masculine (e.g., el
+      maestro, el televisor, el papel). Words ending in ‑a are usually feminine; words ending in the suffixes ‑ión, ‑ad, and
+      ‑tud are also almost always feminine (e.g., la mesa, la nación, la posibilidad, la virtud). Words ending in ‑ista can
+      be either masculine or feminine (e.g., el dentista, la dentista).
+
+      The rules for making a noun plural are as follows.
+
+          1.   If a noun ends in a vowel, add an ‑s: la silla à las sillas.
+          2.   If a noun ends in a consonant other than z, add ‑es: el papel à los papeles.
+          3.   If a noun ends in a z, change the z to c and add ‑es: el lápiz à los lápices.
+
+      Adjectives
+      Adjectives must agree in number and gender with the noun modified. Adjectives ending in ‑o and ‑dor and adjectives
+      of nationality ending in a consonant have four forms.
+
+                       masc.             fem.               masc.           fem.               masc.           fem.
+
+            sing.      guapo             guapa              hablador        habladora          inglés          inglesa
+            pl.        guapos            guapas             habladores      habladoras         ingleses        inglesas
+
+      Almost all other adjective have two forms.
+
+                                       masc. & fem.                                  masc. & fem.
+
+                      sing.            elegante                                      fenomenal
+                      pl.              elegantes                                     fenomenales
+
+      Adjectives in Spanish typically follow the noun modified (e.g., Queremos ver la casa grande y los parques bonitos).
+
+      Possessive Adjectives
+                      mi / mis            nuestro / nuestra / nuestros / nuestras
+                      tu / tus            vuestro / vuestra / vuestros / vuestras
+                      su / sus            su / sus
+
+      Possessive adjectives precede the modified noun (e.g., Tengo mis libros y ella tiene sus papeles).
+
+172
+
+
+--- PAGE BREAK ---
+
+                                                                                                         Grammar Reference
+
+
+
+Demonstrative Adjectives
+               masc.                fem.              masc.              fem.              masc.             fem.
+
+      sing.       este              esta              ese                esa               aquel             aquella
+      pl.         estos             estas             esos               esas              aquellos          aquellas
+
+Demonstrative adjectives precede the modified noun (e.g., Me gusta esta computadora aquí).
+
+Demonstrative adjectives, which modify a noun, can also be used as demonstrative pronouns, which take the place of
+a noun (e.g., ¿Cuál de los restaurantes prefieres, ese o aquel?).
+
+Adverbs
+One way to form an adverb is to add the suffix ‑mente to the feminine singular form of an adjective (e.g., activa +
+mente à activamente; general + mente à generalmente). A common way to make an adverbial expression is to
+use the preposition con before a noun (e.g., con frecuencia, con cuidado).
+
+Pronouns
+                  Subject Pronouns                                   Prepositional Pronouns
+
+               yo          nosotros, nosotras                       mí          nosotros, nosotras
+               tú          vosotros, vosotras                       ti          vosotros, vosotras
+               usted       ustedes                                  usted       ustedes
+               él          ellos                                    él          ellos
+               ella        ellas                                    ella        ellas
+
+                  Reflexive Pronouns                  Direct Object Pronouns               Indirect Object Pronouns
+
+ me nos                                                    me           nos                   me            nos
+ te os                                                     te           os                    te            os
+ se se                                                     lo           los                   le            les
+			                                                        la           las
+
+Direct object pronouns, indirect object pronouns, and reflexive pronouns go either before a conjugated verb or after
+and attached to an infinitive or a present participle. Examples include the following.
+
+Lo vamos a hacer mañana or Vamos a hacerlo mañana.
+
+Les quiero dar todo el dinero or Quiero darles todo el dinero.
+
+Me estoy poniendo los zapatos or Estoy poniéndome los zapatos.
+
+The indirect object pronoun always precedes the direct object pronoun when both are used in the same sentence
+(e.g., Si tengo los papeles, te los puedo mostrar).
+
+Both le and les become se before lo, la, los, and las (e.g., Cuando los estudiantes quieren más tiempo, sus
+maestros siempre se lo dan).
+
+Verbs
+Present Tense of Regular Verbs
+Once you learn the regular ‑ar endings in the present tense, you can learn the ‑er and ‑ir endings by knowing the following.
+
+    1.   The ‑er endings have just one difference from the ‑ar endings: Change a à e for every ‑ar ending, and that
+         gives you the ‑er endings.
+    2.   There are only two differences between the ‑er endings and the ‑ir endings: emos à imos and éis à ís.
+
+                                                                                                                               173
+
+
+--- PAGE BREAK ---
+
+      Learning Spanish: How to Understand and Speak a New Language
+
+
+
+                                     bailar                          comer                                vivir
+
+                                bailo         bailamos           como        comemos                vivo        vivimos
+                                bailas        bailáis            comes       coméis                 vives       vivís
+                                baila         bailan             come        comen                  vive        viven
+
+      Present Tense of Commonly Used Irregular Verbs
+                               ser                                   estar                                ir
+
+                                soy           somos              estoy       estamos                voy         vamos
+                                eres          sois               estás       estáis                 vas         vais
+                                es            son                está        están                  va          van
+
+                                     tener                           venir                                dar
+
+                                tengo         tenemos            vengo       venimos                doy         damos
+                                tienes        tenéis             vienes      venís                  das         dais
+                                tiene         tienen             viene       vienen                 da          dan
+
+      The following verbs have irregular yo forms in the present tense: saber (yo sé); conocer (yo conozco); hacer (yo
+      hago); poner (yo pongo); traer (yo traigo); salir (yo salgo); verbs ending in ‑ger, such as proteger (yo protejo);
+      and verbs ending in ‑cer or ‑cir, such as ofrecer (yo ofrezco) and conducir (yo conduzco).
+
+      Present Tense of Stem-Changing Verbs
+      Verbs that change stem:
+
+          1.     Have one of four stem changes: e à ie, e à i, o à ue, u à ue.
+          2.     Have regular endings.
+          3.     Change stem in all singular forms and in the third-person plural (in the boot).
+
+                    querer                        pedir                         recordar                       jugar
+
+               quiero    queremos             pido pedimos            recuerdo recordamos             juego        jugamos
+               quieres   queréis              pides pedís             recuerdas recordáis             juegas       jugáis
+               quiere    quieren              pide piden              recuerda recuerdan              juega        juegan
+
+      Talking about Something Happening Right Now
+      The present progressive, used to talk about something happening right now, is formed as follows: estar in the present
+      + present participle. To form the present participle, do the following: For an ‑ar verb, drop the ‑ar ending and add ‑ando;
+      for an ‑er or ‑ir verb, drop the ‑er or ‑ir ending and add ‑iendo (e.g., bailar à bailando; aprender à aprendiendo;
+      abrir à abriendo).
+
+      Verbs ending in ‑er or ‑ir that have stems ending in a vowel have irregular present participles. Instead of ending
+      in ‑iendo, the participle for these verbs ends in ‑yendo with a y (e.g., leer à leyendo; oír à oyendo; traer à
+      trayendo).
+
+      An example of the present progressive being used is Estamos comiendo ahora.
+
+      Talking about the Future
+      Two ways to talk about the future are as follows.
+
+          1.     Use the present tense (e.g., Mañana te doy la computadora).
+          2.     Use the construcion ir + a + infinitive (e.g., Esta noche vamos a trabajar mucho).
+
+
+
+174
+
+
+--- PAGE BREAK ---
+
+                                                                                                      Grammar Reference
+
+
+
+Talking about the Recent Past
+Acabar in the present + de + infinitive is used to express a recent past event (e.g., La profesora acaba de explicar
+la lección).
+
+Expressing How Long Something Has Been Going On
+A construction that expresses how long something has been going on is hace + time period + que + present tense of
+verb (e.g., Hace cuatro meses que estudiamos español).
+
+Another way to express how long something has been going on is with the question ¿Desde cuándo + subject +
+present tense of verb? (e.g., ¿Desde cuándo trabajas aquí?).
+
+There are three ways that a question like this could be answered. One way is with the construction Desde que +
+subject + present tense of verb (e.g., Desde que trabajo en la universidad). A second way to answer the question is
+with the construction Desde + specific point in time (e.g., Desde el mes pasado). A third way to answer the question
+is with the construction Desde hace + time period (e.g., Desde hace tres años).
+
+Usted and ustedes Commands
+To form an usted command:
+
+    1.   Drop the ‑o ending from the yo form of the verb in the present tense.
+    2.   For ‑ar verbs, add an e, and for ‑er and ‑ir verbs, add an a.
+
+Examples of usted commands include the following: caminar à camine; aprender à aprenda; abrir à abra.
+
+Stem-changing verbs follow this same rule to form the usted command (e.g., pensar à piense; dormir à duerma;
+servir à sirva). Many verbs that are irregular in the present tense have regular usted command forms, meaning that
+they follow the same rules as other verbs (e.g., conocer à conozca; oír à oiga; venir à venga).
+
+Verbs ending in ‑car, ‑gar, and ‑zar have the following spelling changes in the usted command form: For verbs ending
+in ‑car, the change is c à qu; for verbs ending in ‑gar, the change is g à gu; for verbs ending in ‑zar, the change is z
+à c (e.g., tocar à toque; buscar à busque; pagar à pague).
+
+The irregular usted command forms are as follows: dar à dé; estar à esté; ser à sea; saber à sepa; ir à vaya.
+
+Putting a no before an usted command makes it negative (e.g., No coma). Adding an ‑n to the usted command
+makes it an ustedes command (e.g., Amigos, vengan a nuestra casa). A no and an ‑n at the end of the command
+results in a negative ustedes command (e.g., Por favor, chicos, no vayan ahora).
+
+Affirmative tú Commands
+The affirmative tú command is the third-person singular form of the verb in the present tense (e.g., estudiar à
+estudia; comer à come; abrir à abre; jugar à juega; servir à sirve; oír à oye).
+
+There are eight irregular tú commands: venir à ven; salir à sal; poner à pon; tener à ten; hacer à haz; ser à
+sé; decir à di; ir à ve.
+
+Negative tú Commands
+The negative tú command is formed in the following way: no + usted command + ‑s (e.g., trabajar à no trabajes;
+tener à no tengas; vivir à no vivas; ser à no seas; hacer à no hagas).
+
+Affirmative vosotros Commands
+To make a vosotros command, drop the ‑r of the infinitive and replace it with a ‑d (e.g., hablar à hablad; tener à
+tened; dormir à dormid). The vosotros command is only used in Spain; a Latin American would use an ustedes
+command rather than a vosotros command.
+
+
+
+                                                                                                                           175
+
+
+--- PAGE BREAK ---
+
+      Learning Spanish: How to Understand and Speak a New Language
+
+
+
+      Using Pronouns with Commands
+      Three types of pronouns can be used with commands: direct object pronouns, indirect object pronouns, and reflexive
+      pronouns. These pronouns go after affirmative commands and before negative commands, as shown below. Notice
+      that the first three commands below are tú commands, and the final three commands are usted commands.
+
+
+                            Infinitive                Pronoun(s)               Affirmative Command           Negative Command
+
+       tú                   dar                       me + lo                  dámelo                        no me lo des
+       commands
+                            despertarse               se                       despiértate                   no te despiertes
+
+                            hacer                     lo                       hazlo                         no lo hagas
+
+       usted                acostarse                 se                       acuéstese                     no se acueste
+       commands
+                            comer                     las                      cómalas                       no las coma
+
+                            escribir                  le + la                  escríbasela                   no se la escriba
+
+
+      Preterite Tense
+      Once you learn the regular ‑ar endings in the preterite tense, you can learn the ‑er/‑ir endings and the endings for
+      verbs like tener by knowing the following.
+
+          1.   The endings for ‑er and ‑ir verbs are the same, and they all start with the letter i. In fact, the ‑er and ‑ir
+               endings for four subjects (yo, tú, nosotros, vosotros) can be formed by changing the first letter of the ‑ar
+               ending to i (e.g., é à í; aste à iste; amos à imos; asteis à isteis).
+          2.   The differences in endings between ‑ar and ‑er/‑ir verbs are as follows for the usted and ustedes forms: ó à
+               ió; aron à ieron.
+          3.   The preterite endings for verbs like tener are the ‑ar endings without the accent for the yo and usted forms
+               (e.g., ‑e of tuve; ‑o of tuvo). The other four endings are the same as the regular ‑er/‑ir endings (e.g., ‑iste of
+               tuviste; ‑imos of tuvimos; ‑isteis of tuvisteis; ‑ieron of tuvieron).
+
+                          Verbs Ending in ‑ar                   Verbs Ending in ‑er/‑ir               Verbs like tener
+
+                             repasar                                      abrir                         poder
+                        repasé     repasamos                    abrí        abrimos                pude       pudimos
+                        repasaste repasasteis                   abriste     abristeis              pudiste    pudisteis
+                        repasó     repasaron                    abrió       abrieron               pudo       pudieron
+
+      Verbs ending in ‑car, ‑gar, and ‑zar have the following spelling change in the yo form of the preterite: c à qu; g à gu;
+      z à c (e.g., yo saqué; yo pagué; yo comencé).
+
+      Stem-changing verbs ending in ‑ir also change stem in the preterite, but not in the boot (as they do in the present
+      tense). The preterite stem change for ‑ir verbs happens in the third-person singular and plural forms. The specific
+      changes that happen are as follows.
+
+          1.   Verbs that change e à ie or e à i in the present change e à i in the preterite.
+          2.   Verbs that change o à ue in the present change o à u in the preterite.
+
+                                          servir                                             dormir
+
+                                    serví       servimos                                dormí       dormimos
+                                    serviste    servisteis                              dormiste    dormisteis
+                                    sirvió      sirvieron                               durmió      durmieron
+
+
+
+
+176
+
+
+--- PAGE BREAK ---
+
+                                                                                                   Grammar Reference
+
+
+
+The verbs ser and ir have the same conjugation in the preterite.
+
+                                                       ser / ir
+
+                                                 fui               fuimos
+                                                 fuiste            fuisteis
+                                                 fue               fueron
+
+Comparisons
+Comparisons of Inequality
+When making comparisons using an adjective, the construction used is as follows: más or menos + adjective + que
+(e.g., Estoy más nervioso que tú).
+
+The construction is the same when making comparisons using an adverb: más or menos + adverb + que (e.g., Ellos
+llegan más tarde que nosotros).
+
+When doing a comparison of inequality focused on the verb, the construction used is as follows: más que or menos
+que (e.g., Nuestros abuelos siempre cocinan más que nosotros).
+
+When talking about numbers, the construction used is as follows: más or menos + de + number (e.g., A veces ella
+tiene más de dos trabajos).
+
+When comparing more than two things and distinguishing which one exceeds the others, the construction used is as
+follows: definite article + más or menos + adjective + de (e.g., Brasil es el más grande de los países en América
+del Sur).
+
+Irregular comparative forms include mejor, peor, mayor, and menor. When using these four adjectives, no más or
+menos is needed (e.g., Anita es mayor que su hermana; Carlos y Juan son los mejores de la clase).
+
+Comparisons of Equality
+When using an adjective or adverb to compare two things that are equal, the construction used is as follows: tan
++ adjective or adverb + como (e.g., Las doctoras son tan simpáticas como las profesoras; Paco corre tan
+lentamente como yo).
+
+In a comparison of equality with nouns, the construction used is as follows: tanto/tanta/tantos/tantas + noun + como
+(e.g., Isabel practica tantos deportes como su amigo; Es cierto que tengo tanta hambre como tú).
+
+In a comparison of equality with verbs, the construction used is as follows: verb + tanto como (e.g., Leemos tanto
+como las muchachas).
+
+
+
+
+                                                                                                                       177
+
+
+--- PAGE BREAK ---
+
+        Los glosarios / The Glossaries
+
+
+
+      T
+               he glossaries included in this workbook are tools that will help you acquire Spanish vocabulary so that you can
+               use it effectively when communicating in the language. Following these brief introductory notes, you will find
+               four different glossaries.
+
+          1.     Glosario por tema / Glossary by Topic: This glossary groups words together by function so that you can
+                 study in one place, for example, the colors, months of the year, weather expressions, parts of the body, etc.
+          2.     Glosario de cognados / Glossary of Cognates: This glossary includes Spanish words that are cognates with
+                 English words. Reviewing these words will help you gain a sense of how many Spanish words are similar to
+                 English words, and learning these cognates will aid your listening and reading comprehension greatly. Roughly
+                 one-third of all the Spanish words presented in this course are cognates with English words. To get the most
+                 out of this glossary, you should understand that the following suffixes are equivalent in English and Spanish.
+
+                  English Suffix            Spanish Suffix                      Example Cognates
+
+                       -tion                  -ción                        celebration           la celebración
+                       -sion                  -sión                        expression            la expresión
+                       -ity                   -idad                        activity              la actividad
+                       -ive                   -ivo                         progressive           progresivo
+                       -ity                   -idad                        possibility           la posibilidad
+                       -ed                    -ado                         frustrated            frustrado
+                       -ly                    -mente                       exactly               exactamente
+                       -tude                  -tud                         attitude              la actitud
+                       -logy                  -logía                       technology            la tecnología
+
+
+
+          1.     Glosario español-inglés / Spanish-English Glossary: This glossary gives you the English for a Spanish
+                 word.
+          2.     Glosario inglés-español / English-Spanish Glossary: This glossary gives you the Spanish for an English
+                 word.
+
+      The words you will find in these glossaries are the ones that are presented in the 30 lessons. Throughout the course,
+      the focus has been on high-frequency words, meaning words that are used most often by native speakers of Spanish.
+      Your ability to learn and use the vocabulary presented in these glossaries will go a long way toward determining how
+      successful you are in communicating with other Spanish speakers.
+
+      NB: Typically, Spanish nouns are presented in glossaries in the following way.
+
+      pared – wall (f)    [which means that pared is “wall” in English and is a feminine noun]
+
+      It is important to know the gender of a noun because if you want to say, for example, “The wall is white,” you need to
+      know that pared is feminine so you can correctly use the appropriate definite article (la) and the appropriate form of
+      the adjective (blanca) to say La pared es blanca.
+
+      The problem with glossaries using the above format is that they promote the following kind of mental processing by the
+      learner of Spanish: pared means “wall” and is feminine, so the way to say “the wall” must be la pared. That’s too much
+      thinking and takes too much time.
+
+      In these glossaries, the Spanish word is presented with the definite article preceding it. So, pared is presented as
+      follows.
+
+
+
+178
+
+
+--- PAGE BREAK ---
+
+                                                                                                Los glosarios / The Glossaries
+
+
+
+la pared – wall   [the audio glossary likewise presents the article before the noun]
+
+With this kind of glossary entry, you are encouraged to learn that la pared means “the wall” (even though the English
+is provided as “wall” rather than the technically correct “the wall”). The very fact that pared is preceded by la tells you
+that it’s a feminine noun.
+
+When you study vocabulary (and to be a successful language learner, you must study new words in order to understand
+and use them), you should learn nouns with their appropriate definite article (el or la) preceding them. That way, if you
+want to say in Spanish “The wall is white,” you automatically know that this would be La pared es blanca, because all
+along you have learned that the way to say “the wall” is la pared. Knowing that, blanca must be the appropriate form
+of the adjective to use, because pared is clearly a feminine noun.
+
+There will be a few cases in which the definite article used before the noun is not indicative of the noun’s gender. In
+those few cases, the glossary entry will appear as follows.
+
+el agua – water [fem.]
+
+The above entry means that to say “the water” you say el agua, but the “[fem.]” following the word means that it is
+feminine. So, to say, for example, “The water is cold,” you would say El agua está fría (using the feminine form fría
+because agua is feminine). Once again, there are very few words like this in Spanish. In almost all cases, the definite
+article (el or la) preceding the noun will tell you the noun’s gender; words preceded by el are masculine, while words
+preceded by la are feminine.
+
+When adjectives are presented, the masculine singular form of the adjective is included.
+
+When people and professions are presented, sometimes both the masculine and feminine forms (e.g., la
+dentista­ – female dentist; el dentista – male dentist) are included. At other times, only the masculine form (e.g., el
+arquitecto – architect) is included. As you learn in the course, the feminine form of this noun would be the following:
+la arquitecta.
+
+For stem-changing verbs, the stem change is noted. That mostrar, for example, is an o to ue stem-changing verb can
+be seen in mostrar (o à ue) — to show.
+
+The abbreviations used in the glossaries are as follows.
+
+ masc. masculine sing. singular dir.                                               direct          inf.         informal
+ fem.  feminine  pl.   plural   ind.                                               indirect        form.        formal
+ adj.  adjective			             obj.                                               object
+					pron.                                                                         pronoun
+
+
+
+
+                                                                                                                                 179

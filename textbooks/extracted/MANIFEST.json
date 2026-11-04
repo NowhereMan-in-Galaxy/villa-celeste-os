@@ -1,0 +1,633 @@
+{
+  "book1_title": "Learning Spanish: How to Understand and Speak a New Language (Part I - Villa Celeste)",
+  "book2_title": "Learning Spanish II: How to Understand and Speak a New Language (Part II - Más allá de Villa Celeste)",
+  "book1": {
+    "lessons": [
+      {
+        "book": "book1",
+        "lesson": 1,
+        "globalLessonId": "B1-L01",
+        "title": "Introduction to the Spanish Language",
+        "file": "textbooks/extracted/book1/lesson_01.txt",
+        "pages": "10-15",
+        "chars": 16100
+      },
+      {
+        "book": "book1",
+        "lesson": 2,
+        "globalLessonId": "B1-L02",
+        "title": "Definite Articles and Nouns",
+        "file": "textbooks/extracted/book1/lesson_02.txt",
+        "pages": "16-20",
+        "chars": 15315
+      },
+      {
+        "book": "book1",
+        "lesson": 3,
+        "globalLessonId": "B1-L03",
+        "title": "Subject Pronouns and the Verb Ser",
+        "file": "textbooks/extracted/book1/lesson_03.txt",
+        "pages": "21-26",
+        "chars": 16022
+      },
+      {
+        "book": "book1",
+        "lesson": 4,
+        "globalLessonId": "B1-L04",
+        "title": "Regular -ar Verbs in the Present",
+        "file": "textbooks/extracted/book1/lesson_04.txt",
+        "pages": "27-32",
+        "chars": 15814
+      },
+      {
+        "book": "book1",
+        "lesson": 5,
+        "globalLessonId": "B1-L05",
+        "title": "Indefinite Articles and Numbers to 100",
+        "file": "textbooks/extracted/book1/lesson_05.txt",
+        "pages": "33-38",
+        "chars": 19999
+      },
+      {
+        "book": "book1",
+        "lesson": 6,
+        "globalLessonId": "B1-L06",
+        "title": "The Verb Estar and Numbers over 100",
+        "file": "textbooks/extracted/book1/lesson_06.txt",
+        "pages": "39-44",
+        "chars": 15439
+      },
+      {
+        "book": "book1",
+        "lesson": 7,
+        "globalLessonId": "B1-L07",
+        "title": "Regular -er and -ir Verbs in the Present",
+        "file": "textbooks/extracted/book1/lesson_07.txt",
+        "pages": "45-51",
+        "chars": 15929
+      },
+      {
+        "book": "book1",
+        "lesson": 8,
+        "globalLessonId": "B1-L08",
+        "title": "The Verb Ir in the Present",
+        "file": "textbooks/extracted/book1/lesson_08.txt",
+        "pages": "52-57",
+        "chars": 14667
+      },
+      {
+        "book": "book1",
+        "lesson": 9,
+        "globalLessonId": "B1-L09",
+        "title": "Expressing Time in Spanish",
+        "file": "textbooks/extracted/book1/lesson_09.txt",
+        "pages": "58-64",
+        "chars": 18313
+      },
+      {
+        "book": "book1",
+        "lesson": 10,
+        "globalLessonId": "B1-L10",
+        "title": "Expressions Using the Verb Tener",
+        "file": "textbooks/extracted/book1/lesson_10.txt",
+        "pages": "65-71",
+        "chars": 22353
+      },
+      {
+        "book": "book1",
+        "lesson": 11,
+        "globalLessonId": "B1-L11",
+        "title": "Verbs like Hacer and Interrogative Words",
+        "file": "textbooks/extracted/book1/lesson_11.txt",
+        "pages": "72-77",
+        "chars": 14216
+      },
+      {
+        "book": "book1",
+        "lesson": 12,
+        "globalLessonId": "B1-L12",
+        "title": "The Verbs Saber and Conocer",
+        "file": "textbooks/extracted/book1/lesson_12.txt",
+        "pages": "78-83",
+        "chars": 15839
+      },
+      {
+        "book": "book1",
+        "lesson": 13,
+        "globalLessonId": "B1-L13",
+        "title": "Stem-Changing Verbs",
+        "file": "textbooks/extracted/book1/lesson_13.txt",
+        "pages": "84-88",
+        "chars": 12600
+      },
+      {
+        "book": "book1",
+        "lesson": 14,
+        "globalLessonId": "B1-L14",
+        "title": "Ver, Dar, and Other Irregular Verbs",
+        "file": "textbooks/extracted/book1/lesson_14.txt",
+        "pages": "89-94",
+        "chars": 16623
+      },
+      {
+        "book": "book1",
+        "lesson": 15,
+        "globalLessonId": "B1-L15",
+        "title": "The Present Progressive",
+        "file": "textbooks/extracted/book1/lesson_15.txt",
+        "pages": "95-100",
+        "chars": 18260
+      },
+      {
+        "book": "book1",
+        "lesson": 16,
+        "globalLessonId": "B1-L16",
+        "title": "Direct Object Pronouns and Adverbs",
+        "file": "textbooks/extracted/book1/lesson_16.txt",
+        "pages": "101-106",
+        "chars": 13858
+      },
+      {
+        "book": "book1",
+        "lesson": 17,
+        "globalLessonId": "B1-L17",
+        "title": "Affirmatives, Negatives, and Demonstratives",
+        "file": "textbooks/extracted/book1/lesson_17.txt",
+        "pages": "107-111",
+        "chars": 14690
+      },
+      {
+        "book": "book1",
+        "lesson": 18,
+        "globalLessonId": "B1-L18",
+        "title": "More Affirmative and Negative Expressions",
+        "file": "textbooks/extracted/book1/lesson_18.txt",
+        "pages": "112-116",
+        "chars": 11678
+      },
+      {
+        "book": "book1",
+        "lesson": 19,
+        "globalLessonId": "B1-L19",
+        "title": "Indirect Object Pronouns",
+        "file": "textbooks/extracted/book1/lesson_19.txt",
+        "pages": "117-121",
+        "chars": 14396
+      },
+      {
+        "book": "book1",
+        "lesson": 20,
+        "globalLessonId": "B1-L20",
+        "title": "Double Object Pronouns",
+        "file": "textbooks/extracted/book1/lesson_20.txt",
+        "pages": "122-127",
+        "chars": 17580
+      },
+      {
+        "book": "book1",
+        "lesson": 21,
+        "globalLessonId": "B1-L21",
+        "title": "Reflexive Verbs",
+        "file": "textbooks/extracted/book1/lesson_21.txt",
+        "pages": "128-133",
+        "chars": 15357
+      },
+      {
+        "book": "book1",
+        "lesson": 22,
+        "globalLessonId": "B1-L22",
+        "title": "Talking about the Past: Acabar and Hace",
+        "file": "textbooks/extracted/book1/lesson_22.txt",
+        "pages": "134-138",
+        "chars": 13027
+      },
+      {
+        "book": "book1",
+        "lesson": 23,
+        "globalLessonId": "B1-L23",
+        "title": "Talking about the Past: ¿Desde Cuándo…?",
+        "file": "textbooks/extracted/book1/lesson_23.txt",
+        "pages": "139-143",
+        "chars": 13016
+      },
+      {
+        "book": "book1",
+        "lesson": 24,
+        "globalLessonId": "B1-L24",
+        "title": "Formal Commands and Unequal Comparisons",
+        "file": "textbooks/extracted/book1/lesson_24.txt",
+        "pages": "144-147",
+        "chars": 11173
+      },
+      {
+        "book": "book1",
+        "lesson": 25,
+        "globalLessonId": "B1-L25",
+        "title": "Informal Commands",
+        "file": "textbooks/extracted/book1/lesson_25.txt",
+        "pages": "148-154",
+        "chars": 18817
+      },
+      {
+        "book": "book1",
+        "lesson": 26,
+        "globalLessonId": "B1-L26",
+        "title": "Superlatives and Equal Comparisons",
+        "file": "textbooks/extracted/book1/lesson_26.txt",
+        "pages": "155-158",
+        "chars": 11361
+      },
+      {
+        "book": "book1",
+        "lesson": 27,
+        "globalLessonId": "B1-L27",
+        "title": "Regular -ar Verbs in the Preterite",
+        "file": "textbooks/extracted/book1/lesson_27.txt",
+        "pages": "159-162",
+        "chars": 12860
+      },
+      {
+        "book": "book1",
+        "lesson": 28,
+        "globalLessonId": "B1-L28",
+        "title": "Regular -er and -ir Verbs in the Preterite",
+        "file": "textbooks/extracted/book1/lesson_28.txt",
+        "pages": "163-167",
+        "chars": 18210
+      },
+      {
+        "book": "book1",
+        "lesson": 29,
+        "globalLessonId": "B1-L29",
+        "title": "Irregular Verbs in the Preterite",
+        "file": "textbooks/extracted/book1/lesson_29.txt",
+        "pages": "168-171",
+        "chars": 12969
+      },
+      {
+        "book": "book1",
+        "lesson": 30,
+        "globalLessonId": "B1-L30",
+        "title": "Next Steps in Improving Your Spanish",
+        "file": "textbooks/extracted/book1/lesson_30.txt",
+        "pages": "172-177",
+        "chars": 17424
+      }
+    ],
+    "supplemental": [
+      {
+        "book": "book1",
+        "section": "grammar_reference",
+        "file": "textbooks/extracted/book1/grammar_reference.txt",
+        "pages": "178-185",
+        "chars": 26900
+      },
+      {
+        "book": "book1",
+        "section": "glossary_by_topic",
+        "file": "textbooks/extracted/book1/glossary_by_topic.txt",
+        "pages": "186-201",
+        "chars": 55417
+      },
+      {
+        "book": "book1",
+        "section": "glossary_of_cognates",
+        "file": "textbooks/extracted/book1/glossary_of_cognates.txt",
+        "pages": "202-207",
+        "chars": 19411
+      },
+      {
+        "book": "book1",
+        "section": "glossary_es_en",
+        "file": "textbooks/extracted/book1/glossary_es_en.txt",
+        "pages": "208-224",
+        "chars": 60772
+      },
+      {
+        "book": "book1",
+        "section": "glossary_en_es",
+        "file": "textbooks/extracted/book1/glossary_en_es.txt",
+        "pages": "225-246",
+        "chars": 70819
+      }
+    ]
+  },
+  "book2": {
+    "lessons": [
+      {
+        "book": "book2",
+        "lesson": 1,
+        "globalLessonId": "B2-L01",
+        "title": "Essentials for Success with Spanish",
+        "file": "textbooks/extracted/book2/lesson_01.txt",
+        "pages": "13-18",
+        "chars": 15743
+      },
+      {
+        "book": "book2",
+        "lesson": 2,
+        "globalLessonId": "B2-L02",
+        "title": "The Present Tense and Prepositions",
+        "file": "textbooks/extracted/book2/lesson_02.txt",
+        "pages": "19-25",
+        "chars": 17879
+      },
+      {
+        "book": "book2",
+        "lesson": 3,
+        "globalLessonId": "B2-L03",
+        "title": "Indirect Objects and Verbs like Gustar",
+        "file": "textbooks/extracted/book2/lesson_03.txt",
+        "pages": "26-31",
+        "chars": 15525
+      },
+      {
+        "book": "book2",
+        "lesson": 4,
+        "globalLessonId": "B2-L04",
+        "title": "Spanish Pronunciation and Reciprocal Verbs",
+        "file": "textbooks/extracted/book2/lesson_04.txt",
+        "pages": "32-37",
+        "chars": 15782
+      },
+      {
+        "book": "book2",
+        "lesson": 5,
+        "globalLessonId": "B2-L05",
+        "title": "Advanced Work with the Preterite Tense",
+        "file": "textbooks/extracted/book2/lesson_05.txt",
+        "pages": "38-44",
+        "chars": 18866
+      },
+      {
+        "book": "book2",
+        "lesson": 6,
+        "globalLessonId": "B2-L06",
+        "title": "Introduction to the Imperfect Tense",
+        "file": "textbooks/extracted/book2/lesson_06.txt",
+        "pages": "45-49",
+        "chars": 15446
+      },
+      {
+        "book": "book2",
+        "lesson": 7,
+        "globalLessonId": "B2-L07",
+        "title": "When to Use the Imperfect and the Preterite",
+        "file": "textbooks/extracted/book2/lesson_07.txt",
+        "pages": "50-54",
+        "chars": 15002
+      },
+      {
+        "book": "book2",
+        "lesson": 8,
+        "globalLessonId": "B2-L08",
+        "title": "How to Expand Your Spanish Vocabulary",
+        "file": "textbooks/extracted/book2/lesson_08.txt",
+        "pages": "55-60",
+        "chars": 14875
+      },
+      {
+        "book": "book2",
+        "lesson": 9,
+        "globalLessonId": "B2-L09",
+        "title": "Mastering the Imperfect and the Preterite",
+        "file": "textbooks/extracted/book2/lesson_09.txt",
+        "pages": "61-65",
+        "chars": 10776
+      },
+      {
+        "book": "book2",
+        "lesson": 10,
+        "globalLessonId": "B2-L10",
+        "title": "Mastering Direct and Double Object Pronouns",
+        "file": "textbooks/extracted/book2/lesson_10.txt",
+        "pages": "66-72",
+        "chars": 15473
+      },
+      {
+        "book": "book2",
+        "lesson": 11,
+        "globalLessonId": "B2-L11",
+        "title": "Expressing Possession in Spanish",
+        "file": "textbooks/extracted/book2/lesson_11.txt",
+        "pages": "73-77",
+        "chars": 11277
+      },
+      {
+        "book": "book2",
+        "lesson": 12,
+        "globalLessonId": "B2-L12",
+        "title": "Using Se to Talk about Unplanned Events",
+        "file": "textbooks/extracted/book2/lesson_12.txt",
+        "pages": "78-83",
+        "chars": 13208
+      },
+      {
+        "book": "book2",
+        "lesson": 13,
+        "globalLessonId": "B2-L13",
+        "title": "The Present Perfect Tense",
+        "file": "textbooks/extracted/book2/lesson_13.txt",
+        "pages": "84-88",
+        "chars": 12355
+      },
+      {
+        "book": "book2",
+        "lesson": 14,
+        "globalLessonId": "B2-L14",
+        "title": "Past Participles as Adjectives and Nouns",
+        "file": "textbooks/extracted/book2/lesson_14.txt",
+        "pages": "89-93",
+        "chars": 11907
+      },
+      {
+        "book": "book2",
+        "lesson": 15,
+        "globalLessonId": "B2-L15",
+        "title": "The Future Tense",
+        "file": "textbooks/extracted/book2/lesson_15.txt",
+        "pages": "94-99",
+        "chars": 16969
+      },
+      {
+        "book": "book2",
+        "lesson": 16,
+        "globalLessonId": "B2-L16",
+        "title": "Cognates and False Cognates",
+        "file": "textbooks/extracted/book2/lesson_16.txt",
+        "pages": "100-104",
+        "chars": 13371
+      },
+      {
+        "book": "book2",
+        "lesson": 17,
+        "globalLessonId": "B2-L17",
+        "title": "The Conditional Tense",
+        "file": "textbooks/extracted/book2/lesson_17.txt",
+        "pages": "105-109",
+        "chars": 13281
+      },
+      {
+        "book": "book2",
+        "lesson": 18,
+        "globalLessonId": "B2-L18",
+        "title": "Uses of the Infinitive",
+        "file": "textbooks/extracted/book2/lesson_18.txt",
+        "pages": "110-113",
+        "chars": 10370
+      },
+      {
+        "book": "book2",
+        "lesson": 19,
+        "globalLessonId": "B2-L19",
+        "title": "Relative Adverbs and Relative Pronouns",
+        "file": "textbooks/extracted/book2/lesson_19.txt",
+        "pages": "114-118",
+        "chars": 13416
+      },
+      {
+        "book": "book2",
+        "lesson": 20,
+        "globalLessonId": "B2-L20",
+        "title": "Mastering the Uses of Estar and Ser",
+        "file": "textbooks/extracted/book2/lesson_20.txt",
+        "pages": "119-124",
+        "chars": 17097
+      },
+      {
+        "book": "book2",
+        "lesson": 21,
+        "globalLessonId": "B2-L21",
+        "title": "Advanced Work with Adverbs and Adjectives",
+        "file": "textbooks/extracted/book2/lesson_21.txt",
+        "pages": "125-128",
+        "chars": 10466
+      },
+      {
+        "book": "book2",
+        "lesson": 22,
+        "globalLessonId": "B2-L22",
+        "title": "How to Use Para and Por",
+        "file": "textbooks/extracted/book2/lesson_22.txt",
+        "pages": "129-133",
+        "chars": 13272
+      },
+      {
+        "book": "book2",
+        "lesson": 23,
+        "globalLessonId": "B2-L23",
+        "title": "The Evolution of the Spanish Language",
+        "file": "textbooks/extracted/book2/lesson_23.txt",
+        "pages": "134-139",
+        "chars": 15390
+      },
+      {
+        "book": "book2",
+        "lesson": 24,
+        "globalLessonId": "B2-L24",
+        "title": "Health and Well-Being in Spanish",
+        "file": "textbooks/extracted/book2/lesson_24.txt",
+        "pages": "140-143",
+        "chars": 11639
+      },
+      {
+        "book": "book2",
+        "lesson": 25,
+        "globalLessonId": "B2-L25",
+        "title": "Advanced Work with Commands",
+        "file": "textbooks/extracted/book2/lesson_25.txt",
+        "pages": "144-149",
+        "chars": 14459
+      },
+      {
+        "book": "book2",
+        "lesson": 26,
+        "globalLessonId": "B2-L26",
+        "title": "Introduction to the Subjunctive Mood",
+        "file": "textbooks/extracted/book2/lesson_26.txt",
+        "pages": "150-154",
+        "chars": 14243
+      },
+      {
+        "book": "book2",
+        "lesson": 27,
+        "globalLessonId": "B2-L27",
+        "title": "Expressing Doubt with the Subjunctive",
+        "file": "textbooks/extracted/book2/lesson_27.txt",
+        "pages": "155-159",
+        "chars": 11684
+      },
+      {
+        "book": "book2",
+        "lesson": 28,
+        "globalLessonId": "B2-L28",
+        "title": "Expressing Influence with the Subjunctive",
+        "file": "textbooks/extracted/book2/lesson_28.txt",
+        "pages": "160-163",
+        "chars": 8141
+      },
+      {
+        "book": "book2",
+        "lesson": 29,
+        "globalLessonId": "B2-L29",
+        "title": "Expressing Emotion with the Subjunctive",
+        "file": "textbooks/extracted/book2/lesson_29.txt",
+        "pages": "164-167",
+        "chars": 10730
+      },
+      {
+        "book": "book2",
+        "lesson": 30,
+        "globalLessonId": "B2-L30",
+        "title": "Next Steps toward Spanish Fluency",
+        "file": "textbooks/extracted/book2/lesson_30.txt",
+        "pages": "168-173",
+        "chars": 14819
+      }
+    ],
+    "supplemental": [
+      {
+        "book": "book2",
+        "section": "grammar_reference",
+        "file": "textbooks/extracted/book2/grammar_reference.txt",
+        "pages": "174-193",
+        "chars": 66433
+      },
+      {
+        "book": "book2",
+        "section": "speaking_activities",
+        "file": "textbooks/extracted/book2/speaking_activities.txt",
+        "pages": "194-267",
+        "chars": 149456
+      },
+      {
+        "book": "book2",
+        "section": "glossary_by_topic",
+        "file": "textbooks/extracted/book2/glossary_by_topic.txt",
+        "pages": "268-289",
+        "chars": 75339
+      },
+      {
+        "book": "book2",
+        "section": "glossary_of_cognates",
+        "file": "textbooks/extracted/book2/glossary_of_cognates.txt",
+        "pages": "290-302",
+        "chars": 40303
+      },
+      {
+        "book": "book2",
+        "section": "glossary_es_en",
+        "file": "textbooks/extracted/book2/glossary_es_en.txt",
+        "pages": "303-331",
+        "chars": 107425
+      },
+      {
+        "book": "book2",
+        "section": "glossary_en_es",
+        "file": "textbooks/extracted/book2/glossary_en_es.txt",
+        "pages": "332-367",
+        "chars": 122836
+      }
+    ]
+  }
+}
