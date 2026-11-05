@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="68" viewBox="0 0 420 68" role="img" aria-label="Play Villa Celeste OS '98 in your browser">
+  <defs>
+    <linearGradient id="win98TitleEn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000080" />
+      <stop offset="65%" stop-color="#0a58ca" />
+      <stop offset="100%" stop-color="#1084d0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Win98 3D Bevel Frame -->
+  <rect x="0" y="0" width="420" height="68" fill="#000000" />
+  <rect x="0" y="0" width="418" height="66" fill="#ffffff" />
+  <rect x="2" y="2" width="416" height="64" fill="#808080" />
+  <rect x="2" y="2" width="414" height="62" fill="#dfdfdf" />
+  <rect x="4" y="4" width="412" height="60" fill="#c0c0c0" />
+
+  <!-- Inner Royal Blue Banner -->
+  <rect x="8" y="8" width="404" height="52" fill="url(#win98TitleEn)" />
+  <rect x="8" y="8" width="404" height="52" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="2,2" opacity="0.45" />
+
+  <!-- Play Triangle Button Box -->
+  <rect x="20" y="15" width="38" height="38" fill="#c0c0c0" />
+  <polygon points="20,15 58,15 56,17 22,17 22,51 20,53" fill="#ffffff" />
+  <polygon points="58,15 58,53 20,53 22,51 56,51 56,17" fill="#404040" />
+  <polygon points="32,23 32,45 49,34" fill="#008000" />
+  <polygon points="31,22 31,44 48,33" fill="#00ff66" />
+
+  <!-- Main Label -->
+  <text x="228" y="34" fill="#ffffff" font-family="'Tahoma', 'Verdana', sans-serif" font-size="19" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    PLAY IN YOUR BROWSER
+  </text>
+  <text x="228" y="52" fill="#ffef85" font-family="'Courier New', monospace, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="0.8">
+    NO INSTALL · FREE · MOBILE &amp; DESKTOP →
+  </text>
+</svg>
