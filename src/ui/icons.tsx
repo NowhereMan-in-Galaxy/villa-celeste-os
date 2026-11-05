@@ -23,6 +23,19 @@ const ICONS: Record<AppId, ReactNode> = {
       {[12, 15, 18, 21, 24].map((y) => <line key={y} x1="9" x2={y === 24 ? 17 : 23} y1={y + 0.5} y2={y + 0.5} stroke="#808080" />)}
     </>
   ),
+  test: (
+    <>
+      <rect x="5.5" y="5.5" width="21" height="24" fill="#c8a165" {...S} />
+      <rect x="8.5" y="8.5" width="15" height="19" fill="#fff" {...S} />
+      <rect x="11.5" y="3.5" width="9" height="5" fill="#a0a0a0" {...S} />
+      {[12, 17, 22].map((y) => (
+        <g key={y}>
+          <path d={`M10 ${y + 1}l1.5 1.5 3-3`} fill="none" stroke="#2a8a2a" strokeWidth="1.6" />
+          <line x1="16" x2="22" y1={y + 0.5} y2={y + 0.5} stroke="#606060" />
+        </g>
+      ))}
+    </>
+  ),
   palabras: (
     <>
       <rect x="2.5" y="15.5" width="13" height="13" fill="#ffd400" {...S} />

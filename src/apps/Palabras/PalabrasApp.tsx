@@ -7,6 +7,7 @@ import { speak } from '../../utils/tts';
 import { sfx } from '../../utils/sound';
 import { grade } from '../../utils/text';
 import { Speak, Progress } from '../../ui/kit';
+import { openApp } from '../../os/wm';
 
 const STAGE = 8;
 const ART = /^(el|la|los|las)\s+/i;
@@ -54,7 +55,8 @@ function MapView({ onPlay }: { onPlay: (l: string, s: number) => void }) {
   const [book, setBook] = useState<1 | 2>(1);
   const stars = (l: string, s: number) => (flags[key(l, s)] as number) ?? 0;
   const lessonDone = (i: number) => { const l = LESSONS[i]; return Array.from({ length: stageCount(l.vocabCount) }, (_, s) => stars(l.id, s)).every((x) => x > 0); };
-  const lessonOpen = (i: number) => settings.unlockAll || LESSONS[i].lessonNumber === 1 || lessonDone(i - 1);
+  const placed = (flags['palabras:placement'] as number) ?? -1;
+  const lessonOpen = (i: number) => settings.unlockAll || LESSONS[i].lessonNumber === 1 || i <= placed + 1 || lessonDone(i - 1);
   const total = Object.entries(flags).filter(([k]) => k.startsWith('palabras:')).reduce((a, [, v]) => a + (v as number), 0);
   const firstOpen = useRef<HTMLDivElement>(null);
   useEffect(() => { firstOpen.current?.scrollIntoView({ block: 'center' }); }, [book]);
@@ -64,6 +66,7 @@ function MapView({ onPlay }: { onPlay: (l: string, s: number) => void }) {
     <div className="h-full flex flex-col" style={{ background: 'linear-gradient(#1a1a40, #2d1b4e)' }}>
       <div className="flex items-center gap-2 p-2 text-white flex-wrap">
         <div className="pixel text-[13px] text-[#ffcc00] flex-1">PALABRAS EN JUEGO</div>
+        <button className="btn text-black text-[12px]" onClick={() => openApp('test')}>📋 Test de nivel</button>
         <span className="text-[13px]">⭐ {total}</span>
         {([1, 2] as const).map((b) => <button key={b} className={`btn text-black ${book === b ? 'on font-bold' : ''}`} onClick={() => setBook(b)}>Libro {b}</button>)}
       </div>

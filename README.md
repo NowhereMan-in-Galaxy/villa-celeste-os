@@ -54,6 +54,16 @@ Open the site and **Hoy** ("today") tells you what to do. It lists three short s
 </tr>
 </table>
 
+### 📋 Find your level in five minutes
+
+Already know some Spanish? **Test** is an adaptive vocabulary check over the course's 2,260 words. Questions get harder or easier as you answer, and there is an honest *No lo sé* button so you don't have to guess. At the end you get:
+
+- an estimate of how many words you know, and your level;
+- the lesson to start from, with every earlier lesson unlocked in Palabras;
+- the words you missed, ready to add to your review deck.
+
+Take it again every few weeks to see your vocabulary grow.
+
 ### 📖 The whole textbook, made interactive
 
 **Academia** holds all 60 lessons, open from day one, and each lesson has four steps:
@@ -135,6 +145,8 @@ Built with React, TypeScript and Vite. The sound effects are generated live with
 **☀️ 每天打开就知道做什么。** 首页「Hoy」会给你三步：先复习到期的单词卡，再玩下一关单词，最后接着学课本。还有连续打卡天数和每日目标。
 
 **🎮 单词闯关。** 「Palabras」把每课单词分成 8 个一关。先看一遍、听一遍，然后进入混合题型：选意思、选西语、听音辨词、连线配对、字母拼写。一共 5 条命，最多 3 颗星，答错的词会在本关再出现，并自动加进复习卡。
+
+**📋 五分钟测出词汇量。** 「Test」是自适应的单词测试，覆盖课程里的 2,260 个词，题目会根据你的回答变难或变简单，不会的词直接点「No lo sé」，不用瞎猜。测完会告诉你大约认识多少个词、处于什么水平、该从哪一课开始，并在 Palabras 里自动解锁之前的课；没答出来的词可以一键加入复习卡。隔几周再测一次，就能看到自己的进步。
 
 **📖 整本课本，可以互动。** 「Academia」的 60 课全部开放，每课按「单词 → 语法 → 练习 → 阅读和口语」四步走。练习题按课本答案批改：答错会直接显示标准答案，输入框变黄表示只错了重音符号。
 

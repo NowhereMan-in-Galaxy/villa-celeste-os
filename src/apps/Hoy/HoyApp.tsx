@@ -81,6 +81,13 @@ export default function HoyApp() {
             <span className="text-[18px]">▶</span>
           </button>
         ))}
+        {!flags['vocabtest:history'] && (
+          <button onClick={() => openApp('test')} className="bevel text-left p-3 flex items-center gap-3 border-none cursor-pointer" style={{ background: '#ffffe1' }}>
+            <span className="text-[20px]">📋</span>
+            <span className="flex-1"><b>¿Cuántas palabras sabes?</b><br /><span className="text-[12px] opacity-75">Haz el test de 5 minutos y te diremos por qué lección empezar.</span></span>
+            <span className="text-[18px]">▶</span>
+          </button>
+        )}
         <button onClick={() => openApp(story[0])} className="text-left text-[13px] underline text-[#0000aa] bg-transparent border-none cursor-pointer p-1">¿Te queda tiempo? {story[1]} →</button>
       </div>
 
